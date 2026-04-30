@@ -39,6 +39,7 @@ class TorrentListViewController<VM: TorrentListViewModel>: BaseViewController<VM
     private let preferencesButton = UIBarButtonItem(title: %"preferences", image: .init(systemName: "gearshape.fill"))
     private let sortButton = UIBarButtonItem(title: %"list.sort", image: .icSort)
     private let rssButton = UIBarButtonItem()
+    private let torrentSearchButton = UIBarButtonItem(title: "Search", image: .init(systemName: "magnifyingglass.circle"))
 
     private let shareButton = UIBarButtonItem(title: %"common.share", image: .init(systemName: "square.and.arrow.up"))
     private let playButton = UIBarButtonItem()
@@ -125,7 +126,7 @@ class TorrentListViewController<VM: TorrentListViewModel>: BaseViewController<VM
         binding()
 
         navigationItem.leadingItemGroups.append(.fixedGroup(items: [editButtonItem]))
-        navigationItem.trailingItemGroups.append(.fixedGroup(items: [rssButton, sortButton]))
+        navigationItem.trailingItemGroups.append(.fixedGroup(items: [torrentSearchButton, rssButton, sortButton]))
         toolbarItems = getToolBarItems
 
         collectionView.contextMenuConfigurationForItemsAt = { [unowned self] indexPaths, _ in
@@ -321,6 +322,10 @@ private extension TorrentListViewController {
 
             preferencesButton.tapPublisher.uiSink { [unowned self] _ in
                 viewModel.preferencesAction()
+            }
+
+            torrentSearchButton.tapPublisher.uiSink { [unowned self] _ in
+                viewModel.showTorrentSearch()
             }
 
             viewModel.sortingType.combineLatest(viewModel.sortingReverced, viewModel.isGroupedByState).uiSink { [unowned self] type, reverced, grouped in

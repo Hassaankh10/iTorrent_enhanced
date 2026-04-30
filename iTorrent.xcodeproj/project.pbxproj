@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3450ECB32FA2ACEA0071769F /* TorrentSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450ECB22FA2ACEA0071769F /* TorrentSearchViewModel.swift */; };
+		3450ECB52FA2ACEB0071769F /* TorrentSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450ECB42FA2ACEB0071769F /* TorrentSearchView.swift */; };
+		3450ECB72FA2ACEC0071769F /* TorrentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3450ECB62FA2ACEC0071769F /* TorrentSearchViewController.swift */; };
+		47D64410EAFD4DA6BAD71F5C /* TorrentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C27BF9D99A4FAB896BB905 /* TorrentResult.swift */; };
 		7C013DE32C28AA3C0026A11B /* sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C013DE22C28A97F0026A11B /* sound.m4a */; };
 		7C013DE42C2F38AA0026A11B /* LocalizationAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1352D1D2BBC2F7F00104E7B /* LocalizationAttribute.swift */; };
 		7C013DE52C2F41760026A11B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D1AA00CF2AFAC7D200B74629 /* Localizable.xcstrings */; };
@@ -265,6 +269,7 @@
 		D1F8BC852AFC405A00A6258C /* MvvmViewModel+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F8BC842AFC405A00A6258C /* MvvmViewModel+Alert.swift */; };
 		D1FFC9652C38136600233C2F /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC9642C38135F00233C2F /* URL+Extensions.swift */; };
 		D1FFC96C2C382FC900233C2F /* StorageModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC96B2C382FBE00233C2F /* StorageModel+Extensions.swift */; };
+		D7690953E26C4DEFA2AAC6C8 /* TorrentSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9882E53A034C92A18C1141 /* TorrentSearchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -315,6 +320,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3450ECB22FA2ACEA0071769F /* TorrentSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentSearchViewModel.swift; sourceTree = "<group>"; };
+		3450ECB42FA2ACEB0071769F /* TorrentSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentSearchView.swift; sourceTree = "<group>"; };
+		3450ECB62FA2ACEC0071769F /* TorrentSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentSearchViewController.swift; sourceTree = "<group>"; };
 		7C013DE22C28A97F0026A11B /* sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.m4a; sourceTree = "<group>"; };
 		7C04A6082C446B4D00FBC649 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C1C08A92C31F2F000569B45 /* PauseTorrentIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseTorrentIntent.swift; sourceTree = "<group>"; };
@@ -543,6 +551,8 @@
 		D1F8BC842AFC405A00A6258C /* MvvmViewModel+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MvvmViewModel+Alert.swift"; sourceTree = "<group>"; };
 		D1FFC9642C38135F00233C2F /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		D1FFC96B2C382FBE00233C2F /* StorageModel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageModel+Extensions.swift"; sourceTree = "<group>"; };
+		E9C27BF9D99A4FAB896BB905 /* TorrentResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentResult.swift; sourceTree = "<group>"; };
+		FA9882E53A034C92A18C1141 /* TorrentSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentSearchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -589,6 +599,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43D71BF463E3463C906BD908 /* TorrentSearch */ = {
+			isa = PBXGroup;
+			children = (
+				E9C27BF9D99A4FAB896BB905 /* TorrentResult.swift */,
+				FA9882E53A034C92A18C1141 /* TorrentSearchService.swift */,
+			);
+			path = TorrentSearch;
+			sourceTree = "<group>";
+		};
 		7C1C08AE2C31FEF700569B45 /* IntentsService */ = {
 			isa = PBXGroup;
 			children = (
@@ -934,6 +953,16 @@
 				7CFEBEA42BC721CB0013233F /* RssListPreferencesViewController.swift */,
 			);
 			path = Preferences;
+			sourceTree = "<group>";
+		};
+		B13BCBF2092F47CFBE5D3BFB /* TorrentSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3450ECB22FA2ACEA0071769F /* TorrentSearchViewModel.swift */,
+				3450ECB42FA2ACEB0071769F /* TorrentSearchView.swift */,
+				3450ECB62FA2ACEC0071769F /* TorrentSearchViewController.swift */,
+			);
+			path = TorrentSearch;
 			sourceTree = "<group>";
 		};
 		D10257C52EE8619300201640 /* iTorrent-TV */ = {
@@ -1336,6 +1365,7 @@
 				D135C5962AEFB94900440680 /* TorrentDetails */,
 				D1EFCD062AF56A3200D33A7A /* TorrentFiles */,
 				D11138452AF94633008907F7 /* TorrentAdd */,
+				B13BCBF2092F47CFBE5D3BFB /* TorrentSearch */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -1343,6 +1373,7 @@
 		D1A226F02AEF018500669D6D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				43D71BF463E3463C906BD908 /* TorrentSearch */,
 				D1BB07392C98522D00981D5F /* TrackersListService */,
 				7C1C08AE2C31FEF700569B45 /* IntentsService */,
 				7C3142D42C31ED4600397E82 /* LiveActivityService */,
@@ -1669,7 +1700,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					7C5FBE3A2BC0ADC90069E5A0 = {
 						CreatedOnToolsVersion = 15.3;
@@ -1860,6 +1891,8 @@
 				D1BB07452C9869C300981D5F /* TrackersListDetailsPreferencesView.swift in Sources */,
 				D1ACFDC62AF6DB9F0098FF56 /* TorrentFilesFileListCell.swift in Sources */,
 				D1A227072AEF0B2C00669D6D /* TorrentListItem.swift in Sources */,
+				47D64410EAFD4DA6BAD71F5C /* TorrentResult.swift in Sources */,
+				D7690953E26C4DEFA2AAC6C8 /* TorrentSearchService.swift in Sources */,
 				D111384B2AF965F1008907F7 /* TorrentAddViewModel.swift in Sources */,
 				D1A226A22AEEEFCC00669D6D /* ViewController.swift in Sources */,
 				D1352D252BBC33AB00104E7B /* BasePreferencesViewModel.swift in Sources */,
@@ -1906,6 +1939,7 @@
 				D1B1BED22AFE2D9F0030C2A4 /* TrackerCellViewModel.swift in Sources */,
 				D1EFCD0C2AF56A8900D33A7A /* TorrentFilesViewModel.swift in Sources */,
 				7CB2639C2C0671320083C052 /* Publisher+UI.swift in Sources */,
+				3450ECB52FA2ACEB0071769F /* TorrentSearchView.swift in Sources */,
 				7CFEBEA72BC721CB0013233F /* RssListPreferencesViewController.swift in Sources */,
 				D173D9DE2BC024DD00E4F9EB /* UISwitchWithMenu.swift in Sources */,
 				7CAD30202BC34BCE00592990 /* RssFeedProvider.swift in Sources */,
@@ -1963,6 +1997,7 @@
 				7C1C08AD2C31FEA400569B45 /* IntentsService.swift in Sources */,
 				7CFEBE832BC434A10013233F /* BaseCollectionViewController.swift in Sources */,
 				D1A5D0CE2BE52728003E05D5 /* AdView+Google.swift in Sources */,
+				3450ECB32FA2ACEA0071769F /* TorrentSearchViewModel.swift in Sources */,
 				D1352D3A2BBD747100104E7B /* PortionBarLabels.swift in Sources */,
 				D17733F52BBC2D0F006FC81A /* ConnectionPreferencesViewModel.swift in Sources */,
 				7CCDB3372ED5B4B6001E857B /* UIImage+IOSRelatedIcons.swift in Sources */,
@@ -2007,6 +2042,7 @@
 				D1BB073B2C98524B00981D5F /* TrackersListService.swift in Sources */,
 				7C4ED0982BEF8B8E0034B62C /* PatreonCredentials.swift in Sources */,
 				D173D9E12BC0286800E4F9EB /* UIMenu+Priority.swift in Sources */,
+				3450ECB72FA2ACEC0071769F /* TorrentSearchViewController.swift in Sources */,
 				D1AA00CE2AFA8B1000B74629 /* PreferencesStorage.swift in Sources */,
 				D1A226F92AEF04E200669D6D /* TorrentListViewController.swift in Sources */,
 				D1352D3F2BBD81C000104E7B /* AppDelegate+Notifications.swift in Sources */,
@@ -2145,6 +2181,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = minimal;
@@ -2288,6 +2325,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_STRICT_CONCURRENCY = minimal;
@@ -2539,6 +2577,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = minimal;

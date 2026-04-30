@@ -127,6 +127,10 @@ extension TorrentListViewModel {
         navigate(to: RssListViewModel.self, by: .show)
     }
 
+    func showTorrentSearch() {
+        navigate(to: TorrentSearchViewModel.self, by: .show)
+    }
+
     func addTorrent(by url: URL) {
         guard let navigationService = navigationService?() else { return }
         TorrentAddViewModel.present(with: url, from: navigationService)
