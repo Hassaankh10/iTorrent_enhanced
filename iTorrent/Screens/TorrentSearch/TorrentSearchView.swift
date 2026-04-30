@@ -16,22 +16,59 @@ struct TorrentSearchView<VM: TorrentSearchViewModel>: MvvmSwiftUIViewProtocol {
     }
 
     var body: some View {
-        Group {
-            if viewModel.isLoading {
-                ProgressView()
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-            } else if let error = viewModel.errorMessage {
-                errorView(message: error)
-            } else if !viewModel.hasSearched {
-                placeholderView
-            } else if viewModel.results.isEmpty {
-                emptyView
-            } else {
-                resultsList
+        VStack(spacing: 0) {
+            categoryBar
+            Divider()
+
+            Group {
+                if viewModel.isLoading {
+                    ProgressView()
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                } else if let error = viewModel.errorMessage {
+                    errorView(message: error)
+                } else if !viewModel.hasSearched {
+                    placeholderView
+                } else if viewModel.results.isEmpty {
+                    emptyView
+                } else {
+                    resultsList
+                }
             }
         }
-        .searchable(text: $viewModel.searchQuery, prompt: "Search torrents…")
+        .searchable(text: $viewModel.searchQuery, prompt: "Search torrents\u{2026}")
         .navigationTitle("Search")
+    }
+
+    // MARK: - Category Bar
+
+    private var categoryBar: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 8) {
+                ForEach(SearchCategory.allCases) { category in
+                    Button {
+                        viewModel.selectedCategory = category
+                    } label: {
+                        Label(category.rawValue, systemImage: category.systemImage)
+                            .font(.subheadline)
+                            .fontWeight(viewModel.selectedCategory == category ? .semibold : .regular)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 6)
+                            .background(
+                                Capsule()
+                                    .fill(viewModel.selectedCategory == category
+                                          ? Color.accentColor
+                                          : Color(.systemGray5))
+                            )
+                            .foregroundStyle(viewModel.selectedCategory == category
+                                             ? .white
+                                             : .primary)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding(.horizontal)
+            .padding(.vertical, 8)
+        }
     }
 
     // MARK: - Subviews
@@ -94,7 +131,7 @@ struct TorrentSearchView<VM: TorrentSearchViewModel>: MvvmSwiftUIViewProtocol {
             Text("No Results")
                 .font(.title2)
                 .fontWeight(.semibold)
-            Text("Try a different search term")
+            Text("Try a different search term or category")
                 .font(.body)
                 .foregroundStyle(.secondary)
         }

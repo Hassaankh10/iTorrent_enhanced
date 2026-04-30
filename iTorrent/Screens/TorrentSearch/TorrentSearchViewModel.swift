@@ -10,6 +10,7 @@ import MvvmFoundation
 
 class TorrentSearchViewModel: BaseViewModel, ObservableObject {
     @Published var searchQuery: String = ""
+    @Published var selectedCategory: SearchCategory = .all
     @Published var results: [TorrentResult] = []
     @Published var isLoading: Bool = false
     @Published var errorMessage: String? = nil
@@ -26,34 +27,33 @@ class TorrentSearchViewModel: BaseViewModel, ObservableObject {
 private extension TorrentSearchViewModel {
     func binding() {
         disposeBag.bind {
-            $searchQuery
-                .throttle(for: 0.5, scheduler: DispatchQueue.global(qos: .userInitiated), latest: true)
-                .sink { [unowned self] query in
-                    let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
-                    guard !trimmed.isEmpty else {
-                        DispatchQueue.main.async { [self] in
-                            results = []
-                            errorMessage = nil
-                            isLoading = false
-                        }
-                        return
-                    }
-                    performSearch(query: trimmed)
+            Publishers.CombineLatest(
+                $searchQuery
+                    .debounce(for: 0.5, scheduler: DispatchQueue.main),
+                $selectedCategory
+            )
+            .sink { [unowned self] query, category in
+                let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
+                guard !trimmed.isEmpty else {
+                    results = []
+                    errorMessage = nil
+                    isLoading = false
+                    hasSearched = false
+                    return
                 }
+                performSearch(query: trimmed, category: category)
+            }
         }
     }
 
-    func performSearch(query: String) {
+    func performSearch(query: String, category: SearchCategory) {
         searchTask?.cancel()
-
-        DispatchQueue.main.async { [self] in
-            isLoading = true
-            errorMessage = nil
-        }
+        isLoading = true
+        errorMessage = nil
 
         searchTask = Task {
             do {
-                let found = try await TorrentSearchService.shared.search(query: query)
+                let found = try await TorrentSearchService.shared.search(query: query, category: category)
                 guard !Task.isCancelled else { return }
                 await MainActor.run { [self] in
                     results = found

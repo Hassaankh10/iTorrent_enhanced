@@ -41,9 +41,9 @@ final class TorrentSearchService {
     /// Search both 1337x.to and The Pirate Bay concurrently, merging and deduplicating results.
     /// - Parameter query: The search term.
     /// - Returns: Combined `[TorrentResult]` sorted by seeders descending.
-    func search(query: String) async throws -> [TorrentResult] {
-        async let leet   = search1337x(query: query)
-        async let pirate = searchPirateBay(query: query)
+    func search(query: String, category: SearchCategory = .all) async throws -> [TorrentResult] {
+        async let leet   = search1337x(query: query, category: category)
+        async let pirate = searchPirateBay(query: query, category: category)
 
         var leetResults:   [TorrentResult] = []
         var pirateResults: [TorrentResult] = []
@@ -63,12 +63,19 @@ final class TorrentSearchService {
 
     // MARK: - 1337x.to
 
-    private func search1337x(query: String) async throws -> [TorrentResult] {
+    private func search1337x(query: String, category: SearchCategory) async throws -> [TorrentResult] {
         let encoded = query
             .replacingOccurrences(of: " ", with: "+")
             .addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? query
 
-        guard let url = URL(string: "https://www.1337x.to/search/\(encoded)/1/") else {
+        let urlString: String
+        if let catPath = category.leetPath {
+            urlString = "https://www.1337x.to/category-search/\(encoded)/\(catPath)/1/"
+        } else {
+            urlString = "https://www.1337x.to/search/\(encoded)/1/"
+        }
+
+        guard let url = URL(string: urlString) else {
             throw SearchError.invalidURL
         }
 
@@ -272,11 +279,16 @@ final class TorrentSearchService {
 
     // MARK: - The Pirate Bay
 
-    private func searchPirateBay(query: String) async throws -> [TorrentResult] {
+    private func searchPirateBay(query: String, category: SearchCategory) async throws -> [TorrentResult] {
         let encoded = query
             .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? query
 
-        guard let url = URL(string: "https://apibay.org/q.php?q=\(encoded)") else {
+        var urlString = "https://apibay.org/q.php?q=\(encoded)"
+        if let cat = category.pirateBayCat {
+            urlString += "&cat=\(cat)"
+        }
+
+        guard let url = URL(string: urlString) else {
             throw SearchError.invalidURL
         }
 

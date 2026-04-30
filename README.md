@@ -1,37 +1,30 @@
-[AltStore Classic Button]: https://img.shields.io/badge/Download-AltStore_Classic-green?style=flat
-[AltStore Classic Link]: https://intradeus.github.io/http-protocol-redirector?r=altstore-classic://source?url=https://xitrix.github.io/iTorrent/AltStore.json 'Download with AltStore Classic.'
-
-[AltStore PAL Button]: https://img.shields.io/badge/Download-AltStore_PAL-green?style=flat
-[AltStore PAL Link]: https://intradeus.github.io/http-protocol-redirector?r=altstore-classic://source?url=https://xitrix.github.io/iTorrent/AltStoreEU.json 'Download with AltStore.'
-
-[SideStore Button]: https://img.shields.io/badge/Download-SideStore-purple?style=flat
-[SideStore Link]: https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://xitrix.github.io/iTorrent/AltStore.json 'Download with SideStore.'
-
-[Jailbreak Button]: https://img.shields.io/badge/Download-Jailbreak-red?style=flat
-[Jailbreak Link]: https://intradeus.github.io/http-protocol-redirector?r=itms-services://?action=download-manifest&url=https://github.com/XITRIX/iTorrent/releases/latest/download/manifest.plist 'Download with Jailbreak.'
-
 [GitHub Button]: https://img.shields.io/badge/Download-GitHub-black?style=flat
-[GitHub Link]: https://github.com/XITRIX/iTorrent/releases 'Download from GitHub.'
+[GitHub Link]: https://github.com/Hassaankh10/iTorrent_enhanced/releases 'Download from GitHub.'
 
-<img align="left" width="100" height="100" src="https://github.com/user-attachments/assets/0faf6075-273b-4b74-92d6-dccab7f4b964">
-
-
-# iTorrent - iOS Torrent client App
-[![AltStore Classic Button]][AltStore Classic Link]
-[![SideStore Button]][SideStore Link]
+# iTorrent+ - iOS Torrent client App
 [![GitHub Button]][GitHub Link]
-[![Jailbreak Button]][Jailbreak Link]
 ![](https://img.shields.io/badge/iOS-16.0+-blue.svg)
 
-## Installation for EU citizens
-Because Apple allows third-party app stores in the EU and a few other countries, iTorrent is available on AltStore PAL. You can download it using the button below.
+## Installation
 
-[![AltStore PAL Button]][AltStore PAL Link]
+iTorrent+ is distributed as an unsigned IPA. You can install it on your device using [Sideloadly](https://sideloadly.io).
 
-For everyone else, unfortunately, there is no official way to install the app, so you will need to sideload it using AltStore or SideStore. You can find installation links above if you already have one of these apps installed on your phone.
+### Using Sideloadly
 
-> [!WARNING]
-> The only officially supported methods to sideload iTorrent are AltStore and SideStore. If you sideload iTorrent in any other way, there are no guarantees the app will work as intended, and no technical support will be provided.
+1. Download the latest `.ipa` from the [Releases](https://github.com/Hassaankh10/iTorrent_enhanced/releases) page
+2. Download and install [Sideloadly](https://sideloadly.io) on your Mac or Windows PC
+3. Connect your iPhone/iPad to your computer via USB
+4. Open Sideloadly, drag the `.ipa` file into the app
+5. Enter your Apple ID and click **Start**
+6. Once installed, go to **Settings > General > VPN & Device Management** on your device and trust the developer profile
+7. Open iTorrent+ and enjoy!
+
+> [!NOTE]
+> Apps sideloaded with a free Apple ID expire after 7 days. You will need to re-sign the app weekly, or use a paid Apple Developer account ($99/year) for a 1-year signature.
+
+### Using TrollStore (Jailbroken / TrollStore-compatible devices)
+
+If your device supports [TrollStore](https://github.com/opa334/TrollStore), you can install the IPA permanently without signing.
 
 ## Screenshots
 <details>
@@ -54,30 +47,26 @@ For everyone else, unfortunately, there is no official way to install the app, s
   </p>
 </details>
 
-## Info
+## Features
 
-It is an ordinary torrent client for iOS with Files app support.
-
-What can this app do:
-- Download in the background
+- Download torrents in the background
 - Live Activity and Dynamic Island progress widget
 - Sequential download (use VLC to watch films while loading)
 - Add torrent files from Share menu (Safari and other apps)
 - Add magnet links directly from Safari
 - Store files in Files app
 - File sharing directly from app
-- Download torrent by link
-- Download torrent by magnet
-- Send notification on torrent downloaded
+- Download torrent by link or magnet
+- Torrent search (1337x + The Pirate Bay)
+- Notification on torrent download completion
 - WebDav Server
-- Select files to download or not
+- Select files to download
 - Glass UI for iOS 26
 - RSS Feed
-- ??? 
 
 ## Localization
 
-iTorrent supports the following languages:
+iTorrent+ supports the following languages:
 - English
 - German
 - Italian
@@ -86,7 +75,7 @@ iTorrent supports the following languages:
 - Spanish
 - Simplified Chinese
 
-If you are fluent in the languages not listed above and want to help with translation, you are welcome!
+If you are fluent in a language not listed above and want to help with translation, you are welcome!
 
 ## Libraries used
 
@@ -100,30 +89,9 @@ If you are fluent in the languages not listed above and want to help with transl
 - [GCDWebServer](https://github.com/XITRIX/GCDWebServer)
 - [Firebase](https://github.com/firebase/firebase-ios-sdk)
 
-## Donate for donuts
+## Credits
 
-- [Patreon](https://www.patreon.com/xitrix)
-- [PayPal](https://paypal.me/x1trix)
-
-## Important information
-
-This app using Firebase Analytics and so it collects next information from your device:
-- The country of your internet provider
-- Time of app's working session
-
-All this data presents as statistic, and cannot be used to get someone's personal information
-
-Also this app using Firebase Crashlytics, which collects the next information when application crashes:
-- Model of your device (IPhone X or IPad Pro (10.5 inch) for example)
-- Device orientation
-- Free space on RAM and ROM
-- IOS version
-- Time of crash
-- Detailed log of the thread where the stuck happens
-
-All this information is using for bug fixing and improving the quality of this app
-
-More information you can find on [Firebase website](https://firebase.google.com)
+Based on [iTorrent](https://github.com/XITRIX/iTorrent) by XITRIX (Vinogradov Daniil).
 
 ## License
 

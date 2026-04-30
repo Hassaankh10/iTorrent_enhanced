@@ -161,10 +161,10 @@ private extension PreferencesViewModel {
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "Unknown"
         let appBuild = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "Unknown"
         let libtorrentVersion = TorrentService.version
-        let version = "iTorrent: v\(appVersion)-\(appBuild) | LibTorrent: v\(libtorrentVersion)"
+        let version = "iTorrent+: v\(appVersion)-\(appBuild) | LibTorrent: v\(libtorrentVersion)"
         sections.append(.init(id: "version", header: %"preferences.version", footer: version, style: .insetGrouped) {
             PRButtonViewModel(with: .init(title: %"preferences.version.github", value: Just(%"common.open").eraseToAnyPublisher(), selectAction: { [unowned self] in
-                UIApplication.shared.open(.init(string: "https://github.com/XITRIX/iTorrent")!)
+                UIApplication.shared.open(.init(string: "https://github.com/Hassaankh10/iTorrent_enhanced")!)
                 dismissSelection.send()
             }))
         })

@@ -56,7 +56,7 @@ class TorrentListViewModel: BaseViewModel {
 
     required init() {
         super.init()
-        title = "iTorrent"
+        title = "iTorrent+"
 
         filterButtons = [%"common.all"] + TorrentHandle.State.filterArray.map { $0.name }
 
