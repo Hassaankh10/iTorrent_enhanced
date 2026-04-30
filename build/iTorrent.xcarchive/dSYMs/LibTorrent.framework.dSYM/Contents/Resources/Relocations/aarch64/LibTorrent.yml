@@ -1,0 +1,803 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/muhammadhassaankhan/Library/Developer/Xcode/DerivedData/iTorrent-brwftqjpwbdhnahbcljzfsxxuiof/Build/Intermediates.noindex/ArchiveIntermediates/iTorrent/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/LibTorrent.framework/LibTorrent'
+relocations:
+  - { offset: 0x5F8AF, size: 0x8, addend: 0x0, symName: _LibTorrentVersionString, symObjAddr: 0x0, symBinAddr: 0x308A40, symSize: 0x0 }
+  - { offset: 0x5F8E4, size: 0x8, addend: 0x0, symName: _LibTorrentVersionNumber, symObjAddr: 0x30, symBinAddr: 0x308A70, symSize: 0x0 }
+  - { offset: 0x5F921, size: 0x8, addend: 0x0, symName: '-[NSData(SHA1) initWith:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x5C }
+  - { offset: 0x63627, size: 0x8, addend: 0x0, symName: '-[NSData(SHA1) initWith:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x5C }
+  - { offset: 0x66033, size: 0x8, addend: 0x0, symName: '+[ObjCatch tryBlock:]', symObjAddr: 0x0, symBinAddr: 0x405C, symSize: 0x54 }
+  - { offset: 0x66041, size: 0x8, addend: 0x0, symName: '+[ObjCatch tryBlock:]', symObjAddr: 0x0, symBinAddr: 0x405C, symSize: 0x54 }
+  - { offset: 0x662F7, size: 0x8, addend: 0x0, symName: '-[NSData(Hex) hexString]', symObjAddr: 0x0, symBinAddr: 0x40B0, symSize: 0xAC }
+  - { offset: 0x66316, size: 0x8, addend: 0x0, symName: '-[NSData(Hex) hexString]', symObjAddr: 0x0, symBinAddr: 0x40B0, symSize: 0xAC }
+  - { offset: 0x66613, size: 0x8, addend: 0x0, symName: __ZN5boost4asio3ssl6detail12openssl_initILb1EE9instance_E, symObjAddr: 0xE4C0, symBinAddr: 0x390680, symSize: 0x0 }
+  - { offset: 0x67E5F, size: 0x8, addend: 0x0, symName: __ZN5boost4asio2ipeqERKNS1_14basic_endpointINS1_3tcpEEES6_, symObjAddr: 0x8518, symBinAddr: 0xBA98, symSize: 0xD4 }
+  - { offset: 0x6959A, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail17posix_global_implINS0_14system_contextEE9instance_E, symObjAddr: 0xE4B0, symBinAddr: 0x390670, symSize: 0x0 }
+  - { offset: 0x696E8, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail17posix_global_implINS0_14system_contextEE11static_ptr_E, symObjAddr: 0xE510, symBinAddr: 0x3906D0, symSize: 0x0 }
+  - { offset: 0x69767, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail10socket_ops9inet_ntopEiPKvPcmmRNS_6system10error_codeE, symObjAddr: 0x4A3C, symBinAddr: 0x8B98, symSize: 0x1F0 }
+  - { offset: 0x69B6E, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail17deallocate_objectINS0_17execution_context9allocatorIvEENS1_16service_registryEEEvRKT_PT0_, symObjAddr: 0x6950, symBinAddr: 0xA4D4, symSize: 0x4C }
+  - { offset: 0xB4F57, size: 0x8, addend: 0x0, symName: __ZNSt3__119piecewise_constructE, symObjAddr: 0xB481, symBinAddr: 0x308D36, symSize: 0x0 }
+  - { offset: 0xB685D, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB9nqe210106EPKc, symObjAddr: 0x4540, symBinAddr: 0x869C, symSize: 0x50 }
+  - { offset: 0xB6CB5, size: 0x8, addend: 0x0, symName: __ZNSt3__116__throw_bad_castB9nqe210106Ev, symObjAddr: 0x6580, symBinAddr: 0xA104, symSize: 0x28 }
+  - { offset: 0xB74EF, size: 0x8, addend: 0x0, symName: __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSC_3tcpEEENS9_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS1_IKiiEEEEEENSG_ISF_EENSI_ISF_EENS5_INS1_IKSF_SN_EEEEEEEELi0EEEvPT_, symObjAddr: 0x6CBC, symBinAddr: 0xA840, symSize: 0x3C }
+  - { offset: 0xBBF02, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB9nqe210106v, symObjAddr: 0x45B4, symBinAddr: 0x8710, symSize: 0x28 }
+  - { offset: 0xBC227, size: 0x8, addend: 0x0, symName: _updatedTrackerStatuses, symObjAddr: 0x2B1A88, symBinAddr: 0x3920F8, symSize: 0x0 }
+  - { offset: 0xCBB89, size: 0x8, addend: 0x0, symName: __ZN5boost6system6detail17system_cat_holderIvE8instanceE, symObjAddr: 0xE4D8, symBinAddr: 0x390698, symSize: 0x0 }
+  - { offset: 0xCBBAD, size: 0x8, addend: 0x0, symName: __ZTVN5boost6system6detail21system_error_categoryE, symObjAddr: 0xDDB8, symBinAddr: 0x37A938, symSize: 0x0 }
+  - { offset: 0xCE94A, size: 0x8, addend: 0x0, symName: __ZTVN5boost6system12system_errorE, symObjAddr: 0xDE28, symBinAddr: 0x37A9A8, symSize: 0x0 }
+  - { offset: 0xCEA06, size: 0x8, addend: 0x0, symName: __ZTVNSt3__113basic_fstreamIcNS_11char_traitsIcEEEE, symObjAddr: 0xDFB0, symBinAddr: 0x37AA00, symSize: 0x0 }
+  - { offset: 0xCEEE0, size: 0x8, addend: 0x0, symName: __ZTVNSt3__113basic_filebufIcNS_11char_traitsIcEEEE, symObjAddr: 0xE1A8, symBinAddr: 0x37ABF8, symSize: 0x0 }
+  - { offset: 0xCEEF5, size: 0x8, addend: 0x0, symName: __ZTVNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEEE, symObjAddr: 0xE240, symBinAddr: 0x37AC90, symSize: 0x0 }
+  - { offset: 0xCEF66, size: 0x8, addend: 0x0, symName: __ZTVN5boost4asio2ip16bad_address_castE, symObjAddr: 0xE368, symBinAddr: 0x37AD60, symSize: 0x0 }
+  - { offset: 0xCFE7B, size: 0x8, addend: 0x0, symName: '-[StorageModel uuid]', symObjAddr: 0x0, symBinAddr: 0x415C, symSize: 0x8 }
+  - { offset: 0xCFEB2, size: 0x8, addend: 0x0, symName: '-[StorageModel setUuid:]', symObjAddr: 0x8, symBinAddr: 0x4164, symSize: 0x30 }
+  - { offset: 0xCFEF3, size: 0x8, addend: 0x0, symName: '-[StorageModel name]', symObjAddr: 0x38, symBinAddr: 0x4194, symSize: 0x8 }
+  - { offset: 0xCFF2A, size: 0x8, addend: 0x0, symName: '-[StorageModel setName:]', symObjAddr: 0x40, symBinAddr: 0x419C, symSize: 0x30 }
+  - { offset: 0xCFF6B, size: 0x8, addend: 0x0, symName: '-[StorageModel pathBookmark]', symObjAddr: 0x70, symBinAddr: 0x41CC, symSize: 0x8 }
+  - { offset: 0xCFFA2, size: 0x8, addend: 0x0, symName: '-[StorageModel setPathBookmark:]', symObjAddr: 0x78, symBinAddr: 0x41D4, symSize: 0x30 }
+  - { offset: 0xCFFE3, size: 0x8, addend: 0x0, symName: '-[StorageModel URL]', symObjAddr: 0xA8, symBinAddr: 0x4204, symSize: 0x8 }
+  - { offset: 0xD001A, size: 0x8, addend: 0x0, symName: '-[StorageModel setURL:]', symObjAddr: 0xB0, symBinAddr: 0x420C, symSize: 0x30 }
+  - { offset: 0xD005B, size: 0x8, addend: 0x0, symName: '-[StorageModel resolved]', symObjAddr: 0xE0, symBinAddr: 0x423C, symSize: 0x8 }
+  - { offset: 0xD0092, size: 0x8, addend: 0x0, symName: '-[StorageModel setResolved:]', symObjAddr: 0xE8, symBinAddr: 0x4244, symSize: 0x8 }
+  - { offset: 0xD00CD, size: 0x8, addend: 0x0, symName: '-[StorageModel allowed]', symObjAddr: 0xF0, symBinAddr: 0x424C, symSize: 0x8 }
+  - { offset: 0xD0104, size: 0x8, addend: 0x0, symName: '-[StorageModel setAllowed:]', symObjAddr: 0xF8, symBinAddr: 0x4254, symSize: 0x8 }
+  - { offset: 0xD013F, size: 0x8, addend: 0x0, symName: '-[StorageModel .cxx_destruct]', symObjAddr: 0x100, symBinAddr: 0x425C, symSize: 0x48 }
+  - { offset: 0xD01BA, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIN10libtorrent8digest32ILl160EEENS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5boost4asio2ip14basic_endpointINSC_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS7_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS7_INSK_IKSF_SO_EEEEEENSG_IS9_EENSI_IS9_EENS7_INSK_IKS9_SU_EEEEEENSG_IS3_EENSI_IS3_EENS7_INSK_IKS3_S10_EEEEED1B9nqe210106Ev, symObjAddr: 0x148, symBinAddr: 0x42A4, symSize: 0x4 }
+  - { offset: 0xD01EA, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIN10libtorrent8digest32ILl160EEENS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5boost4asio2ip14basic_endpointINSC_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS7_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS7_INSK_IKSF_SO_EEEEEENSG_IS9_EENSI_IS9_EENS7_INSK_IKS9_SU_EEEEEENSG_IS3_EENSI_IS3_EENS7_INSK_IKS3_S10_EEEEED1B9nqe210106Ev, symObjAddr: 0x148, symBinAddr: 0x42A4, symSize: 0x4 }
+  - { offset: 0xD0208, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIN10libtorrent8digest32ILl160EEENS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5boost4asio2ip14basic_endpointINSC_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS7_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS7_INSK_IKSF_SO_EEEEEENSG_IS9_EENSI_IS9_EENS7_INSK_IKS9_SU_EEEEEENSG_IS3_EENSI_IS3_EENS7_INSK_IKS3_S10_EEEEED1B9nqe210106Ev, symObjAddr: 0x148, symBinAddr: 0x42A4, symSize: 0x4 }
+  - { offset: 0xD0228, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIN10libtorrent8digest32ILl160EEENS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5boost4asio2ip14basic_endpointINSC_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS7_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS7_INSK_IKSF_SO_EEEEEENSG_IS9_EENSI_IS9_EENS7_INSK_IKS9_SU_EEEEEENSG_IS3_EENSI_IS3_EENS7_INSK_IKS3_S10_EEEEED1B9nqe210106Ev, symObjAddr: 0x148, symBinAddr: 0x42A4, symSize: 0x4 }
+  - { offset: 0xD023C, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEED2Ev, symObjAddr: 0x6BD4, symBinAddr: 0xA758, symSize: 0x38 }
+  - { offset: 0xD083B, size: 0x8, addend: 0x0, symName: '-[Session initWith:torrentsPath:fastResumePath:settings:storages:]', symObjAddr: 0x14C, symBinAddr: 0x42A8, symSize: 0x5C4 }
+  - { offset: 0xD1219, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_4pairItNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEE16__destroy_vectorclB9nqe210106Ev, symObjAddr: 0x45DC, symBinAddr: 0x8738, symSize: 0x40 }
+  - { offset: 0xD12D7, size: 0x8, addend: 0x0, symName: __ZN10libtorrent13settings_packD1Ev, symObjAddr: 0x710, symBinAddr: 0x486C, symSize: 0x58 }
+  - { offset: 0xD15F2, size: 0x8, addend: 0x0, symName: '-[Session setSettings:]', symObjAddr: 0x768, symBinAddr: 0x48C4, symSize: 0xF4 }
+  - { offset: 0xD1961, size: 0x8, addend: 0x0, symName: '-[Session pause]', symObjAddr: 0x85C, symBinAddr: 0x49B8, symSize: 0x8 }
+  - { offset: 0xD1994, size: 0x8, addend: 0x0, symName: '-[Session resume]', symObjAddr: 0x864, symBinAddr: 0x49C0, symSize: 0x8 }
+  - { offset: 0xD1A51, size: 0x8, addend: 0x0, symName: '-[Session reannounceToAllTrackers]', symObjAddr: 0x86C, symBinAddr: 0x49C8, symSize: 0x190 }
+  - { offset: 0xD1BA4, size: 0x8, addend: 0x0, symName: '-[Session dealloc]', symObjAddr: 0x9FC, symBinAddr: 0x4B58, symSize: 0x50 }
+  - { offset: 0xD1BD7, size: 0x8, addend: 0x0, symName: '-[Session fastResumePathForInfoHashes:]', symObjAddr: 0xA4C, symBinAddr: 0x4BA8, symSize: 0xCC }
+  - { offset: 0xD1C1E, size: 0x8, addend: 0x0, symName: '-[Session magnetURIsFilePath]', symObjAddr: 0xB18, symBinAddr: 0x4C74, symSize: 0x10 }
+  - { offset: 0xD1C55, size: 0x8, addend: 0x0, symName: '-[Session torrents]', symObjAddr: 0xB28, symBinAddr: 0x4C84, symSize: 0x8 }
+  - { offset: 0xD1C8C, size: 0x8, addend: 0x0, symName: '-[Session restoreSession]', symObjAddr: 0xB30, symBinAddr: 0x4C8C, symSize: 0x2DC }
+  - { offset: 0xD1D59, size: 0x8, addend: 0x0, symName: '-[Session addDelegate:]', symObjAddr: 0xE0C, symBinAddr: 0x4F68, symSize: 0x7C }
+  - { offset: 0xD1D9C, size: 0x8, addend: 0x0, symName: '-[Session removeDelegate:]', symObjAddr: 0xE88, symBinAddr: 0x4FE4, symSize: 0x7C }
+  - { offset: 0xD1DDF, size: 0x8, addend: 0x0, symName: '-[Session addTorrent:]', symObjAddr: 0xF04, symBinAddr: 0x5060, symSize: 0x20 }
+  - { offset: 0xD1FB6, size: 0x8, addend: 0x0, symName: '-[Session addTorrent:to:]', symObjAddr: 0xF24, symBinAddr: 0x5080, symSize: 0x460 }
+  - { offset: 0xD2591, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc, symObjAddr: 0x466C, symBinAddr: 0x87C8, symSize: 0x34 }
+  - { offset: 0xD262D, size: 0x8, addend: 0x0, symName: '-[Session removeTorrent:deleteFiles:]', symObjAddr: 0x1394, symBinAddr: 0x54F0, symSize: 0x12C }
+  - { offset: 0xD27F0, size: 0x8, addend: 0x0, symName: '-[Session errorWithCode:message:]', symObjAddr: 0x14C0, symBinAddr: 0x561C, symSize: 0x104 }
+  - { offset: 0xD292F, size: 0x8, addend: 0x0, symName: '-[Session removeStoredTorrentOrMagnet:]', symObjAddr: 0x15C4, symBinAddr: 0x5720, symSize: 0x16C }
+  - { offset: 0xD2E02, size: 0x8, addend: 0x0, symName: '___39-[Session removeStoredTorrentOrMagnet:]_block_invoke', symObjAddr: 0x1730, symBinAddr: 0x588C, symSize: 0x13C }
+  - { offset: 0xD3139, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40c58_ZTSNSt3__110shared_ptrIKN10libtorrent2v212torrent_infoEEE56c34_ZTSN10libtorrent14torrent_handleE, symObjAddr: 0x186C, symBinAddr: 0x59C8, symSize: 0x70 }
+  - { offset: 0xD32DE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40c58_ZTSNSt3__110shared_ptrIKN10libtorrent2v212torrent_infoEEE56c34_ZTSN10libtorrent14torrent_handleE, symObjAddr: 0x18DC, symBinAddr: 0x5A38, symSize: 0x34 }
+  - { offset: 0xD3607, size: 0x8, addend: 0x0, symName: '-[Session alertsLoop]', symObjAddr: 0x1910, symBinAddr: 0x5A6C, symSize: 0x4E0 }
+  - { offset: 0xD434E, size: 0x8, addend: 0x0, symName: '-[Session notifyDelegatesWithAdd:]', symObjAddr: 0x1DF0, symBinAddr: 0x5F4C, symSize: 0x194 }
+  - { offset: 0xD43AB, size: 0x8, addend: 0x0, symName: '-[Session notifyDelegatesWithRemove:]', symObjAddr: 0x1F84, symBinAddr: 0x60E0, symSize: 0x210 }
+  - { offset: 0xD4525, size: 0x8, addend: 0x0, symName: '-[Session notifyDelegatesWithUpdate:]', symObjAddr: 0x2194, symBinAddr: 0x62F0, symSize: 0x234 }
+  - { offset: 0xD479C, size: 0x8, addend: 0x0, symName: '-[Session metadataReceivedAlert:]', symObjAddr: 0x23C8, symBinAddr: 0x6524, symSize: 0x180 }
+  - { offset: 0xD4CAF, size: 0x8, addend: 0x0, symName: '-[Session torrentAddedAlert:]', symObjAddr: 0x2548, symBinAddr: 0x66A4, symSize: 0x254 }
+  - { offset: 0xD550C, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm, symObjAddr: 0x4758, symBinAddr: 0x88B4, symSize: 0x84 }
+  - { offset: 0xD56DF, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106ILi0EEEPKc, symObjAddr: 0x47DC, symBinAddr: 0x8938, symSize: 0xA8 }
+  - { offset: 0xD56EA, size: 0x8, addend: 0x0, symName: '___29-[Session torrentAddedAlert:]_block_invoke', symObjAddr: 0x279C, symBinAddr: 0x68F8, symSize: 0x10C }
+  - { offset: 0xD5B4C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40c58_ZTSNSt3__110shared_ptrIKN10libtorrent2v212torrent_infoEEE56c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE, symObjAddr: 0x28A8, symBinAddr: 0x6A04, symSize: 0x9C }
+  - { offset: 0xD5CA5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40c58_ZTSNSt3__110shared_ptrIKN10libtorrent2v212torrent_infoEEE56c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE, symObjAddr: 0x2944, symBinAddr: 0x6AA0, symSize: 0x38 }
+  - { offset: 0xD5F1F, size: 0x8, addend: 0x0, symName: '-[Session handleTrackerAlert:]', symObjAddr: 0x297C, symBinAddr: 0x6AD8, symSize: 0x1CC }
+  - { offset: 0xD65D5, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJRS15_EEENS1I_IJEEEEEENSM_INS_15__hash_iteratorIPNS_11__hash_nodeIS13_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x6ED8, symBinAddr: 0xAA04, symSize: 0x254 }
+  - { offset: 0xD6EEE, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106ILi0EEEPKc, symObjAddr: 0x47DC, symBinAddr: 0x8938, symSize: 0xA8 }
+  - { offset: 0xD7159, size: 0x8, addend: 0x0, symName: __ZNK5boost4asio2ip10address_v49to_stringEv, symObjAddr: 0x4884, symBinAddr: 0x89E0, symSize: 0x1B8 }
+  - { offset: 0xD716B, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENS19_IJEEEEEENSJ_INS_15__hash_iteratorIPNS_11__hash_nodeISU_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x7378, symBinAddr: 0xAEA4, symSize: 0x25C }
+  - { offset: 0xD79CD, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS4_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEENS_22__unordered_map_hasherIS7_NSE_IKS7_SI_EENS9_IS7_EENSB_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SO_SN_Lb1EEENSD_ISM_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSL_EEENSY_IJEEEEEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x7D38, symBinAddr: 0xB660, symSize: 0x24C }
+  - { offset: 0xD82B2, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIiiEENS_22__unordered_map_hasherIiNS_4pairIKiiEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x8838, symBinAddr: 0xBBB4, symSize: 0x204 }
+  - { offset: 0xD89B5, size: 0x8, addend: 0x0, symName: '-[Session handleExternalIPAlert:]', symObjAddr: 0x2B48, symBinAddr: 0x6CA4, symSize: 0xDC }
+  - { offset: 0xD8CA2, size: 0x8, addend: 0x0, symName: __ZNK5boost4asio2ip7address9to_stringEv, symObjAddr: 0x2C24, symBinAddr: 0x6D80, symSize: 0x130 }
+  - { offset: 0xD90B1, size: 0x8, addend: 0x0, symName: __ZNK5boost4asio2ip10address_v49to_stringEv, symObjAddr: 0x4884, symBinAddr: 0x89E0, symSize: 0x1B8 }
+  - { offset: 0xD952E, size: 0x8, addend: 0x0, symName: __ZN5boost6system12system_errorC2ERKNS0_10error_codeE, symObjAddr: 0x4C8C, symBinAddr: 0x8D8C, symSize: 0x90 }
+  - { offset: 0xD977B, size: 0x8, addend: 0x0, symName: '-[Session torrentRemoved:]', symObjAddr: 0x2D54, symBinAddr: 0x6EB0, symSize: 0x4 }
+  - { offset: 0xD97B8, size: 0x8, addend: 0x0, symName: '-[Session torrentStateChanged:]', symObjAddr: 0x2D58, symBinAddr: 0x6EB4, symSize: 0x4 }
+  - { offset: 0xD97F5, size: 0x8, addend: 0x0, symName: '-[Session torrentInputOutputError:]', symObjAddr: 0x2D5C, symBinAddr: 0x6EB8, symSize: 0x14C }
+  - { offset: 0xD9BFF, size: 0x8, addend: 0x0, symName: '-[Session torrentSaveFastResume:]', symObjAddr: 0x2EA8, symBinAddr: 0x7004, symSize: 0x4AC }
+  - { offset: 0xDA5DE, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_fstreamIcNS_11char_traitsIcEEEC1ERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj, symObjAddr: 0x3354, symBinAddr: 0x74B0, symSize: 0x110 }
+  - { offset: 0xDA820, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED2Ev, symObjAddr: 0x5980, symBinAddr: 0x9504, symSize: 0x8C }
+  - { offset: 0xDA887, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_fstreamIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x3464, symBinAddr: 0x75C0, symSize: 0x64 }
+  - { offset: 0xDAA74, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC2Ev, symObjAddr: 0x91B8, symBinAddr: 0xBDCC, symSize: 0x154 }
+  - { offset: 0xDAB86, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj, symObjAddr: 0x930C, symBinAddr: 0xBF20, symSize: 0x130 }
+  - { offset: 0xDAC95, size: 0x8, addend: 0x0, symName: '-[Session saveTorrentFileWithInfo:]', symObjAddr: 0x34C8, symBinAddr: 0x7624, symSize: 0x360 }
+  - { offset: 0xDB1FB, size: 0x8, addend: 0x0, symName: '-[Session saveMagnetURIWithContent:]', symObjAddr: 0x3828, symBinAddr: 0x7984, symSize: 0x80 }
+  - { offset: 0xDB33D, size: 0x8, addend: 0x0, symName: '-[Session appendMagnetURIToFileStore:]', symObjAddr: 0x38A8, symBinAddr: 0x7A04, symSize: 0x268 }
+  - { offset: 0xDB3F8, size: 0x8, addend: 0x0, symName: '-[Session removeFastResumeFileWithInfo:]', symObjAddr: 0x3B10, symBinAddr: 0x7C6C, symSize: 0x130 }
+  - { offset: 0xDB51F, size: 0x8, addend: 0x0, symName: '-[Session removeTorrentFileWithInfo:]', symObjAddr: 0x3C40, symBinAddr: 0x7D9C, symSize: 0x130 }
+  - { offset: 0xDB6F3, size: 0x8, addend: 0x0, symName: '-[Session removeMagnetURIWithHash:]', symObjAddr: 0x3D70, symBinAddr: 0x7ECC, symSize: 0xA8 }
+  - { offset: 0xDB749, size: 0x8, addend: 0x0, symName: '-[Session removeFromFileStoreMagnetURIWithHash:]', symObjAddr: 0x3E18, symBinAddr: 0x7F74, symSize: 0x240 }
+  - { offset: 0xDB817, size: 0x8, addend: 0x0, symName: '-[Session updatedTrackerStatuses]', symObjAddr: 0x4058, symBinAddr: 0x81B4, symSize: 0x10 }
+  - { offset: 0xDB88B, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIN10libtorrent8digest32ILl160EEENS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5boost4asio2ip14basic_endpointINSC_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS7_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS7_INSK_IKSF_SO_EEEEEENSG_IS9_EENSI_IS9_EENS7_INSK_IKS9_SU_EEEEEENSG_IS3_EENSI_IS3_EENS7_INSK_IKS3_S10_EEEEEC2ERKS16_, symObjAddr: 0x94B4, symBinAddr: 0xC0C8, symSize: 0x74 }
+  - { offset: 0xDBBBF, size: 0x8, addend: 0x0, symName: '-[Session downloadPath]', symObjAddr: 0x4068, symBinAddr: 0x81C4, symSize: 0x8 }
+  - { offset: 0xDBBF6, size: 0x8, addend: 0x0, symName: '-[Session setDownloadPath:]', symObjAddr: 0x4070, symBinAddr: 0x81CC, symSize: 0x30 }
+  - { offset: 0xDBC37, size: 0x8, addend: 0x0, symName: '-[Session torrentsPath]', symObjAddr: 0x40A0, symBinAddr: 0x81FC, symSize: 0x8 }
+  - { offset: 0xDBC6E, size: 0x8, addend: 0x0, symName: '-[Session setTorrentsPath:]', symObjAddr: 0x40A8, symBinAddr: 0x8204, symSize: 0x30 }
+  - { offset: 0xDBCAF, size: 0x8, addend: 0x0, symName: '-[Session fastResumePath]', symObjAddr: 0x40D8, symBinAddr: 0x8234, symSize: 0x8 }
+  - { offset: 0xDBCE6, size: 0x8, addend: 0x0, symName: '-[Session setFastResumePath:]', symObjAddr: 0x40E0, symBinAddr: 0x823C, symSize: 0x30 }
+  - { offset: 0xDBD27, size: 0x8, addend: 0x0, symName: '-[Session settings]', symObjAddr: 0x4110, symBinAddr: 0x826C, symSize: 0x8 }
+  - { offset: 0xDBD5E, size: 0x8, addend: 0x0, symName: '-[Session torrentsMap]', symObjAddr: 0x4118, symBinAddr: 0x8274, symSize: 0x8 }
+  - { offset: 0xDBD95, size: 0x8, addend: 0x0, symName: '-[Session setTorrentsMap:]', symObjAddr: 0x4120, symBinAddr: 0x827C, symSize: 0x30 }
+  - { offset: 0xDBDD7, size: 0x8, addend: 0x0, symName: '-[Session storages]', symObjAddr: 0x4150, symBinAddr: 0x82AC, symSize: 0xC }
+  - { offset: 0xDBE0E, size: 0x8, addend: 0x0, symName: '-[Session setStorages:]', symObjAddr: 0x415C, symBinAddr: 0x82B8, symSize: 0x8 }
+  - { offset: 0xDBE4D, size: 0x8, addend: 0x0, symName: '-[Session session]', symObjAddr: 0x4164, symBinAddr: 0x82C0, symSize: 0x8 }
+  - { offset: 0xDBE85, size: 0x8, addend: 0x0, symName: '-[Session setSession:]', symObjAddr: 0x416C, symBinAddr: 0x82C8, symSize: 0x8 }
+  - { offset: 0xDBEC3, size: 0x8, addend: 0x0, symName: '-[Session filesQueue]', symObjAddr: 0x4174, symBinAddr: 0x82D0, symSize: 0x8 }
+  - { offset: 0xDBEFB, size: 0x8, addend: 0x0, symName: '-[Session setFilesQueue:]', symObjAddr: 0x417C, symBinAddr: 0x82D8, symSize: 0x30 }
+  - { offset: 0xDBF3D, size: 0x8, addend: 0x0, symName: '-[Session eventsThread]', symObjAddr: 0x41AC, symBinAddr: 0x8308, symSize: 0x8 }
+  - { offset: 0xDBF75, size: 0x8, addend: 0x0, symName: '-[Session setEventsThread:]', symObjAddr: 0x41B4, symBinAddr: 0x8310, symSize: 0x30 }
+  - { offset: 0xDBFB7, size: 0x8, addend: 0x0, symName: '-[Session delegates]', symObjAddr: 0x41E4, symBinAddr: 0x8340, symSize: 0x8 }
+  - { offset: 0xDBFEF, size: 0x8, addend: 0x0, symName: '-[Session setDelegates:]', symObjAddr: 0x41EC, symBinAddr: 0x8348, symSize: 0x30 }
+  - { offset: 0xDC031, size: 0x8, addend: 0x0, symName: '-[Session lastExternalIP]', symObjAddr: 0x421C, symBinAddr: 0x8378, symSize: 0x8 }
+  - { offset: 0xDC069, size: 0x8, addend: 0x0, symName: '-[Session setLastExternalIP:]', symObjAddr: 0x4224, symBinAddr: 0x8380, symSize: 0x30 }
+  - { offset: 0xDC0AB, size: 0x8, addend: 0x0, symName: '-[Session .cxx_destruct]', symObjAddr: 0x4254, symBinAddr: 0x83B0, symSize: 0x90 }
+  - { offset: 0xDC0DE, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.225, symObjAddr: 0xAE20, symBinAddr: 0xCCDC, symSize: 0x1C }
+  - { offset: 0xDC0F2, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.226, symObjAddr: 0xAE3C, symBinAddr: 0xCCF8, symSize: 0x1C }
+  - { offset: 0xDC106, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.227, symObjAddr: 0xAE58, symBinAddr: 0xCD14, symSize: 0x1C }
+  - { offset: 0xDC11A, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.228, symObjAddr: 0xAE74, symBinAddr: 0xCD30, symSize: 0x1C }
+  - { offset: 0xDC12E, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.229, symObjAddr: 0xAE90, symBinAddr: 0xCD4C, symSize: 0x1C }
+  - { offset: 0xDC142, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.230, symObjAddr: 0xAEAC, symBinAddr: 0xCD68, symSize: 0x1C }
+  - { offset: 0xDC156, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.231, symObjAddr: 0xAEC8, symBinAddr: 0xCD84, symSize: 0x1C }
+  - { offset: 0xDC16A, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.232, symObjAddr: 0xAEE4, symBinAddr: 0xCDA0, symSize: 0x1C }
+  - { offset: 0xDC17E, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.233, symObjAddr: 0xAF00, symBinAddr: 0xCDBC, symSize: 0x1C }
+  - { offset: 0xDC192, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.234, symObjAddr: 0xAF1C, symBinAddr: 0xCDD8, symSize: 0x38 }
+  - { offset: 0xDC1A6, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED1Ev, symObjAddr: 0x42E4, symBinAddr: 0x8440, symSize: 0x4 }
+  - { offset: 0xDC1D6, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED1Ev, symObjAddr: 0x42E4, symBinAddr: 0x8440, symSize: 0x4 }
+  - { offset: 0xDC1EA, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED2Ev, symObjAddr: 0x6614, symBinAddr: 0xA198, symSize: 0x38 }
+  - { offset: 0xDC264, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.235, symObjAddr: 0xAF54, symBinAddr: 0xCE10, symSize: 0x58 }
+  - { offset: 0xDC2AF, size: 0x8, addend: 0x0, symName: __ZN5boost4asio3ssl6detail12openssl_initILb1EEC2Ev, symObjAddr: 0x699C, symBinAddr: 0xA520, symSize: 0xC8 }
+  - { offset: 0xDC3FB, size: 0x8, addend: 0x0, symName: __ZN5boost4asio3ssl6detail12openssl_initILb1EED1Ev, symObjAddr: 0x42E8, symBinAddr: 0x8444, symSize: 0x4 }
+  - { offset: 0xDC42B, size: 0x8, addend: 0x0, symName: __ZN5boost4asio3ssl6detail12openssl_initILb1EED1Ev, symObjAddr: 0x42E8, symBinAddr: 0x8444, symSize: 0x4 }
+  - { offset: 0xDC448, size: 0x8, addend: 0x0, symName: __ZN5boost4asio3ssl6detail12openssl_initILb1EED1Ev, symObjAddr: 0x42E8, symBinAddr: 0x8444, symSize: 0x4 }
+  - { offset: 0xDC467, size: 0x8, addend: 0x0, symName: __ZN5boost4asio3ssl6detail12openssl_initILb1EED1Ev, symObjAddr: 0x42E8, symBinAddr: 0x8444, symSize: 0x4 }
+  - { offset: 0xDC47B, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5boost4asio3ssl6detail17openssl_init_base7do_initEED2B9nqe210106Ev, symObjAddr: 0x6B7C, symBinAddr: 0xA700, symSize: 0x58 }
+  - { offset: 0xDC519, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail21system_error_category4nameEv, symObjAddr: 0x42EC, symBinAddr: 0x8448, symSize: 0xC }
+  - { offset: 0xDC540, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail21system_error_category23default_error_conditionEi, symObjAddr: 0x42F8, symBinAddr: 0x8454, symSize: 0xC }
+  - { offset: 0xDC596, size: 0x8, addend: 0x0, symName: __ZNK5boost6system14error_category10equivalentEiRKNS0_15error_conditionE, symObjAddr: 0x4304, symBinAddr: 0x8460, symSize: 0x9C }
+  - { offset: 0xDC664, size: 0x8, addend: 0x0, symName: __ZNK5boost6system14error_category10equivalentERKNS0_10error_codeEi, symObjAddr: 0x43A0, symBinAddr: 0x84FC, symSize: 0x14 }
+  - { offset: 0xDC6D4, size: 0x8, addend: 0x0, symName: __ZNK5boost6system10error_code6equalsEiRKNS0_14error_categoryE, symObjAddr: 0x445C, symBinAddr: 0x85B8, symSize: 0xD0 }
+  - { offset: 0xDC7AC, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail21system_error_category7messageEi, symObjAddr: 0x43B4, symBinAddr: 0x8510, symSize: 0x38 }
+  - { offset: 0xDC897, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail21system_error_category7messageEiPcm, symObjAddr: 0x43EC, symBinAddr: 0x8548, symSize: 0x64 }
+  - { offset: 0xDC9A0, size: 0x8, addend: 0x0, symName: __ZNK5boost6system14error_category6failedEi, symObjAddr: 0x4450, symBinAddr: 0x85AC, symSize: 0xC }
+  - { offset: 0xDCA28, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev, symObjAddr: 0x452C, symBinAddr: 0x8688, symSize: 0x14 }
+  - { offset: 0xDCA40, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB9nqe210106EPKc, symObjAddr: 0x4540, symBinAddr: 0x869C, symSize: 0x50 }
+  - { offset: 0xDCA4B, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B9nqe210106EPKc, symObjAddr: 0x4590, symBinAddr: 0x86EC, symSize: 0x24 }
+  - { offset: 0xDCB3E, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_4pairItNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS5_IS8_EEE5clearB9nqe210106Ev, symObjAddr: 0x461C, symBinAddr: 0x8778, symSize: 0x50 }
+  - { offset: 0xDCDFB, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm, symObjAddr: 0x46A0, symBinAddr: 0x87FC, symSize: 0xB8 }
+  - { offset: 0xDD4D6, size: 0x8, addend: 0x0, symName: __ZN5boost6system12system_errorD1Ev, symObjAddr: 0x4C88, symBinAddr: 0x8D88, symSize: 0x4 }
+  - { offset: 0xDD4FA, size: 0x8, addend: 0x0, symName: __ZN5boost6system12system_errorD1Ev, symObjAddr: 0x4C88, symBinAddr: 0x8D88, symSize: 0x4 }
+  - { offset: 0xDD515, size: 0x8, addend: 0x0, symName: __ZNK5boost6system10error_code4whatEv, symObjAddr: 0x4D1C, symBinAddr: 0x8E1C, symSize: 0x150 }
+  - { offset: 0xDDC65, size: 0x8, addend: 0x0, symName: __ZNK5boost6system10error_code7messageEv, symObjAddr: 0x4E80, symBinAddr: 0x8F80, symSize: 0x7C }
+  - { offset: 0xDDD9E, size: 0x8, addend: 0x0, symName: __ZNK5boost6system10error_code9to_stringEv, symObjAddr: 0x4EFC, symBinAddr: 0x8FFC, symSize: 0x198 }
+  - { offset: 0xDE24F, size: 0x8, addend: 0x0, symName: __ZNK5boost15source_location9to_stringEv, symObjAddr: 0x5094, symBinAddr: 0x9194, symSize: 0x178 }
+  - { offset: 0xDE729, size: 0x8, addend: 0x0, symName: __ZN5boost6system12system_errorD0Ev, symObjAddr: 0x4E6C, symBinAddr: 0x8F6C, symSize: 0x14 }
+  - { offset: 0xDE904, size: 0x8, addend: 0x0, symName: __ZThn16_NSt3__113basic_fstreamIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x5788, symBinAddr: 0x930C, symSize: 0x5C }
+  - { offset: 0xDE987, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__113basic_fstreamIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x57E4, symBinAddr: 0x9368, symSize: 0x64 }
+  - { offset: 0xDEA10, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_fstreamIcNS_11char_traitsIcEEED0Ev, symObjAddr: 0x5848, symBinAddr: 0x93CC, symSize: 0x64 }
+  - { offset: 0xDEAB8, size: 0x8, addend: 0x0, symName: __ZThn16_NSt3__113basic_fstreamIcNS_11char_traitsIcEEED0Ev, symObjAddr: 0x58AC, symBinAddr: 0x9430, symSize: 0x64 }
+  - { offset: 0xDEB5B, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__113basic_fstreamIcNS_11char_traitsIcEEED0Ev, symObjAddr: 0x5910, symBinAddr: 0x9494, symSize: 0x6C }
+  - { offset: 0xDEC02, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x597C, symBinAddr: 0x9500, symSize: 0x4 }
+  - { offset: 0xDEC26, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x597C, symBinAddr: 0x9500, symSize: 0x4 }
+  - { offset: 0xDEC58, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE5closeEv, symObjAddr: 0x5A0C, symBinAddr: 0x9590, symSize: 0x84 }
+  - { offset: 0xDEE21, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED0Ev, symObjAddr: 0x5A90, symBinAddr: 0x9614, symSize: 0x14 }
+  - { offset: 0xDEEDB, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE, symObjAddr: 0x5AA4, symBinAddr: 0x9628, symSize: 0xEC }
+  - { offset: 0xDEFB9, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE6setbufEPcl, symObjAddr: 0x5B90, symBinAddr: 0x9714, symSize: 0x114 }
+  - { offset: 0xDF05F, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE25__request_unbuffered_modeB9nqe210106EPcl, symObjAddr: 0x6530, symBinAddr: 0xA0B4, symSize: 0x50 }
+  - { offset: 0xDF16C, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj, symObjAddr: 0x5CA4, symBinAddr: 0x9828, symSize: 0x100 }
+  - { offset: 0xDF31C, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE7seekposENS_4fposI11__mbstate_tEEj, symObjAddr: 0x5DA4, symBinAddr: 0x9928, symSize: 0xD0 }
+  - { offset: 0xDF364, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE7seekposENS_4fposI11__mbstate_tEEj, symObjAddr: 0x5DA4, symBinAddr: 0x9928, symSize: 0xD0 }
+  - { offset: 0xDF50D, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4syncEv, symObjAddr: 0x5E74, symBinAddr: 0x99F8, symSize: 0x240 }
+  - { offset: 0xDF810, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9underflowEv, symObjAddr: 0x60B4, symBinAddr: 0x9C38, symSize: 0x270 }
+  - { offset: 0xDF90B, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9underflowEv, symObjAddr: 0x60B4, symBinAddr: 0x9C38, symSize: 0x270 }
+  - { offset: 0xDFCC7, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi, symObjAddr: 0x6324, symBinAddr: 0x9EA8, symSize: 0x5C }
+  - { offset: 0xDFD16, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9pbackfailEi, symObjAddr: 0x6324, symBinAddr: 0x9EA8, symSize: 0x5C }
+  - { offset: 0xDFEA6, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE8overflowEi, symObjAddr: 0x6380, symBinAddr: 0x9F04, symSize: 0x1B0 }
+  - { offset: 0xE01B3, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE25__request_unbuffered_modeB9nqe210106EPcl, symObjAddr: 0x6530, symBinAddr: 0xA0B4, symSize: 0x50 }
+  - { offset: 0xE01BE, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE12__write_modeEv, symObjAddr: 0x65A8, symBinAddr: 0xA12C, symSize: 0x6C }
+  - { offset: 0xE02D9, size: 0x8, addend: 0x0, symName: __ZN5boost4asio14system_contextD2Ev, symObjAddr: 0x664C, symBinAddr: 0xA1D0, symSize: 0x174 }
+  - { offset: 0xE0971, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail9scheduler13work_finishedEv, symObjAddr: 0x67C0, symBinAddr: 0xA344, symSize: 0xD8 }
+  - { offset: 0xE0BFC, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail12thread_groupINSt3__19allocatorIvEEE4joinEv, symObjAddr: 0x6898, symBinAddr: 0xA41C, symSize: 0x7C }
+  - { offset: 0xE0D6E, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail27conditionally_enabled_mutex11scoped_lockD2Ev, symObjAddr: 0x6914, symBinAddr: 0xA498, symSize: 0x3C }
+  - { offset: 0xE0D79, size: 0x8, addend: 0x0, symName: __ZN5boost4asio6detail27conditionally_enabled_mutex11scoped_lockD2Ev, symObjAddr: 0x6914, symBinAddr: 0xA498, symSize: 0x3C }
+  - { offset: 0xE11A9, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5boost4asio3ssl6detail17openssl_init_base7do_initEEC2B9nqe210106IS6_Li0EEEPT_, symObjAddr: 0x6A68, symBinAddr: 0xA5EC, symSize: 0x60 }
+  - { offset: 0xE12FB, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5boost4asio3ssl6detail17openssl_init_base7do_initEED1B9nqe210106Ev, symObjAddr: 0x6A64, symBinAddr: 0xA5E8, symSize: 0x4 }
+  - { offset: 0xE131F, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN5boost4asio3ssl6detail17openssl_init_base7do_initEED1B9nqe210106Ev, symObjAddr: 0x6A64, symBinAddr: 0xA5E8, symSize: 0x4 }
+  - { offset: 0xE14C4, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEED1Ev, symObjAddr: 0x6AC8, symBinAddr: 0xA64C, symSize: 0x4 }
+  - { offset: 0xE14E8, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEED1Ev, symObjAddr: 0x6AC8, symBinAddr: 0xA64C, symSize: 0x4 }
+  - { offset: 0xE1523, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEED0Ev, symObjAddr: 0x6ACC, symBinAddr: 0xA650, symSize: 0x14 }
+  - { offset: 0xE158A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEE16__on_zero_sharedEv, symObjAddr: 0x6AE0, symBinAddr: 0xA664, symSize: 0x10 }
+  - { offset: 0xE15CF, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x6AF0, symBinAddr: 0xA674, symSize: 0x3C }
+  - { offset: 0xE161D, size: 0x8, addend: 0x0, symName: __ZNKSt9type_infoeqB9nqe210106ERKS_, symObjAddr: 0x6B30, symBinAddr: 0xA6B4, symSize: 0x4C }
+  - { offset: 0xE1704, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6B2C, symBinAddr: 0xA6B0, symSize: 0x4 }
+  - { offset: 0xE1738, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6B2C, symBinAddr: 0xA6B0, symSize: 0x4 }
+  - { offset: 0xE175C, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN5boost4asio3ssl6detail17openssl_init_base7do_initENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS_9allocatorIS6_EEE21__on_zero_shared_weakEv, symObjAddr: 0x6B2C, symBinAddr: 0xA6B0, symSize: 0x4 }
+  - { offset: 0xE18E4, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS13_PvEEEE, symObjAddr: 0x6C0C, symBinAddr: 0xA790, symSize: 0x3C }
+  - { offset: 0xE1C08, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEED2Ev, symObjAddr: 0x6C48, symBinAddr: 0xA7CC, symSize: 0x38 }
+  - { offset: 0xE1E5A, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISU_PvEEEE, symObjAddr: 0x6C80, symBinAddr: 0xA804, symSize: 0x3C }
+  - { offset: 0xE20BE, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS4_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEENS_22__unordered_map_hasherIS7_NSE_IKS7_SI_EENS9_IS7_EENSB_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SO_SN_Lb1EEENSD_ISM_EEED2Ev, symObjAddr: 0x6CF8, symBinAddr: 0xA87C, symSize: 0x38 }
+  - { offset: 0xE2310, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS4_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEENS_22__unordered_map_hasherIS7_NSE_IKS7_SI_EENS9_IS7_EENSB_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SO_SN_Lb1EEENSD_ISM_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISJ_PvEEEE, symObjAddr: 0x6D30, symBinAddr: 0xA8B4, symSize: 0x3C }
+  - { offset: 0xE2634, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIiiEENS_22__unordered_map_hasherIiNS_4pairIKiiEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev, symObjAddr: 0x6D6C, symBinAddr: 0xA8F0, symSize: 0x48 }
+  - { offset: 0xE2A1C, size: 0x8, addend: 0x0, symName: __ZNSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_ED1Ev, symObjAddr: 0x6DB4, symBinAddr: 0xA938, symSize: 0x4 }
+  - { offset: 0xE2A4B, size: 0x8, addend: 0x0, symName: __ZNSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_ED0Ev, symObjAddr: 0x6DB8, symBinAddr: 0xA93C, symSize: 0x4 }
+  - { offset: 0xE2AC2, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E7__cloneEv, symObjAddr: 0x6DBC, symBinAddr: 0xA940, symSize: 0x38 }
+  - { offset: 0xE2B39, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E7__cloneEPNS0_6__baseISA_EE, symObjAddr: 0x6DF4, symBinAddr: 0xA978, symSize: 0x18 }
+  - { offset: 0xE2B6F, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E7__cloneEPNS0_6__baseISA_EE, symObjAddr: 0x6DF4, symBinAddr: 0xA978, symSize: 0x18 }
+  - { offset: 0xE2B96, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E7__cloneEPNS0_6__baseISA_EE, symObjAddr: 0x6DF4, symBinAddr: 0xA978, symSize: 0x18 }
+  - { offset: 0xE2BBC, size: 0x8, addend: 0x0, symName: __ZNSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E7destroyEv, symObjAddr: 0x6E0C, symBinAddr: 0xA990, symSize: 0x4 }
+  - { offset: 0xE2BE1, size: 0x8, addend: 0x0, symName: __ZNSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E18destroy_deallocateEv, symObjAddr: 0x6E10, symBinAddr: 0xA994, symSize: 0x14 }
+  - { offset: 0xE2C63, size: 0x8, addend: 0x0, symName: __ZNSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_EclES8_OS9_, symObjAddr: 0x6E24, symBinAddr: 0xA9A8, symSize: 0x14 }
+  - { offset: 0xE2D61, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E6targetERKSt9type_info, symObjAddr: 0x6E38, symBinAddr: 0xA9BC, symSize: 0x3C }
+  - { offset: 0xE2DAF, size: 0x8, addend: 0x0, symName: __ZNKSt3__110__function6__funcIPFNS_10shared_ptrIN10libtorrent14torrent_pluginEEERKNS3_14torrent_handleENS3_13client_data_tEESA_E11target_typeEv, symObjAddr: 0x6E74, symBinAddr: 0xA9F8, symSize: 0xC }
+  - { offset: 0xE341F, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEE8__rehashILb1EEEvm, symObjAddr: 0x712C, symBinAddr: 0xAC58, symSize: 0xD0 }
+  - { offset: 0xE3523, size: 0x8, addend: 0x0, symName: __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS6_IN5boost4asio2ip14basic_endpointINSF_3tcpEEENS6_IiiNS_4hashIiEENS_8equal_toIiEENSA_INS_4pairIKiiEEEEEENSJ_ISI_EENSL_ISI_EENSA_INSN_IKSI_SR_EEEEEENSJ_ISC_EENSL_ISC_EENSA_INSN_IKSC_SX_EEEEEEEEPvEENS_22__hash_node_destructorINSA_IS16_EEEEE5resetB9nqe210106EPS16_, symObjAddr: 0x7330, symBinAddr: 0xAE5C, symSize: 0x48 }
+  - { offset: 0xE36FD, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEE11__do_rehashILb1EEEvm, symObjAddr: 0x71FC, symBinAddr: 0xAD28, symSize: 0x134 }
+  - { offset: 0xE3A78, size: 0x8, addend: 0x0, symName: __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS6_IN5boost4asio2ip14basic_endpointINSF_3tcpEEENS6_IiiNS_4hashIiEENS_8equal_toIiEENSA_INS_4pairIKiiEEEEEENSJ_ISI_EENSL_ISI_EENSA_INSN_IKSI_SR_EEEEEENSJ_ISC_EENSL_ISC_EENSA_INSN_IKSC_SX_EEEEEEEEPvEENS_22__hash_node_destructorINSA_IS16_EEEEE5resetB9nqe210106EPS16_, symObjAddr: 0x7330, symBinAddr: 0xAE5C, symSize: 0x48 }
+  - { offset: 0xE4166, size: 0x8, addend: 0x0, symName: __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE, symObjAddr: 0x75D4, symBinAddr: 0xB100, symSize: 0x3C }
+  - { offset: 0xE425B, size: 0x8, addend: 0x0, symName: __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_, symObjAddr: 0x7A7C, symBinAddr: 0xB5A8, symSize: 0x70 }
+  - { offset: 0xE42A7, size: 0x8, addend: 0x0, symName: __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_, symObjAddr: 0x7A7C, symBinAddr: 0xB5A8, symSize: 0x70 }
+  - { offset: 0xE42DB, size: 0x8, addend: 0x0, symName: __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_, symObjAddr: 0x7A7C, symBinAddr: 0xB5A8, symSize: 0x70 }
+  - { offset: 0xE42F9, size: 0x8, addend: 0x0, symName: __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_, symObjAddr: 0x7A7C, symBinAddr: 0xB5A8, symSize: 0x70 }
+  - { offset: 0xE44BC, size: 0x8, addend: 0x0, symName: __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSC_3tcpEEENS9_IiiNS_4hashIiEENS_8equal_toIiEENS6_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS6_INSK_IKSF_SO_EEEEEEEEPvEENS_22__hash_node_destructorINS6_ISX_EEEEE5resetB9nqe210106EPSX_, symObjAddr: 0x7CF0, symBinAddr: 0xB618, symSize: 0x48 }
+  - { offset: 0xE4605, size: 0x8, addend: 0x0, symName: __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqe210106EPKvm, symObjAddr: 0x7610, symBinAddr: 0xB13C, symSize: 0x208 }
+  - { offset: 0xE4CCB, size: 0x8, addend: 0x0, symName: __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9nqe210106EPKcm, symObjAddr: 0x7818, symBinAddr: 0xB344, symSize: 0xF8 }
+  - { offset: 0xE4EF1, size: 0x8, addend: 0x0, symName: __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9nqe210106EPKcm, symObjAddr: 0x79BC, symBinAddr: 0xB4E8, symSize: 0xC0 }
+  - { offset: 0xE517A, size: 0x8, addend: 0x0, symName: __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9nqe210106EPKcm, symObjAddr: 0x7910, symBinAddr: 0xB43C, symSize: 0xAC }
+  - { offset: 0xE5556, size: 0x8, addend: 0x0, symName: __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSC_3tcpEEENS9_IiiNS_4hashIiEENS_8equal_toIiEENS6_INS_4pairIKiiEEEEEENSG_ISF_EENSI_ISF_EENS6_INSK_IKSF_SO_EEEEEEEEPvEENS_22__hash_node_destructorINS6_ISX_EEEEE5resetB9nqe210106EPSX_, symObjAddr: 0x7CF0, symBinAddr: 0xB618, symSize: 0x48 }
+  - { offset: 0xE5CC8, size: 0x8, addend: 0x0, symName: __ZNKSt3__14hashIN5boost4asio2ip14basic_endpointINS3_3tcpEEEEclERKS6_, symObjAddr: 0x7F84, symBinAddr: 0xB8AC, symSize: 0x94 }
+  - { offset: 0xE5F9B, size: 0x8, addend: 0x0, symName: __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS5_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEEPvEENS_22__hash_node_destructorINSE_ISM_EEEEE5resetB9nqe210106EPSM_, symObjAddr: 0x87F0, symBinAddr: 0xBB6C, symSize: 0x48 }
+  - { offset: 0xE6351, size: 0x8, addend: 0x0, symName: __ZNKSt3__14hashIN5boost4asio2ip7addressEEclERKS4_, symObjAddr: 0x8018, symBinAddr: 0xB940, symSize: 0x90 }
+  - { offset: 0xE671C, size: 0x8, addend: 0x0, symName: __ZNKSt3__14hashIN5boost4asio2ip10address_v6EEclERKS4_, symObjAddr: 0x80A8, symBinAddr: 0xB9D0, symSize: 0xA4 }
+  - { offset: 0xE6777, size: 0x8, addend: 0x0, symName: __ZNKSt3__14hashIN5boost4asio2ip10address_v6EEclERKS4_, symObjAddr: 0x80A8, symBinAddr: 0xB9D0, symSize: 0xA4 }
+  - { offset: 0xE68E5, size: 0x8, addend: 0x0, symName: __ZN5boost4asio2ip16bad_address_castD1Ev, symObjAddr: 0x8198, symBinAddr: 0xBA74, symSize: 0x4 }
+  - { offset: 0xE6909, size: 0x8, addend: 0x0, symName: __ZN5boost4asio2ip16bad_address_castD1Ev, symObjAddr: 0x8198, symBinAddr: 0xBA74, symSize: 0x4 }
+  - { offset: 0xE6924, size: 0x8, addend: 0x0, symName: __ZN5boost4asio2ip16bad_address_castD0Ev, symObjAddr: 0x819C, symBinAddr: 0xBA78, symSize: 0x14 }
+  - { offset: 0xE6989, size: 0x8, addend: 0x0, symName: __ZNK5boost4asio2ip16bad_address_cast4whatEv, symObjAddr: 0x81B0, symBinAddr: 0xBA8C, symSize: 0xC }
+  - { offset: 0xE6BCE, size: 0x8, addend: 0x0, symName: __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS5_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEEPvEENS_22__hash_node_destructorINSE_ISM_EEEEE5resetB9nqe210106EPSM_, symObjAddr: 0x87F0, symBinAddr: 0xBB6C, symSize: 0x48 }
+  - { offset: 0xE7933, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev, symObjAddr: 0x91A4, symBinAddr: 0xBDB8, symSize: 0x14 }
+  - { offset: 0xE7C38, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev, symObjAddr: 0x91A4, symBinAddr: 0xBDB8, symSize: 0x14 }
+  - { offset: 0xE7C50, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC2Ev, symObjAddr: 0x91B8, symBinAddr: 0xBDCC, symSize: 0x154 }
+  - { offset: 0xE7CBD, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE9__do_openB9nqe210106EP7__sFILEj, symObjAddr: 0x943C, symBinAddr: 0xC050, symSize: 0x78 }
+  - { offset: 0xE7FE2, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEE25__emplace_unique_key_argsIS4_JRKS16_EEENSM_INS_15__hash_iteratorIPNS_11__hash_nodeIS13_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x9528, symBinAddr: 0xC13C, symSize: 0x210 }
+  - { offset: 0xE856B, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN10libtorrent8digest32ILl160EEENS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IN5boost4asio2ip14basic_endpointINSE_3tcpEEENS5_IiiNS_4hashIiEENS_8equal_toIiEENS9_INS_4pairIKiiEEEEEENSI_ISH_EENSK_ISH_EENS9_INSM_IKSH_SQ_EEEEEENSI_ISB_EENSK_ISB_EENS9_INSM_IKSB_SW_EEEEEEEENS_22__unordered_map_hasherIS4_NSM_IKS4_S12_EENSI_IS4_EENSK_IS4_EELb1EEENS_21__unordered_map_equalIS4_S16_S18_S17_Lb1EEENS9_IS16_EEE21__construct_node_hashIRKS16_JEEENS_10unique_ptrINS_11__hash_nodeIS13_PvEENS_22__hash_node_destructorINS9_IS1K_EEEEEEmOT_DpOT0_, symObjAddr: 0x9738, symBinAddr: 0xC34C, symSize: 0x80 }
+  - { offset: 0xE89CE, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IN5boost4asio2ip14basic_endpointINS9_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS4_INS_4pairIKiiEEEEEENSD_ISC_EENSF_ISC_EENS4_INSH_IKSC_SL_EEEEEENSD_IS6_EENSF_IS6_EENS4_INSH_IKS6_SR_EEEEEC2ERKSX_, symObjAddr: 0x97B8, symBinAddr: 0xC3CC, symSize: 0x74 }
+  - { offset: 0xE8F6E, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEE25__emplace_unique_key_argsIS7_JRKSX_EEENSJ_INS_15__hash_iteratorIPNS_11__hash_nodeISU_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x982C, symBinAddr: 0xC440, symSize: 0x22C }
+  - { offset: 0xE93F5, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEE21__construct_node_hashIRKSX_JEEENS_10unique_ptrINS_11__hash_nodeISU_PvEENS_22__hash_node_destructorINS5_IS1B_EEEEEEmOT_DpOT0_, symObjAddr: 0x9A58, symBinAddr: 0xC66C, symSize: 0x6C }
+  - { offset: 0xE97A8, size: 0x8, addend: 0x0, symName: __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS4_INS0_IKiiEEEEEENSF_ISE_EENSH_ISE_EENS4_INS0_IKSE_SM_EEEEEEEC2B9nqe210106ERKST_, symObjAddr: 0x9AC4, symBinAddr: 0xC6D8, symSize: 0x74 }
+  - { offset: 0xE99B9, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIN5boost4asio2ip14basic_endpointINS3_3tcpEEENS0_IiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEENS7_IS6_EENS9_IS6_EENSB_INSC_IKS6_SG_EEEEEC2ERKSM_, symObjAddr: 0x9B38, symBinAddr: 0xC74C, symSize: 0x74 }
+  - { offset: 0xE9F59, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS4_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEENS_22__unordered_map_hasherIS7_NSE_IKS7_SI_EENS9_IS7_EENSB_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SO_SN_Lb1EEENSD_ISM_EEE25__emplace_unique_key_argsIS7_JRKSM_EEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISJ_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x9BAC, symBinAddr: 0xC7C0, symSize: 0x228 }
+  - { offset: 0xEA414, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIN5boost4asio2ip14basic_endpointINS4_3tcpEEENS_13unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEEEENS_22__unordered_map_hasherIS7_NSE_IKS7_SI_EENS9_IS7_EENSB_IS7_EELb1EEENS_21__unordered_map_equalIS7_SM_SO_SN_Lb1EEENSD_ISM_EEE21__construct_node_hashIRKSM_JEEENS_10unique_ptrINS_11__hash_nodeISJ_PvEENS_22__hash_node_destructorINSD_IS10_EEEEEEmOT_DpOT0_, symObjAddr: 0x9DD4, symBinAddr: 0xC9E8, symSize: 0x80 }
+  - { offset: 0xEA917, size: 0x8, addend: 0x0, symName: __ZNSt3__113unordered_mapIiiNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiiEEEEEC2ERKSA_, symObjAddr: 0x9E54, symBinAddr: 0xCA68, symSize: 0x74 }
+  - { offset: 0xEAECD, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIiiEENS_22__unordered_map_hasherIiNS_4pairIKiiEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIiJRKS6_EEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x9EC8, symBinAddr: 0xCADC, symSize: 0x200 }
+  - { offset: 0xEB680, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Session.mm, symObjAddr: 0xAFAC, symBinAddr: 0xCE68, symSize: 0x50 }
+  - { offset: 0xEE144, size: 0x8, addend: 0x0, symName: '-[FileEntry index]', symObjAddr: 0x0, symBinAddr: 0xCEB8, symSize: 0x8 }
+  - { offset: 0xEE316, size: 0x8, addend: 0x0, symName: '-[FileEntry index]', symObjAddr: 0x0, symBinAddr: 0xCEB8, symSize: 0x8 }
+  - { offset: 0xEE34D, size: 0x8, addend: 0x0, symName: '-[FileEntry setIndex:]', symObjAddr: 0x8, symBinAddr: 0xCEC0, symSize: 0x8 }
+  - { offset: 0xEE38A, size: 0x8, addend: 0x0, symName: '-[FileEntry isPrototype]', symObjAddr: 0x10, symBinAddr: 0xCEC8, symSize: 0x8 }
+  - { offset: 0xEE3C1, size: 0x8, addend: 0x0, symName: '-[FileEntry setIsPrototype:]', symObjAddr: 0x18, symBinAddr: 0xCED0, symSize: 0x8 }
+  - { offset: 0xEE3FC, size: 0x8, addend: 0x0, symName: '-[FileEntry name]', symObjAddr: 0x20, symBinAddr: 0xCED8, symSize: 0x8 }
+  - { offset: 0xEE433, size: 0x8, addend: 0x0, symName: '-[FileEntry setName:]', symObjAddr: 0x28, symBinAddr: 0xCEE0, symSize: 0x30 }
+  - { offset: 0xEE474, size: 0x8, addend: 0x0, symName: '-[FileEntry path]', symObjAddr: 0x58, symBinAddr: 0xCF10, symSize: 0x8 }
+  - { offset: 0xEE4AB, size: 0x8, addend: 0x0, symName: '-[FileEntry setPath:]', symObjAddr: 0x60, symBinAddr: 0xCF18, symSize: 0x30 }
+  - { offset: 0xEE4EC, size: 0x8, addend: 0x0, symName: '-[FileEntry size]', symObjAddr: 0x90, symBinAddr: 0xCF48, symSize: 0x8 }
+  - { offset: 0xEE523, size: 0x8, addend: 0x0, symName: '-[FileEntry setSize:]', symObjAddr: 0x98, symBinAddr: 0xCF50, symSize: 0x8 }
+  - { offset: 0xEE560, size: 0x8, addend: 0x0, symName: '-[FileEntry downloaded]', symObjAddr: 0xA0, symBinAddr: 0xCF58, symSize: 0x8 }
+  - { offset: 0xEE597, size: 0x8, addend: 0x0, symName: '-[FileEntry setDownloaded:]', symObjAddr: 0xA8, symBinAddr: 0xCF60, symSize: 0x8 }
+  - { offset: 0xEE5D4, size: 0x8, addend: 0x0, symName: '-[FileEntry priority]', symObjAddr: 0xB0, symBinAddr: 0xCF68, symSize: 0x8 }
+  - { offset: 0xEE60B, size: 0x8, addend: 0x0, symName: '-[FileEntry setPriority:]', symObjAddr: 0xB8, symBinAddr: 0xCF70, symSize: 0x8 }
+  - { offset: 0xEE648, size: 0x8, addend: 0x0, symName: '-[FileEntry begin_idx]', symObjAddr: 0xC0, symBinAddr: 0xCF78, symSize: 0x8 }
+  - { offset: 0xEE67F, size: 0x8, addend: 0x0, symName: '-[FileEntry setBegin_idx:]', symObjAddr: 0xC8, symBinAddr: 0xCF80, symSize: 0x8 }
+  - { offset: 0xEE6BC, size: 0x8, addend: 0x0, symName: '-[FileEntry end_idx]', symObjAddr: 0xD0, symBinAddr: 0xCF88, symSize: 0x8 }
+  - { offset: 0xEE6F3, size: 0x8, addend: 0x0, symName: '-[FileEntry setEnd_idx:]', symObjAddr: 0xD8, symBinAddr: 0xCF90, symSize: 0x8 }
+  - { offset: 0xEE730, size: 0x8, addend: 0x0, symName: '-[FileEntry num_pieces]', symObjAddr: 0xE0, symBinAddr: 0xCF98, symSize: 0x8 }
+  - { offset: 0xEE767, size: 0x8, addend: 0x0, symName: '-[FileEntry setNum_pieces:]', symObjAddr: 0xE8, symBinAddr: 0xCFA0, symSize: 0x8 }
+  - { offset: 0xEE7A4, size: 0x8, addend: 0x0, symName: '-[FileEntry pieces]', symObjAddr: 0xF0, symBinAddr: 0xCFA8, symSize: 0x8 }
+  - { offset: 0xEE7DB, size: 0x8, addend: 0x0, symName: '-[FileEntry setPieces:]', symObjAddr: 0xF8, symBinAddr: 0xCFB0, symSize: 0x30 }
+  - { offset: 0xEE81C, size: 0x8, addend: 0x0, symName: '-[FileEntry .cxx_destruct]', symObjAddr: 0x128, symBinAddr: 0xCFE0, symSize: 0x3C }
+  - { offset: 0xEE8A1, size: 0x8, addend: 0x0, symName: '+[Version libtorrentVersion]', symObjAddr: 0x0, symBinAddr: 0xD01C, symSize: 0x3C }
+  - { offset: 0xEE8C9, size: 0x8, addend: 0x0, symName: '+[Version libtorrentVersion]', symObjAddr: 0x0, symBinAddr: 0xD01C, symSize: 0x3C }
+  - { offset: 0xEF508, size: 0x8, addend: 0x0, symName: __ZN5boost4asio2iplsIcNSt3__111char_traitsIcEENS1_3tcpEEERNS3_13basic_ostreamIT_T0_EESB_RKNS1_14basic_endpointIT1_EE, symObjAddr: 0x4738, symBinAddr: 0xEEF0, symSize: 0xF4 }
+  - { offset: 0xEFAF3, size: 0x8, addend: 0x0, symName: __ZN5boost4asio2iplsIcNSt3__111char_traitsIcEEEERNS3_13basic_ostreamIT_T0_EESA_RKNS1_7addressE, symObjAddr: 0x4E9C, symBinAddr: 0xF654, symSize: 0x90 }
+  - { offset: 0x11D334, size: 0x8, addend: 0x0, symName: __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m, symObjAddr: 0x4AA0, symBinAddr: 0xF258, symSize: 0x168 }
+  - { offset: 0x11ED08, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc, symObjAddr: 0x1F2C, symBinAddr: 0xE830, symSize: 0x50 }
+  - { offset: 0x11EE9B, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m, symObjAddr: 0x1EF8, symBinAddr: 0xE7FC, symSize: 0x34 }
+  - { offset: 0x11EF2E, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc, symObjAddr: 0x1F2C, symBinAddr: 0xE830, symSize: 0x50 }
+  - { offset: 0x120856, size: 0x8, addend: 0x0, symName: __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_, symObjAddr: 0x4C08, symBinAddr: 0xF3C0, symSize: 0x140 }
+  - { offset: 0x12DCA7, size: 0x8, addend: 0x0, symName: __ZTVNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE, symObjAddr: 0x7870, symBinAddr: 0x37ADA0, symSize: 0x0 }
+  - { offset: 0x12E051, size: 0x8, addend: 0x0, symName: __ZTVNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE, symObjAddr: 0x7A68, symBinAddr: 0x37AF98, symSize: 0x0 }
+  - { offset: 0x12E07B, size: 0x8, addend: 0x0, symName: __ZN5boost6system6detail18interop_cat_holderIvE8instanceE, symObjAddr: 0x77C8, symBinAddr: 0x3906F0, symSize: 0x0 }
+  - { offset: 0x12E09F, size: 0x8, addend: 0x0, symName: __ZTVN5boost6system6detail22interop_error_categoryE, symObjAddr: 0x7B00, symBinAddr: 0x37B030, symSize: 0x0 }
+  - { offset: 0x12E0F8, size: 0x8, addend: 0x0, symName: __ZTVNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE, symObjAddr: 0x7CD0, symBinAddr: 0x37B090, symSize: 0x0 }
+  - { offset: 0x1355B9, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint name]', symObjAddr: 0x0, symBinAddr: 0xD058, symSize: 0xC }
+  - { offset: 0x1355F0, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setName:]', symObjAddr: 0xC, symBinAddr: 0xD064, symSize: 0x8 }
+  - { offset: 0x13562F, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint btVersion]', symObjAddr: 0x14, symBinAddr: 0xD06C, symSize: 0x8 }
+  - { offset: 0x135666, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setBtVersion:]', symObjAddr: 0x1C, symBinAddr: 0xD074, symSize: 0x8 }
+  - { offset: 0x1356A3, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint state]', symObjAddr: 0x24, symBinAddr: 0xD07C, symSize: 0x8 }
+  - { offset: 0x1356DA, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setState:]', symObjAddr: 0x2C, symBinAddr: 0xD084, symSize: 0x8 }
+  - { offset: 0x135717, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint message]', symObjAddr: 0x34, symBinAddr: 0xD08C, symSize: 0xC }
+  - { offset: 0x13574E, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setMessage:]', symObjAddr: 0x40, symBinAddr: 0xD098, symSize: 0x8 }
+  - { offset: 0x13578D, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint seeds]', symObjAddr: 0x48, symBinAddr: 0xD0A0, symSize: 0x8 }
+  - { offset: 0x1357C4, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setSeeds:]', symObjAddr: 0x50, symBinAddr: 0xD0A8, symSize: 0x8 }
+  - { offset: 0x135801, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint peers]', symObjAddr: 0x58, symBinAddr: 0xD0B0, symSize: 0x8 }
+  - { offset: 0x135838, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setPeers:]', symObjAddr: 0x60, symBinAddr: 0xD0B8, symSize: 0x8 }
+  - { offset: 0x135875, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint leeches]', symObjAddr: 0x68, symBinAddr: 0xD0C0, symSize: 0x8 }
+  - { offset: 0x1358AC, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setLeeches:]', symObjAddr: 0x70, symBinAddr: 0xD0C8, symSize: 0x8 }
+  - { offset: 0x1358E9, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint downloaded]', symObjAddr: 0x78, symBinAddr: 0xD0D0, symSize: 0x8 }
+  - { offset: 0x135920, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setDownloaded:]', symObjAddr: 0x80, symBinAddr: 0xD0D8, symSize: 0x8 }
+  - { offset: 0x13595D, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint nextAnnounceTime]', symObjAddr: 0x88, symBinAddr: 0xD0E0, symSize: 0xC }
+  - { offset: 0x135994, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setNextAnnounceTime:]', symObjAddr: 0x94, symBinAddr: 0xD0EC, symSize: 0x8 }
+  - { offset: 0x1359D3, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint minAnnounceTime]', symObjAddr: 0x9C, symBinAddr: 0xD0F4, symSize: 0xC }
+  - { offset: 0x135A0A, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint setMinAnnounceTime:]', symObjAddr: 0xA8, symBinAddr: 0xD100, symSize: 0x8 }
+  - { offset: 0x135A49, size: 0x8, addend: 0x0, symName: '-[TorrentTrackerEndpoint .cxx_destruct]', symObjAddr: 0xB0, symBinAddr: 0xD108, symSize: 0x48 }
+  - { offset: 0x135C19, size: 0x8, addend: 0x0, symName: __Z8toStringRKN5boost4asio2ip14basic_endpointINS1_3tcpEEE, symObjAddr: 0xF8, symBinAddr: 0xD150, symSize: 0xE0 }
+  - { offset: 0x135E90, size: 0x8, addend: 0x0, symName: __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev, symObjAddr: 0x1D8, symBinAddr: 0xD230, symSize: 0xC0 }
+  - { offset: 0x135FA1, size: 0x8, addend: 0x0, symName: __ZNOSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe210106Ev, symObjAddr: 0x60A0, symBinAddr: 0xFA08, symSize: 0xA8 }
+  - { offset: 0x1361F6, size: 0x8, addend: 0x0, symName: __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev, symObjAddr: 0x298, symBinAddr: 0xD2F0, symSize: 0x94 }
+  - { offset: 0x136496, size: 0x8, addend: 0x0, symName: __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej, symObjAddr: 0x4594, symBinAddr: 0xED4C, symSize: 0xA0 }
+  - { offset: 0x1366F3, size: 0x8, addend: 0x0, symName: __Z17fromLTTimePoint32RKNSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIiNS_5ratioILl1ELl1EEEEEEE, symObjAddr: 0x32C, symBinAddr: 0xD384, symSize: 0x70 }
+  - { offset: 0x136FEB, size: 0x8, addend: 0x0, symName: '-[TorrentTracker initWithAnnounceEntry:from:]', symObjAddr: 0x39C, symBinAddr: 0xD3F4, symSize: 0xEB4 }
+  - { offset: 0x138B14, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9nqe210106EOi, symObjAddr: 0x1250, symBinAddr: 0xE2A8, symSize: 0xC0 }
+  - { offset: 0x138FE0, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail22interop_error_category4nameEv, symObjAddr: 0x2024, symBinAddr: 0xE8A4, symSize: 0xC }
+  - { offset: 0x139558, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSW_EEENS19_IJEEEEEENSJ_INS_15__hash_iteratorIPNS_11__hash_nodeISU_PvEEEEbEERKT_DpOT0_, symObjAddr: 0x2768, symBinAddr: 0xE9B0, symSize: 0x244 }
+  - { offset: 0x13A1FF, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIiiEENS_22__unordered_map_hasherIiNS_4pairIKiiEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_, symObjAddr: 0x42E8, symBinAddr: 0xECA4, symSize: 0xA8 }
+  - { offset: 0x13A249, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIiiEENS_22__unordered_map_hasherIiNS_4pairIKiiEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_, symObjAddr: 0x42E8, symBinAddr: 0xECA4, symSize: 0xA8 }
+  - { offset: 0x13A267, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeIiiEENS_22__unordered_map_hasherIiNS_4pairIKiiEENS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_, symObjAddr: 0x42E8, symBinAddr: 0xECA4, symSize: 0xA8 }
+  - { offset: 0x13A80B, size: 0x8, addend: 0x0, symName: __ZN5boost6system10error_codeC2IN10libtorrent6errors15error_code_enumEEET_PNSt3__19enable_ifIXoosr18is_error_code_enumIS6_EE5valuesr3std18is_error_code_enumIS6_EE5valueEvE4typeE, symObjAddr: 0x20E0, symBinAddr: 0xE960, symSize: 0x50 }
+  - { offset: 0x13AD03, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m, symObjAddr: 0x1EF8, symBinAddr: 0xE7FC, symSize: 0x34 }
+  - { offset: 0x13AED7, size: 0x8, addend: 0x0, symName: '-[TorrentTracker trackerUrl]', symObjAddr: 0x138C, symBinAddr: 0xE368, symSize: 0xC }
+  - { offset: 0x13AF0E, size: 0x8, addend: 0x0, symName: '-[TorrentTracker tire]', symObjAddr: 0x1398, symBinAddr: 0xE374, symSize: 0x8 }
+  - { offset: 0x13AF45, size: 0x8, addend: 0x0, symName: '-[TorrentTracker state]', symObjAddr: 0x13A0, symBinAddr: 0xE37C, symSize: 0x8 }
+  - { offset: 0x13AF7C, size: 0x8, addend: 0x0, symName: '-[TorrentTracker message]', symObjAddr: 0x13A8, symBinAddr: 0xE384, symSize: 0xC }
+  - { offset: 0x13AFB3, size: 0x8, addend: 0x0, symName: '-[TorrentTracker seeds]', symObjAddr: 0x13B4, symBinAddr: 0xE390, symSize: 0x8 }
+  - { offset: 0x13AFEA, size: 0x8, addend: 0x0, symName: '-[TorrentTracker peers]', symObjAddr: 0x13BC, symBinAddr: 0xE398, symSize: 0x8 }
+  - { offset: 0x13B021, size: 0x8, addend: 0x0, symName: '-[TorrentTracker leeches]', symObjAddr: 0x13C4, symBinAddr: 0xE3A0, symSize: 0x8 }
+  - { offset: 0x13B058, size: 0x8, addend: 0x0, symName: '-[TorrentTracker downloaded]', symObjAddr: 0x13CC, symBinAddr: 0xE3A8, symSize: 0x8 }
+  - { offset: 0x13B08F, size: 0x8, addend: 0x0, symName: '-[TorrentTracker nextAnnounceTime]', symObjAddr: 0x13D4, symBinAddr: 0xE3B0, symSize: 0xC }
+  - { offset: 0x13B0C6, size: 0x8, addend: 0x0, symName: '-[TorrentTracker minAnnounceTime]', symObjAddr: 0x13E0, symBinAddr: 0xE3BC, symSize: 0xC }
+  - { offset: 0x13B0FD, size: 0x8, addend: 0x0, symName: '-[TorrentTracker endpoints]', symObjAddr: 0x13EC, symBinAddr: 0xE3C8, symSize: 0xC }
+  - { offset: 0x13B134, size: 0x8, addend: 0x0, symName: '-[TorrentTracker .cxx_destruct]', symObjAddr: 0x13F8, symBinAddr: 0xE3D4, symSize: 0x54 }
+  - { offset: 0x13B167, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.92, symObjAddr: 0x6740, symBinAddr: 0xFAB0, symSize: 0x1C }
+  - { offset: 0x13B17B, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.93, symObjAddr: 0x675C, symBinAddr: 0xFACC, symSize: 0x1C }
+  - { offset: 0x13B18F, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.94, symObjAddr: 0x6778, symBinAddr: 0xFAE8, symSize: 0x1C }
+  - { offset: 0x13B1A3, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.95, symObjAddr: 0x6794, symBinAddr: 0xFB04, symSize: 0x1C }
+  - { offset: 0x13B1B7, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.96, symObjAddr: 0x67B0, symBinAddr: 0xFB20, symSize: 0x1C }
+  - { offset: 0x13B3E1, size: 0x8, addend: 0x0, symName: __ZNK5boost6system14error_category23default_error_conditionEi, symObjAddr: 0x17F4, symBinAddr: 0xE428, symSize: 0x10 }
+  - { offset: 0x13B41A, size: 0x8, addend: 0x0, symName: __ZThn16_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev, symObjAddr: 0x1804, symBinAddr: 0xE438, symSize: 0x98 }
+  - { offset: 0x13B5BF, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev, symObjAddr: 0x189C, symBinAddr: 0xE4D0, symSize: 0x94 }
+  - { offset: 0x13B762, size: 0x8, addend: 0x0, symName: __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev, symObjAddr: 0x1930, symBinAddr: 0xE564, symSize: 0x94 }
+  - { offset: 0x13B92C, size: 0x8, addend: 0x0, symName: __ZThn16_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev, symObjAddr: 0x19C4, symBinAddr: 0xE5F8, symSize: 0xA0 }
+  - { offset: 0x13BAF1, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev, symObjAddr: 0x1A64, symBinAddr: 0xE698, symSize: 0x9C }
+  - { offset: 0x13BCB2, size: 0x8, addend: 0x0, symName: __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev, symObjAddr: 0x1B00, symBinAddr: 0xE734, symSize: 0x58 }
+  - { offset: 0x13BE11, size: 0x8, addend: 0x0, symName: __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev, symObjAddr: 0x1B58, symBinAddr: 0xE78C, symSize: 0x58 }
+  - { offset: 0x13C063, size: 0x8, addend: 0x0, symName: __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekposENS_4fposI11__mbstate_tEEj, symObjAddr: 0x1CB0, symBinAddr: 0xE7E4, symSize: 0x18 }
+  - { offset: 0x13C1D9, size: 0x8, addend: 0x0, symName: __ZNSt12out_of_rangeC1B9nqe210106EPKc, symObjAddr: 0x1F7C, symBinAddr: 0xE880, symSize: 0x24 }
+  - { offset: 0x13C265, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail22interop_error_category4nameEv, symObjAddr: 0x2024, symBinAddr: 0xE8A4, symSize: 0xC }
+  - { offset: 0x13C28C, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail22interop_error_category7messageEi, symObjAddr: 0x2030, symBinAddr: 0xE8B0, symSize: 0x70 }
+  - { offset: 0x13C33C, size: 0x8, addend: 0x0, symName: __ZNK5boost6system6detail22interop_error_category7messageEiPcm, symObjAddr: 0x20A0, symBinAddr: 0xE920, symSize: 0x40 }
+  - { offset: 0x13DC98, size: 0x8, addend: 0x0, symName: __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIN5boost4asio2ip14basic_endpointINSB_3tcpEEENS8_IiiNS_4hashIiEENS_8equal_toIiEENS5_INS_4pairIKiiEEEEEENSF_ISE_EENSH_ISE_EENS5_INSJ_IKSE_SN_EEEEEEEENS_22__unordered_map_hasherIS7_NSJ_IKS7_ST_EENSF_IS7_EENSH_IS7_EELb1EEENS_21__unordered_map_equalIS7_SX_SZ_SY_Lb1EEENS5_ISX_EEE21__construct_node_hashIRKNS_21piecewise_construct_tEJNS_5tupleIJRSW_EEENS19_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISU_PvEENS_22__hash_node_destructorINS5_IS1G_EEEEEEmOT_DpOT0_, symObjAddr: 0x29AC, symBinAddr: 0xEBF4, symSize: 0xB0 }
+  - { offset: 0x1415E7, size: 0x8, addend: 0x0, symName: __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev, symObjAddr: 0x4634, symBinAddr: 0xEDEC, symSize: 0x104 }
+  - { offset: 0x1418B3, size: 0x8, addend: 0x0, symName: __ZNK5boost4asio2ip6detail8endpoint9to_stringEv, symObjAddr: 0x482C, symBinAddr: 0xEFE4, symSize: 0x274 }
+  - { offset: 0x1422D5, size: 0x8, addend: 0x0, symName: __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev, symObjAddr: 0x4DE8, symBinAddr: 0xF5A0, symSize: 0xB4 }
+  - { offset: 0x1423CF, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106INS_17basic_string_viewIcS2_EELi0EEERKT_RKS4_, symObjAddr: 0x6000, symBinAddr: 0xF968, symSize: 0xA0 }
+  - { offset: 0x14260E, size: 0x8, addend: 0x0, symName: __ZNOSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe210106Ev, symObjAddr: 0x60A0, symBinAddr: 0xFA08, symSize: 0xA8 }
+  - { offset: 0x14262A, size: 0x8, addend: 0x0, symName: __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev, symObjAddr: 0x4F2C, symBinAddr: 0xF6E4, symSize: 0x8C }
+  - { offset: 0x142A28, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Emc, symObjAddr: 0x4D48, symBinAddr: 0xF500, symSize: 0xA0 }
+  - { offset: 0x142C67, size: 0x8, addend: 0x0, symName: __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev, symObjAddr: 0x4DE8, symBinAddr: 0xF5A0, symSize: 0xB4 }
+  - { offset: 0x142EAB, size: 0x8, addend: 0x0, symName: __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev, symObjAddr: 0x4FB8, symBinAddr: 0xF770, symSize: 0x8C }
+  - { offset: 0x143059, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev, symObjAddr: 0x5044, symBinAddr: 0xF7FC, symSize: 0x8C }
+  - { offset: 0x14320A, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev, symObjAddr: 0x50D0, symBinAddr: 0xF888, symSize: 0x94 }
+  - { offset: 0x144634, size: 0x8, addend: 0x0, symName: __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9nqe210106Ev, symObjAddr: 0x5FB4, symBinAddr: 0xF91C, symSize: 0x4C }
+  - { offset: 0x1447B4, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_TorrentTracker.mm, symObjAddr: 0x67CC, symBinAddr: 0xFB3C, symSize: 0x14 }
+  - { offset: 0x1474A1, size: 0x8, addend: 0x0, symName: __Z18proxyTypeConverterP15SessionSettings, symObjAddr: 0x0, symBinAddr: 0xFB50, symSize: 0xB0 }
+  - { offset: 0x14D91A, size: 0x8, addend: 0x0, symName: __Z18proxyTypeConverterP15SessionSettings, symObjAddr: 0x0, symBinAddr: 0xFB50, symSize: 0xB0 }
+  - { offset: 0x14D949, size: 0x8, addend: 0x0, symName: '-[SessionSettings init]', symObjAddr: 0xB0, symBinAddr: 0xFC00, symSize: 0x3C }
+  - { offset: 0x14DB3B, size: 0x8, addend: 0x0, symName: '-[SessionSettings settingsPack]', symObjAddr: 0xEC, symBinAddr: 0xFC3C, symSize: 0x3D8 }
+  - { offset: 0x14EFF3, size: 0x8, addend: 0x0, symName: '-[SessionSettings agentName]', symObjAddr: 0x51C, symBinAddr: 0x10014, symSize: 0x8 }
+  - { offset: 0x14F02A, size: 0x8, addend: 0x0, symName: '-[SessionSettings setAgentName:]', symObjAddr: 0x524, symBinAddr: 0x1001C, symSize: 0x30 }
+  - { offset: 0x14F06B, size: 0x8, addend: 0x0, symName: '-[SessionSettings preallocateStorage]', symObjAddr: 0x554, symBinAddr: 0x1004C, symSize: 0x8 }
+  - { offset: 0x14F0A2, size: 0x8, addend: 0x0, symName: '-[SessionSettings setPreallocateStorage:]', symObjAddr: 0x55C, symBinAddr: 0x10054, symSize: 0x8 }
+  - { offset: 0x14F0DD, size: 0x8, addend: 0x0, symName: '-[SessionSettings maxActiveTorrents]', symObjAddr: 0x564, symBinAddr: 0x1005C, symSize: 0x8 }
+  - { offset: 0x14F114, size: 0x8, addend: 0x0, symName: '-[SessionSettings setMaxActiveTorrents:]', symObjAddr: 0x56C, symBinAddr: 0x10064, symSize: 0x8 }
+  - { offset: 0x14F151, size: 0x8, addend: 0x0, symName: '-[SessionSettings maxDownloadingTorrents]', symObjAddr: 0x574, symBinAddr: 0x1006C, symSize: 0x8 }
+  - { offset: 0x14F188, size: 0x8, addend: 0x0, symName: '-[SessionSettings setMaxDownloadingTorrents:]', symObjAddr: 0x57C, symBinAddr: 0x10074, symSize: 0x8 }
+  - { offset: 0x14F1C5, size: 0x8, addend: 0x0, symName: '-[SessionSettings maxUploadingTorrents]', symObjAddr: 0x584, symBinAddr: 0x1007C, symSize: 0x8 }
+  - { offset: 0x14F1FC, size: 0x8, addend: 0x0, symName: '-[SessionSettings setMaxUploadingTorrents:]', symObjAddr: 0x58C, symBinAddr: 0x10084, symSize: 0x8 }
+  - { offset: 0x14F239, size: 0x8, addend: 0x0, symName: '-[SessionSettings maxDownloadSpeed]', symObjAddr: 0x594, symBinAddr: 0x1008C, symSize: 0x8 }
+  - { offset: 0x14F270, size: 0x8, addend: 0x0, symName: '-[SessionSettings setMaxDownloadSpeed:]', symObjAddr: 0x59C, symBinAddr: 0x10094, symSize: 0x8 }
+  - { offset: 0x14F2AD, size: 0x8, addend: 0x0, symName: '-[SessionSettings maxUploadSpeed]', symObjAddr: 0x5A4, symBinAddr: 0x1009C, symSize: 0x8 }
+  - { offset: 0x14F2E4, size: 0x8, addend: 0x0, symName: '-[SessionSettings setMaxUploadSpeed:]', symObjAddr: 0x5AC, symBinAddr: 0x100A4, symSize: 0x8 }
+  - { offset: 0x14F321, size: 0x8, addend: 0x0, symName: '-[SessionSettings isDhtEnabled]', symObjAddr: 0x5B4, symBinAddr: 0x100AC, symSize: 0x8 }
+  - { offset: 0x14F358, size: 0x8, addend: 0x0, symName: '-[SessionSettings setIsDhtEnabled:]', symObjAddr: 0x5BC, symBinAddr: 0x100B4, symSize: 0x8 }
+  - { offset: 0x14F393, size: 0x8, addend: 0x0, symName: '-[SessionSettings isLsdEnabled]', symObjAddr: 0x5C4, symBinAddr: 0x100BC, symSize: 0x8 }
+  - { offset: 0x14F3CA, size: 0x8, addend: 0x0, symName: '-[SessionSettings setIsLsdEnabled:]', symObjAddr: 0x5CC, symBinAddr: 0x100C4, symSize: 0x8 }
+  - { offset: 0x14F405, size: 0x8, addend: 0x0, symName: '-[SessionSettings isUtpEnabled]', symObjAddr: 0x5D4, symBinAddr: 0x100CC, symSize: 0x8 }
+  - { offset: 0x14F43C, size: 0x8, addend: 0x0, symName: '-[SessionSettings setIsUtpEnabled:]', symObjAddr: 0x5DC, symBinAddr: 0x100D4, symSize: 0x8 }
+  - { offset: 0x14F477, size: 0x8, addend: 0x0, symName: '-[SessionSettings isUpnpEnabled]', symObjAddr: 0x5E4, symBinAddr: 0x100DC, symSize: 0x8 }
+  - { offset: 0x14F4AE, size: 0x8, addend: 0x0, symName: '-[SessionSettings setIsUpnpEnabled:]', symObjAddr: 0x5EC, symBinAddr: 0x100E4, symSize: 0x8 }
+  - { offset: 0x14F4E9, size: 0x8, addend: 0x0, symName: '-[SessionSettings isNatEnabled]', symObjAddr: 0x5F4, symBinAddr: 0x100EC, symSize: 0x8 }
+  - { offset: 0x14F520, size: 0x8, addend: 0x0, symName: '-[SessionSettings setIsNatEnabled:]', symObjAddr: 0x5FC, symBinAddr: 0x100F4, symSize: 0x8 }
+  - { offset: 0x14F55B, size: 0x8, addend: 0x0, symName: '-[SessionSettings encryptionPolicy]', symObjAddr: 0x604, symBinAddr: 0x100FC, symSize: 0x8 }
+  - { offset: 0x14F592, size: 0x8, addend: 0x0, symName: '-[SessionSettings setEncryptionPolicy:]', symObjAddr: 0x60C, symBinAddr: 0x10104, symSize: 0x8 }
+  - { offset: 0x14F5CF, size: 0x8, addend: 0x0, symName: '-[SessionSettings validateHttpsTrackers]', symObjAddr: 0x614, symBinAddr: 0x1010C, symSize: 0x8 }
+  - { offset: 0x14F606, size: 0x8, addend: 0x0, symName: '-[SessionSettings setValidateHttpsTrackers:]', symObjAddr: 0x61C, symBinAddr: 0x10114, symSize: 0x8 }
+  - { offset: 0x14F641, size: 0x8, addend: 0x0, symName: '-[SessionSettings port]', symObjAddr: 0x624, symBinAddr: 0x1011C, symSize: 0x8 }
+  - { offset: 0x14F678, size: 0x8, addend: 0x0, symName: '-[SessionSettings setPort:]', symObjAddr: 0x62C, symBinAddr: 0x10124, symSize: 0x8 }
+  - { offset: 0x14F6B5, size: 0x8, addend: 0x0, symName: '-[SessionSettings portBindRetries]', symObjAddr: 0x634, symBinAddr: 0x1012C, symSize: 0x8 }
+  - { offset: 0x14F6EC, size: 0x8, addend: 0x0, symName: '-[SessionSettings setPortBindRetries:]', symObjAddr: 0x63C, symBinAddr: 0x10134, symSize: 0x8 }
+  - { offset: 0x14F729, size: 0x8, addend: 0x0, symName: '-[SessionSettings outgoingInterfaces]', symObjAddr: 0x644, symBinAddr: 0x1013C, symSize: 0x8 }
+  - { offset: 0x14F760, size: 0x8, addend: 0x0, symName: '-[SessionSettings setOutgoingInterfaces:]', symObjAddr: 0x64C, symBinAddr: 0x10144, symSize: 0x30 }
+  - { offset: 0x14F7A1, size: 0x8, addend: 0x0, symName: '-[SessionSettings listenInterfaces]', symObjAddr: 0x67C, symBinAddr: 0x10174, symSize: 0x8 }
+  - { offset: 0x14F7D8, size: 0x8, addend: 0x0, symName: '-[SessionSettings setListenInterfaces:]', symObjAddr: 0x684, symBinAddr: 0x1017C, symSize: 0x30 }
+  - { offset: 0x14F819, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyType]', symObjAddr: 0x6B4, symBinAddr: 0x101AC, symSize: 0x8 }
+  - { offset: 0x14F850, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyType:]', symObjAddr: 0x6BC, symBinAddr: 0x101B4, symSize: 0x8 }
+  - { offset: 0x14F88D, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyHostname]', symObjAddr: 0x6C4, symBinAddr: 0x101BC, symSize: 0x8 }
+  - { offset: 0x14F8C4, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyHostname:]', symObjAddr: 0x6CC, symBinAddr: 0x101C4, symSize: 0x30 }
+  - { offset: 0x14F905, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyHostPort]', symObjAddr: 0x6FC, symBinAddr: 0x101F4, symSize: 0x8 }
+  - { offset: 0x14F93C, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyHostPort:]', symObjAddr: 0x704, symBinAddr: 0x101FC, symSize: 0x8 }
+  - { offset: 0x14F979, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyAuthRequired]', symObjAddr: 0x70C, symBinAddr: 0x10204, symSize: 0x8 }
+  - { offset: 0x14F9B0, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyAuthRequired:]', symObjAddr: 0x714, symBinAddr: 0x1020C, symSize: 0x8 }
+  - { offset: 0x14F9EB, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyUsername]', symObjAddr: 0x71C, symBinAddr: 0x10214, symSize: 0x8 }
+  - { offset: 0x14FA22, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyUsername:]', symObjAddr: 0x724, symBinAddr: 0x1021C, symSize: 0x30 }
+  - { offset: 0x14FA63, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyPassword]', symObjAddr: 0x754, symBinAddr: 0x1024C, symSize: 0x8 }
+  - { offset: 0x14FA9A, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyPassword:]', symObjAddr: 0x75C, symBinAddr: 0x10254, symSize: 0x30 }
+  - { offset: 0x14FADB, size: 0x8, addend: 0x0, symName: '-[SessionSettings proxyPeerConnections]', symObjAddr: 0x78C, symBinAddr: 0x10284, symSize: 0x8 }
+  - { offset: 0x14FB12, size: 0x8, addend: 0x0, symName: '-[SessionSettings setProxyPeerConnections:]', symObjAddr: 0x794, symBinAddr: 0x1028C, symSize: 0x8 }
+  - { offset: 0x14FB4D, size: 0x8, addend: 0x0, symName: '-[SessionSettings .cxx_destruct]', symObjAddr: 0x79C, symBinAddr: 0x10294, symSize: 0x60 }
+  - { offset: 0x16C3F4, size: 0x8, addend: 0x0, symName: __ZNSt3__1rsB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_istreamIT_T0_EES7_RS4_, symObjAddr: 0x1B90, symBinAddr: 0x11D30, symSize: 0x104 }
+  - { offset: 0x16C5C4, size: 0x8, addend: 0x0, symName: __ZNSt3__115allocate_sharedB9nqe210106IN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEJRS3_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_, symObjAddr: 0x2EE4, symBinAddr: 0x11FF0, symSize: 0x58 }
+  - { offset: 0x16E2DF, size: 0x8, addend: 0x0, symName: __ZTVNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE, symObjAddr: 0x5770, symBinAddr: 0x37B168, symSize: 0x0 }
+  - { offset: 0x173407, size: 0x8, addend: 0x0, symName: '-[TorrentFile initUnsafeWithFileAtURL:]', symObjAddr: 0x0, symBinAddr: 0x102F4, symSize: 0x430 }
+  - { offset: 0x173B70, size: 0x8, addend: 0x0, symName: '-[TorrentFile initUnsafeWithFileWithData:]', symObjAddr: 0x430, symBinAddr: 0x10724, symSize: 0x40C }
+  - { offset: 0x17417A, size: 0x8, addend: 0x0, symName: '-[TorrentFile torrent_info]', symObjAddr: 0x83C, symBinAddr: 0x10B30, symSize: 0x94 }
+  - { offset: 0x17421B, size: 0x8, addend: 0x0, symName: '-[TorrentFile infoHashes]', symObjAddr: 0x8D0, symBinAddr: 0x10BC4, symSize: 0x64 }
+  - { offset: 0x17427E, size: 0x8, addend: 0x0, symName: '-[TorrentFile isValid]', symObjAddr: 0x934, symBinAddr: 0x10C28, symSize: 0x40 }
+  - { offset: 0x174B38, size: 0x8, addend: 0x0, symName: '-[TorrentFile configureAddTorrentParams:forSession:]', symObjAddr: 0x974, symBinAddr: 0x10C68, symSize: 0x72C }
+  - { offset: 0x175F48, size: 0x8, addend: 0x0, symName: __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEC1ERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj, symObjAddr: 0x10A0, symBinAddr: 0x11394, symSize: 0xF8 }
+  - { offset: 0x176162, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIcNS_9allocatorIcEEE20__init_with_sentinelB9nqe210106INS_16istream_iteratorIccNS_11char_traitsIcEElEES8_EEvT_T0_, symObjAddr: 0x1A24, symBinAddr: 0x11BD8, symSize: 0x158 }
+  - { offset: 0x1766E1, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106IPKcS8_EEvT_T0_m, symObjAddr: 0x2E44, symBinAddr: 0x11F50, symSize: 0xA0 }
+  - { offset: 0x17694F, size: 0x8, addend: 0x0, symName: __ZNSt3__115allocate_sharedB9nqe210106IN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEJRS3_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_, symObjAddr: 0x2EE4, symBinAddr: 0x11FF0, symSize: 0x58 }
+  - { offset: 0x1769D6, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN10libtorrent2v212torrent_infoEEaSB9nqe210106EOS4_, symObjAddr: 0x1198, symBinAddr: 0x1148C, symSize: 0x64 }
+  - { offset: 0x176B8D, size: 0x8, addend: 0x0, symName: __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x11FC, symBinAddr: 0x114F0, symSize: 0x5C }
+  - { offset: 0x1771BC, size: 0x8, addend: 0x0, symName: '-[TorrentFile configureAfterAdded:]', symObjAddr: 0x1258, symBinAddr: 0x1154C, symSize: 0x130 }
+  - { offset: 0x1775FA, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN10libtorrent3aux14strong_typedefIhNS1_21download_priority_tagEvEENS_9allocatorIS5_EEE9push_backB9nqe210106EOS5_, symObjAddr: 0x1388, symBinAddr: 0x1167C, symSize: 0xD4 }
+  - { offset: 0x177A69, size: 0x8, addend: 0x0, symName: '-[TorrentFile name]', symObjAddr: 0x145C, symBinAddr: 0x11750, symSize: 0x88 }
+  - { offset: 0x177D21, size: 0x8, addend: 0x0, symName: '-[TorrentFile name]', symObjAddr: 0x145C, symBinAddr: 0x11750, symSize: 0x88 }
+  - { offset: 0x177E14, size: 0x8, addend: 0x0, symName: '-[TorrentFile files]', symObjAddr: 0x14E4, symBinAddr: 0x117D8, symSize: 0x28 }
+  - { offset: 0x177E4B, size: 0x8, addend: 0x0, symName: '-[TorrentFile getFileAt:]', symObjAddr: 0x150C, symBinAddr: 0x11800, symSize: 0xBC }
+  - { offset: 0x177EA2, size: 0x8, addend: 0x0, symName: '-[TorrentFile setFilePriority:at:]', symObjAddr: 0x15C8, symBinAddr: 0x118BC, symSize: 0xA0 }
+  - { offset: 0x177EF5, size: 0x8, addend: 0x0, symName: '-[TorrentFile setFilesPriority:at:]', symObjAddr: 0x1668, symBinAddr: 0x1195C, symSize: 0x154 }
+  - { offset: 0x177F6F, size: 0x8, addend: 0x0, symName: '-[TorrentFile setAllFilesPriority:]', symObjAddr: 0x17BC, symBinAddr: 0x11AB0, symSize: 0xCC }
+  - { offset: 0x177FC9, size: 0x8, addend: 0x0, symName: '-[TorrentFile fileData]', symObjAddr: 0x1888, symBinAddr: 0x11B7C, symSize: 0x8 }
+  - { offset: 0x178000, size: 0x8, addend: 0x0, symName: '-[TorrentFile priorities]', symObjAddr: 0x1890, symBinAddr: 0x11B84, symSize: 0xC }
+  - { offset: 0x178037, size: 0x8, addend: 0x0, symName: '-[TorrentFile filesCache]', symObjAddr: 0x189C, symBinAddr: 0x11B90, symSize: 0xC }
+  - { offset: 0x17806E, size: 0x8, addend: 0x0, symName: '-[TorrentFile .cxx_destruct]', symObjAddr: 0x18A8, symBinAddr: 0x11B9C, symSize: 0x3C }
+  - { offset: 0x1780A1, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.107, symObjAddr: 0x3414, symBinAddr: 0x120D8, symSize: 0x1C }
+  - { offset: 0x1780B5, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.108, symObjAddr: 0x3430, symBinAddr: 0x120F4, symSize: 0x1C }
+  - { offset: 0x1780C9, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.109, symObjAddr: 0x344C, symBinAddr: 0x12110, symSize: 0x1C }
+  - { offset: 0x1780DD, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.110, symObjAddr: 0x3468, symBinAddr: 0x1212C, symSize: 0x1C }
+  - { offset: 0x1780F1, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.111, symObjAddr: 0x3484, symBinAddr: 0x12148, symSize: 0x1C }
+  - { offset: 0x178593, size: 0x8, addend: 0x0, symName: __ZNSt3__1rsB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_istreamIT_T0_EES7_RS4_, symObjAddr: 0x1B90, symBinAddr: 0x11D30, symSize: 0x104 }
+  - { offset: 0x1788E1, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev, symObjAddr: 0x1D80, symBinAddr: 0x11E34, symSize: 0x5C }
+  - { offset: 0x17896A, size: 0x8, addend: 0x0, symName: __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED0Ev, symObjAddr: 0x1DDC, symBinAddr: 0x11E90, symSize: 0x5C }
+  - { offset: 0x178A12, size: 0x8, addend: 0x0, symName: __ZTv0_n24_NSt3__114basic_ifstreamIcNS_11char_traitsIcEEED0Ev, symObjAddr: 0x1E38, symBinAddr: 0x11EEC, symSize: 0x64 }
+  - { offset: 0x179013, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEEC2B9nqe210106IJRS3_ES5_Li0EEES5_DpOT_, symObjAddr: 0x2F3C, symBinAddr: 0x12048, symSize: 0x4C }
+  - { offset: 0x1791E6, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x2F88, symBinAddr: 0x12094, symSize: 0x14 }
+  - { offset: 0x17920A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEED1Ev, symObjAddr: 0x2F88, symBinAddr: 0x12094, symSize: 0x14 }
+  - { offset: 0x179245, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEED0Ev, symObjAddr: 0x2F9C, symBinAddr: 0x120A8, symSize: 0x24 }
+  - { offset: 0x179319, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x2FC0, symBinAddr: 0x120CC, symSize: 0x8 }
+  - { offset: 0x179343, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x2FC0, symBinAddr: 0x120CC, symSize: 0x8 }
+  - { offset: 0x179362, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE16__on_zero_sharedEv, symObjAddr: 0x2FC0, symBinAddr: 0x120CC, symSize: 0x8 }
+  - { offset: 0x1793AA, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2FC8, symBinAddr: 0x120D4, symSize: 0x4 }
+  - { offset: 0x1793DE, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2FC8, symBinAddr: 0x120D4, symSize: 0x4 }
+  - { offset: 0x179402, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2FC8, symBinAddr: 0x120D4, symSize: 0x4 }
+  - { offset: 0x179427, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceIN10libtorrent2v212torrent_infoENS_9allocatorIS3_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2FC8, symBinAddr: 0x120D4, symSize: 0x4 }
+  - { offset: 0x17946A, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_TorrentFile.mm, symObjAddr: 0x34A0, symBinAddr: 0x12164, symSize: 0x14 }
+  - { offset: 0x18CBB5, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN10libtorrent4v1_214announce_entryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m, symObjAddr: 0x3284, symBinAddr: 0x15124, symSize: 0x44 }
+  - { offset: 0x18CC48, size: 0x8, addend: 0x0, symName: __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN10libtorrent4v1_214announce_entryEEEPS4_EEvRT_T0_S9_S9_, symObjAddr: 0x32C8, symBinAddr: 0x15168, symSize: 0x9C }
+  - { offset: 0x18CC5D, size: 0x8, addend: 0x0, symName: __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN10libtorrent4v1_214announce_entryEEEPS4_EEvRT_T0_S9_S9_, symObjAddr: 0x32C8, symBinAddr: 0x15168, symSize: 0x9C }
+  - { offset: 0x193319, size: 0x8, addend: 0x0, symName: '-[TorrentHashes initWith:]', symObjAddr: 0x0, symBinAddr: 0x12178, symSize: 0x164 }
+  - { offset: 0x1935D8, size: 0x8, addend: 0x0, symName: '-[TorrentHashes isEqual:]', symObjAddr: 0x164, symBinAddr: 0x122DC, symSize: 0xEC }
+  - { offset: 0x19361F, size: 0x8, addend: 0x0, symName: '-[TorrentHashes hash]', symObjAddr: 0x250, symBinAddr: 0x123C8, symSize: 0x8 }
+  - { offset: 0x193656, size: 0x8, addend: 0x0, symName: '-[TorrentHashes copyWithZone:]', symObjAddr: 0x258, symBinAddr: 0x123D0, symSize: 0x110 }
+  - { offset: 0x1936AD, size: 0x8, addend: 0x0, symName: '-[TorrentHashes hasV1]', symObjAddr: 0x368, symBinAddr: 0x124E0, symSize: 0xC }
+  - { offset: 0x1936E4, size: 0x8, addend: 0x0, symName: '-[TorrentHashes setHasV1:]', symObjAddr: 0x374, symBinAddr: 0x124EC, symSize: 0x8 }
+  - { offset: 0x193721, size: 0x8, addend: 0x0, symName: '-[TorrentHashes hasV2]', symObjAddr: 0x37C, symBinAddr: 0x124F4, symSize: 0xC }
+  - { offset: 0x193758, size: 0x8, addend: 0x0, symName: '-[TorrentHashes setHasV2:]', symObjAddr: 0x388, symBinAddr: 0x12500, symSize: 0x8 }
+  - { offset: 0x193795, size: 0x8, addend: 0x0, symName: '-[TorrentHashes v1]', symObjAddr: 0x390, symBinAddr: 0x12508, symSize: 0xC }
+  - { offset: 0x1937CC, size: 0x8, addend: 0x0, symName: '-[TorrentHashes setV1:]', symObjAddr: 0x39C, symBinAddr: 0x12514, symSize: 0x8 }
+  - { offset: 0x19380B, size: 0x8, addend: 0x0, symName: '-[TorrentHashes v2]', symObjAddr: 0x3A4, symBinAddr: 0x1251C, symSize: 0xC }
+  - { offset: 0x193842, size: 0x8, addend: 0x0, symName: '-[TorrentHashes setV2:]', symObjAddr: 0x3B0, symBinAddr: 0x12528, symSize: 0x8 }
+  - { offset: 0x193881, size: 0x8, addend: 0x0, symName: '-[TorrentHashes best]', symObjAddr: 0x3B8, symBinAddr: 0x12530, symSize: 0xC }
+  - { offset: 0x1938B8, size: 0x8, addend: 0x0, symName: '-[TorrentHashes setBest:]', symObjAddr: 0x3C4, symBinAddr: 0x1253C, symSize: 0x8 }
+  - { offset: 0x1938F7, size: 0x8, addend: 0x0, symName: '-[TorrentHashes .cxx_destruct]', symObjAddr: 0x3CC, symBinAddr: 0x12544, symSize: 0x3C }
+  - { offset: 0x19392A, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot isValid]', symObjAddr: 0x408, symBinAddr: 0x12580, symSize: 0xC }
+  - { offset: 0x193961, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setIsValid:]', symObjAddr: 0x414, symBinAddr: 0x1258C, symSize: 0x8 }
+  - { offset: 0x19399E, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot infoHashes]', symObjAddr: 0x41C, symBinAddr: 0x12594, symSize: 0xC }
+  - { offset: 0x1939D5, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setInfoHashes:]', symObjAddr: 0x428, symBinAddr: 0x125A0, symSize: 0x8 }
+  - { offset: 0x193A14, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot name]', symObjAddr: 0x430, symBinAddr: 0x125A8, symSize: 0xC }
+  - { offset: 0x193A4B, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setName:]', symObjAddr: 0x43C, symBinAddr: 0x125B4, symSize: 0x8 }
+  - { offset: 0x193A8A, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot state]', symObjAddr: 0x444, symBinAddr: 0x125BC, symSize: 0x8 }
+  - { offset: 0x193AC1, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setState:]', symObjAddr: 0x44C, symBinAddr: 0x125C4, symSize: 0x8 }
+  - { offset: 0x193AFE, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot creator]', symObjAddr: 0x454, symBinAddr: 0x125CC, symSize: 0xC }
+  - { offset: 0x193B35, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setCreator:]', symObjAddr: 0x460, symBinAddr: 0x125D8, symSize: 0x8 }
+  - { offset: 0x193B74, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot comment]', symObjAddr: 0x468, symBinAddr: 0x125E0, symSize: 0xC }
+  - { offset: 0x193BAB, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setComment:]', symObjAddr: 0x474, symBinAddr: 0x125EC, symSize: 0x8 }
+  - { offset: 0x193BEA, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot creationDate]', symObjAddr: 0x47C, symBinAddr: 0x125F4, symSize: 0xC }
+  - { offset: 0x193C21, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setCreationDate:]', symObjAddr: 0x488, symBinAddr: 0x12600, symSize: 0x8 }
+  - { offset: 0x193C60, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot progress]', symObjAddr: 0x490, symBinAddr: 0x12608, symSize: 0x8 }
+  - { offset: 0x193C95, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setProgress:]', symObjAddr: 0x498, symBinAddr: 0x12610, symSize: 0x8 }
+  - { offset: 0x193CD3, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot progressWanted]', symObjAddr: 0x4A0, symBinAddr: 0x12618, symSize: 0x8 }
+  - { offset: 0x193D08, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setProgressWanted:]', symObjAddr: 0x4A8, symBinAddr: 0x12620, symSize: 0x8 }
+  - { offset: 0x193D46, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot numberOfPeers]', symObjAddr: 0x4B0, symBinAddr: 0x12628, symSize: 0x8 }
+  - { offset: 0x193D7D, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setNumberOfPeers:]', symObjAddr: 0x4B8, symBinAddr: 0x12630, symSize: 0x8 }
+  - { offset: 0x193DBA, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot numberOfSeeds]', symObjAddr: 0x4C0, symBinAddr: 0x12638, symSize: 0x8 }
+  - { offset: 0x193DF1, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setNumberOfSeeds:]', symObjAddr: 0x4C8, symBinAddr: 0x12640, symSize: 0x8 }
+  - { offset: 0x193E2E, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot numberOfLeechers]', symObjAddr: 0x4D0, symBinAddr: 0x12648, symSize: 0x8 }
+  - { offset: 0x193E65, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setNumberOfLeechers:]', symObjAddr: 0x4D8, symBinAddr: 0x12650, symSize: 0x8 }
+  - { offset: 0x193EA2, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot numberOfTotalPeers]', symObjAddr: 0x4E0, symBinAddr: 0x12658, symSize: 0x8 }
+  - { offset: 0x193ED9, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setNumberOfTotalPeers:]', symObjAddr: 0x4E8, symBinAddr: 0x12660, symSize: 0x8 }
+  - { offset: 0x193F16, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot numberOfTotalSeeds]', symObjAddr: 0x4F0, symBinAddr: 0x12668, symSize: 0x8 }
+  - { offset: 0x193F4D, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setNumberOfTotalSeeds:]', symObjAddr: 0x4F8, symBinAddr: 0x12670, symSize: 0x8 }
+  - { offset: 0x193F8A, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot numberOfTotalLeechers]', symObjAddr: 0x500, symBinAddr: 0x12678, symSize: 0x8 }
+  - { offset: 0x193FC1, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setNumberOfTotalLeechers:]', symObjAddr: 0x508, symBinAddr: 0x12680, symSize: 0x8 }
+  - { offset: 0x193FFE, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot downloadRate]', symObjAddr: 0x510, symBinAddr: 0x12688, symSize: 0x8 }
+  - { offset: 0x194035, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setDownloadRate:]', symObjAddr: 0x518, symBinAddr: 0x12690, symSize: 0x8 }
+  - { offset: 0x194072, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot uploadRate]', symObjAddr: 0x520, symBinAddr: 0x12698, symSize: 0x8 }
+  - { offset: 0x1940A9, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setUploadRate:]', symObjAddr: 0x528, symBinAddr: 0x126A0, symSize: 0x8 }
+  - { offset: 0x1940E6, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot hasMetadata]', symObjAddr: 0x530, symBinAddr: 0x126A8, symSize: 0xC }
+  - { offset: 0x19411D, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setHasMetadata:]', symObjAddr: 0x53C, symBinAddr: 0x126B4, symSize: 0x8 }
+  - { offset: 0x19415A, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot total]', symObjAddr: 0x544, symBinAddr: 0x126BC, symSize: 0x8 }
+  - { offset: 0x194191, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTotal:]', symObjAddr: 0x54C, symBinAddr: 0x126C4, symSize: 0x8 }
+  - { offset: 0x1941CE, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot totalDone]', symObjAddr: 0x554, symBinAddr: 0x126CC, symSize: 0x8 }
+  - { offset: 0x194205, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTotalDone:]', symObjAddr: 0x55C, symBinAddr: 0x126D4, symSize: 0x8 }
+  - { offset: 0x194242, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot totalWanted]', symObjAddr: 0x564, symBinAddr: 0x126DC, symSize: 0x8 }
+  - { offset: 0x194279, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTotalWanted:]', symObjAddr: 0x56C, symBinAddr: 0x126E4, symSize: 0x8 }
+  - { offset: 0x1942B6, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot totalWantedDone]', symObjAddr: 0x574, symBinAddr: 0x126EC, symSize: 0x8 }
+  - { offset: 0x1942ED, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTotalWantedDone:]', symObjAddr: 0x57C, symBinAddr: 0x126F4, symSize: 0x8 }
+  - { offset: 0x19432A, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot totalDownload]', symObjAddr: 0x584, symBinAddr: 0x126FC, symSize: 0x8 }
+  - { offset: 0x194361, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTotalDownload:]', symObjAddr: 0x58C, symBinAddr: 0x12704, symSize: 0x8 }
+  - { offset: 0x19439E, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot totalUpload]', symObjAddr: 0x594, symBinAddr: 0x1270C, symSize: 0x8 }
+  - { offset: 0x1943D5, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTotalUpload:]', symObjAddr: 0x59C, symBinAddr: 0x12714, symSize: 0x8 }
+  - { offset: 0x194412, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot isPaused]', symObjAddr: 0x5A4, symBinAddr: 0x1271C, symSize: 0xC }
+  - { offset: 0x194449, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setIsPaused:]', symObjAddr: 0x5B0, symBinAddr: 0x12728, symSize: 0x8 }
+  - { offset: 0x194486, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot isFinished]', symObjAddr: 0x5B8, symBinAddr: 0x12730, symSize: 0xC }
+  - { offset: 0x1944BD, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setIsFinished:]', symObjAddr: 0x5C4, symBinAddr: 0x1273C, symSize: 0x8 }
+  - { offset: 0x1944FA, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot isSeed]', symObjAddr: 0x5CC, symBinAddr: 0x12744, symSize: 0xC }
+  - { offset: 0x194531, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setIsSeed:]', symObjAddr: 0x5D8, symBinAddr: 0x12750, symSize: 0x8 }
+  - { offset: 0x19456E, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot isSequential]', symObjAddr: 0x5E0, symBinAddr: 0x12758, symSize: 0xC }
+  - { offset: 0x1945A5, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setIsSequential:]', symObjAddr: 0x5EC, symBinAddr: 0x12764, symSize: 0x8 }
+  - { offset: 0x1945E2, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot pieces]', symObjAddr: 0x5F4, symBinAddr: 0x1276C, symSize: 0xC }
+  - { offset: 0x194619, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setPieces:]', symObjAddr: 0x600, symBinAddr: 0x12778, symSize: 0x8 }
+  - { offset: 0x194658, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot files]', symObjAddr: 0x608, symBinAddr: 0x12780, symSize: 0xC }
+  - { offset: 0x19468F, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setFiles:]', symObjAddr: 0x614, symBinAddr: 0x1278C, symSize: 0x8 }
+  - { offset: 0x1946CE, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot trackers]', symObjAddr: 0x61C, symBinAddr: 0x12794, symSize: 0xC }
+  - { offset: 0x194705, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTrackers:]', symObjAddr: 0x628, symBinAddr: 0x127A0, symSize: 0x8 }
+  - { offset: 0x194744, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot magnetLink]', symObjAddr: 0x630, symBinAddr: 0x127A8, symSize: 0xC }
+  - { offset: 0x19477B, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setMagnetLink:]', symObjAddr: 0x63C, symBinAddr: 0x127B4, symSize: 0x8 }
+  - { offset: 0x1947BA, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot torrentFilePath]', symObjAddr: 0x644, symBinAddr: 0x127BC, symSize: 0xC }
+  - { offset: 0x1947F1, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setTorrentFilePath:]', symObjAddr: 0x650, symBinAddr: 0x127C8, symSize: 0x8 }
+  - { offset: 0x194830, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot downloadPath]', symObjAddr: 0x658, symBinAddr: 0x127D0, symSize: 0xC }
+  - { offset: 0x194867, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setDownloadPath:]', symObjAddr: 0x664, symBinAddr: 0x127DC, symSize: 0x8 }
+  - { offset: 0x1948A6, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot storageUUID]', symObjAddr: 0x66C, symBinAddr: 0x127E4, symSize: 0xC }
+  - { offset: 0x1948DD, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setStorageUUID:]', symObjAddr: 0x678, symBinAddr: 0x127F0, symSize: 0x8 }
+  - { offset: 0x19491C, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot isStorageMissing]', symObjAddr: 0x680, symBinAddr: 0x127F8, symSize: 0xC }
+  - { offset: 0x194953, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot setIsStorageMissing:]', symObjAddr: 0x68C, symBinAddr: 0x12804, symSize: 0x8 }
+  - { offset: 0x194990, size: 0x8, addend: 0x0, symName: '-[TorrentHandleSnapshot .cxx_destruct]', symObjAddr: 0x694, symBinAddr: 0x1280C, symSize: 0xA8 }
+  - { offset: 0x194AEE, size: 0x8, addend: 0x0, symName: '-[TorrentHandle initWith:inSession:]', symObjAddr: 0x73C, symBinAddr: 0x128B4, symSize: 0xF4 }
+  - { offset: 0x194CD8, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isValid]', symObjAddr: 0x830, symBinAddr: 0x129A8, symSize: 0x5C }
+  - { offset: 0x194E01, size: 0x8, addend: 0x0, symName: '-[TorrentHandle hash]', symObjAddr: 0x88C, symBinAddr: 0x12A04, symSize: 0x80 }
+  - { offset: 0x194E38, size: 0x8, addend: 0x0, symName: '-[TorrentHandle infoHashes]', symObjAddr: 0x90C, symBinAddr: 0x12A84, symSize: 0x54 }
+  - { offset: 0x194EEC, size: 0x8, addend: 0x0, symName: '-[TorrentHandle nameFromStatus:]', symObjAddr: 0x960, symBinAddr: 0x12AD8, symSize: 0x24 }
+  - { offset: 0x195071, size: 0x8, addend: 0x0, symName: '-[TorrentHandle creatorFromStatus:]', symObjAddr: 0x984, symBinAddr: 0x12AFC, symSize: 0xA0 }
+  - { offset: 0x19526F, size: 0x8, addend: 0x0, symName: '-[TorrentHandle commentFromStatus:]', symObjAddr: 0xA24, symBinAddr: 0x12B9C, symSize: 0xA0 }
+  - { offset: 0x195457, size: 0x8, addend: 0x0, symName: '-[TorrentHandle creationDateFromStatus:]', symObjAddr: 0xAC4, symBinAddr: 0x12C3C, symSize: 0x90 }
+  - { offset: 0x195587, size: 0x8, addend: 0x0, symName: '-[TorrentHandle stateFromStatus:]', symObjAddr: 0xB54, symBinAddr: 0x12CCC, symSize: 0x28 }
+  - { offset: 0x1955C9, size: 0x8, addend: 0x0, symName: '-[TorrentHandle progressFromStatus:]', symObjAddr: 0xB7C, symBinAddr: 0x12CF4, symSize: 0xC }
+  - { offset: 0x19560B, size: 0x8, addend: 0x0, symName: '-[TorrentHandle progressWantedFromStatus:]', symObjAddr: 0xB88, symBinAddr: 0x12D00, symSize: 0xB8 }
+  - { offset: 0x195662, size: 0x8, addend: 0x0, symName: '-[TorrentHandle numberOfPeersFromStatus:]', symObjAddr: 0xC40, symBinAddr: 0x12DB8, symSize: 0x8 }
+  - { offset: 0x1956A4, size: 0x8, addend: 0x0, symName: '-[TorrentHandle numberOfSeedsFromStatus:]', symObjAddr: 0xC48, symBinAddr: 0x12DC0, symSize: 0x8 }
+  - { offset: 0x1956E6, size: 0x8, addend: 0x0, symName: '-[TorrentHandle numberOfLeechersFromStatus:]', symObjAddr: 0xC50, symBinAddr: 0x12DC8, symSize: 0xA0 }
+  - { offset: 0x19572D, size: 0x8, addend: 0x0, symName: '-[TorrentHandle numberOfTotalPeersFromStatus:]', symObjAddr: 0xCF0, symBinAddr: 0x12E68, symSize: 0x1C }
+  - { offset: 0x19577F, size: 0x8, addend: 0x0, symName: '-[TorrentHandle numberOfTotalSeedsFromStatus:]', symObjAddr: 0xD0C, symBinAddr: 0x12E84, symSize: 0x18 }
+  - { offset: 0x1957D1, size: 0x8, addend: 0x0, symName: '-[TorrentHandle numberOfTotalLeechersFromStatus:]', symObjAddr: 0xD24, symBinAddr: 0x12E9C, symSize: 0x20 }
+  - { offset: 0x195823, size: 0x8, addend: 0x0, symName: '-[TorrentHandle downloadRateFromStatus:]', symObjAddr: 0xD44, symBinAddr: 0x12EBC, symSize: 0x8 }
+  - { offset: 0x195865, size: 0x8, addend: 0x0, symName: '-[TorrentHandle uploadRateFromStatus:]', symObjAddr: 0xD4C, symBinAddr: 0x12EC4, symSize: 0x8 }
+  - { offset: 0x1958A7, size: 0x8, addend: 0x0, symName: '-[TorrentHandle hasMetadataFromStatus:]', symObjAddr: 0xD54, symBinAddr: 0x12ECC, symSize: 0x8 }
+  - { offset: 0x195915, size: 0x8, addend: 0x0, symName: '-[TorrentHandle totalFromStatus:]', symObjAddr: 0xD5C, symBinAddr: 0x12ED4, symSize: 0x7C }
+  - { offset: 0x195A86, size: 0x8, addend: 0x0, symName: '-[TorrentHandle totalDoneFromStatus:]', symObjAddr: 0xDD8, symBinAddr: 0x12F50, symSize: 0x8 }
+  - { offset: 0x195AC8, size: 0x8, addend: 0x0, symName: '-[TorrentHandle totalWantedFromStatus:]', symObjAddr: 0xDE0, symBinAddr: 0x12F58, symSize: 0x8 }
+  - { offset: 0x195B0A, size: 0x8, addend: 0x0, symName: '-[TorrentHandle totalWantedDoneFromStatus:]', symObjAddr: 0xDE8, symBinAddr: 0x12F60, symSize: 0x8 }
+  - { offset: 0x195B4C, size: 0x8, addend: 0x0, symName: '-[TorrentHandle totalDownloadFromStatus:]', symObjAddr: 0xDF0, symBinAddr: 0x12F68, symSize: 0x8 }
+  - { offset: 0x195B8E, size: 0x8, addend: 0x0, symName: '-[TorrentHandle totalUploadFromStatus:]', symObjAddr: 0xDF8, symBinAddr: 0x12F70, symSize: 0x8 }
+  - { offset: 0x195BEB, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isPausedFromStatus:]', symObjAddr: 0xE00, symBinAddr: 0x12F78, symSize: 0xC }
+  - { offset: 0x195C30, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isPausedFromStatus:]', symObjAddr: 0xE00, symBinAddr: 0x12F78, symSize: 0xC }
+  - { offset: 0x195C42, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isFinishedFromStatus:]', symObjAddr: 0xE0C, symBinAddr: 0x12F84, symSize: 0x10 }
+  - { offset: 0x195C84, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isSeedFromStatus:]', symObjAddr: 0xE1C, symBinAddr: 0x12F94, symSize: 0x8 }
+  - { offset: 0x195CC6, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isSequentialFromStatus:]', symObjAddr: 0xE24, symBinAddr: 0x12F9C, symSize: 0xC }
+  - { offset: 0x195D0D, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isSequentialFromStatus:]', symObjAddr: 0xE24, symBinAddr: 0x12F9C, symSize: 0xC }
+  - { offset: 0x195E2D, size: 0x8, addend: 0x0, symName: '-[TorrentHandle piecesFromStatus:]', symObjAddr: 0xE30, symBinAddr: 0x12FA8, symSize: 0x170 }
+  - { offset: 0x19615A, size: 0x8, addend: 0x0, symName: '-[TorrentHandle magnetLink]', symObjAddr: 0xFA0, symBinAddr: 0x13118, symSize: 0x8C }
+  - { offset: 0x19645E, size: 0x8, addend: 0x0, symName: '-[TorrentHandle torrentFilePathFromStatus:]', symObjAddr: 0x102C, symBinAddr: 0x131A4, symSize: 0x1A0 }
+  - { offset: 0x1966D3, size: 0x8, addend: 0x0, symName: '-[TorrentHandle downloadPathFromStatus:]', symObjAddr: 0x11CC, symBinAddr: 0x13344, symSize: 0x130 }
+  - { offset: 0x196B3A, size: 0x8, addend: 0x0, symName: '-[TorrentHandle isStorageMissing]', symObjAddr: 0x12FC, symBinAddr: 0x13474, symSize: 0xDC }
+  - { offset: 0x196B72, size: 0x8, addend: 0x0, symName: '-[TorrentHandle resume]', symObjAddr: 0x13D8, symBinAddr: 0x13550, symSize: 0x2C }
+  - { offset: 0x196BA6, size: 0x8, addend: 0x0, symName: '-[TorrentHandle pause]', symObjAddr: 0x1404, symBinAddr: 0x1357C, symSize: 0x30 }
+  - { offset: 0x196BDA, size: 0x8, addend: 0x0, symName: '-[TorrentHandle rehash]', symObjAddr: 0x1434, symBinAddr: 0x135AC, symSize: 0x2C }
+  - { offset: 0x196CA3, size: 0x8, addend: 0x0, symName: '-[TorrentHandle reload]', symObjAddr: 0x1460, symBinAddr: 0x135D8, symSize: 0x1B4 }
+  - { offset: 0x196E8A, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setSequentialDownload:]', symObjAddr: 0x1614, symBinAddr: 0x1378C, symSize: 0x58 }
+  - { offset: 0x19735A, size: 0x8, addend: 0x0, symName: '-[TorrentHandle filesFromStatus:]', symObjAddr: 0x166C, symBinAddr: 0x137E4, symSize: 0x510 }
+  - { offset: 0x1989CD, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN10libtorrent4v1_214announce_entryENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe210106Ev, symObjAddr: 0x30C0, symBinAddr: 0x14F88, symSize: 0x70 }
+  - { offset: 0x198AF6, size: 0x8, addend: 0x0, symName: '-[TorrentHandle trackers]', symObjAddr: 0x1B7C, symBinAddr: 0x13CF4, symSize: 0x144 }
+  - { offset: 0x198D39, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN10libtorrent4v1_214announce_entryENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe210106Ev, symObjAddr: 0x30C0, symBinAddr: 0x14F88, symSize: 0x70 }
+  - { offset: 0x198E78, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setFilePriority:at:]', symObjAddr: 0x1CC0, symBinAddr: 0x13E38, symSize: 0x34 }
+  - { offset: 0x198EF0, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setFilesPriority:at:]', symObjAddr: 0x1CF4, symBinAddr: 0x13E6C, symSize: 0x110 }
+  - { offset: 0x19925F, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setAllFilesPriority:]', symObjAddr: 0x1E04, symBinAddr: 0x13F7C, symSize: 0x100 }
+  - { offset: 0x199922, size: 0x8, addend: 0x0, symName: '-[TorrentHandle addTracker:]', symObjAddr: 0x1FD8, symBinAddr: 0x1407C, symSize: 0x9C }
+  - { offset: 0x199BEA, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN10libtorrent4v1_214announce_entryENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_, symObjAddr: 0x3144, symBinAddr: 0x14FF8, symSize: 0x12C }
+  - { offset: 0x199C5A, size: 0x8, addend: 0x0, symName: '-[TorrentHandle addTracker:]', symObjAddr: 0x1FD8, symBinAddr: 0x1407C, symSize: 0x9C }
+  - { offset: 0x199D6C, size: 0x8, addend: 0x0, symName: '-[TorrentHandle removeTrackers:]', symObjAddr: 0x2074, symBinAddr: 0x14118, symSize: 0x19C }
+  - { offset: 0x19A1FC, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN10libtorrent4v1_214announce_entryENS_9allocatorIS3_EEE9push_backB9nqe210106ERKS3_, symObjAddr: 0x2210, symBinAddr: 0x142B4, symSize: 0x50 }
+  - { offset: 0x19A49B, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN10libtorrent4v1_214announce_entryENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_, symObjAddr: 0x3144, symBinAddr: 0x14FF8, symSize: 0x12C }
+  - { offset: 0x19A7B7, size: 0x8, addend: 0x0, symName: '-[TorrentHandle forceReannounce]', symObjAddr: 0x2260, symBinAddr: 0x14304, symSize: 0x8 }
+  - { offset: 0x19A7E9, size: 0x8, addend: 0x0, symName: '-[TorrentHandle forceReannounce:]', symObjAddr: 0x2268, symBinAddr: 0x1430C, symSize: 0x10 }
+  - { offset: 0x19A82C, size: 0x8, addend: 0x0, symName: '-[TorrentHandle updateSnapshot]', symObjAddr: 0x2278, symBinAddr: 0x1431C, symSize: 0xB18 }
+  - { offset: 0x19A889, size: 0x8, addend: 0x0, symName: '-[TorrentHandle storageUUID]', symObjAddr: 0x2D90, symBinAddr: 0x14E34, symSize: 0xC }
+  - { offset: 0x19A8C0, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setStorageUUID:]', symObjAddr: 0x2D9C, symBinAddr: 0x14E40, symSize: 0x8 }
+  - { offset: 0x19A8FF, size: 0x8, addend: 0x0, symName: '-[TorrentHandle session]', symObjAddr: 0x2DA4, symBinAddr: 0x14E48, symSize: 0xC }
+  - { offset: 0x19A936, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setSession:]', symObjAddr: 0x2DB0, symBinAddr: 0x14E54, symSize: 0x8 }
+  - { offset: 0x19A975, size: 0x8, addend: 0x0, symName: '-[TorrentHandle snapshot]', symObjAddr: 0x2DB8, symBinAddr: 0x14E5C, symSize: 0xC }
+  - { offset: 0x19A9AC, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setSnapshot:]', symObjAddr: 0x2DC4, symBinAddr: 0x14E68, symSize: 0x8 }
+  - { offset: 0x19A9EB, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x2DCC, symBinAddr: 0x14E70, symSize: 0x28 }
+  - { offset: 0x19AA19, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x2DCC, symBinAddr: 0x14E70, symSize: 0x28 }
+  - { offset: 0x19AA3D, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x2DCC, symBinAddr: 0x14E70, symSize: 0x28 }
+  - { offset: 0x19AA62, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x2DCC, symBinAddr: 0x14E70, symSize: 0x28 }
+  - { offset: 0x19AA87, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x2DCC, symBinAddr: 0x14E70, symSize: 0x28 }
+  - { offset: 0x19AAE3, size: 0x8, addend: 0x0, symName: '-[TorrentHandle torrentHandle]', symObjAddr: 0x2DF4, symBinAddr: 0x14E98, symSize: 0x14 }
+  - { offset: 0x19AB1A, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x2E08, symBinAddr: 0x14EAC, symSize: 0x38 }
+  - { offset: 0x19AB4A, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x2E08, symBinAddr: 0x14EAC, symSize: 0x38 }
+  - { offset: 0x19AB70, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x2E08, symBinAddr: 0x14EAC, symSize: 0x38 }
+  - { offset: 0x19AB97, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x2E08, symBinAddr: 0x14EAC, symSize: 0x38 }
+  - { offset: 0x19ABB5, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x2E08, symBinAddr: 0x14EAC, symSize: 0x38 }
+  - { offset: 0x19AC95, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setTorrentHandle:]', symObjAddr: 0x2E40, symBinAddr: 0x14EE4, symSize: 0x14 }
+  - { offset: 0x19ACD6, size: 0x8, addend: 0x0, symName: '-[TorrentHandle torrentPath]', symObjAddr: 0x2E54, symBinAddr: 0x14EF8, symSize: 0xC }
+  - { offset: 0x19AD0D, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setTorrentPath:]', symObjAddr: 0x2E60, symBinAddr: 0x14F04, symSize: 0x8 }
+  - { offset: 0x19AD4C, size: 0x8, addend: 0x0, symName: '-[TorrentHandle sessionDownloadPath]', symObjAddr: 0x2E68, symBinAddr: 0x14F0C, symSize: 0xC }
+  - { offset: 0x19AD83, size: 0x8, addend: 0x0, symName: '-[TorrentHandle setSessionDownloadPath:]', symObjAddr: 0x2E74, symBinAddr: 0x14F18, symSize: 0x8 }
+  - { offset: 0x19ADC2, size: 0x8, addend: 0x0, symName: '-[TorrentHandle .cxx_destruct]', symObjAddr: 0x2E7C, symBinAddr: 0x14F20, symSize: 0x60 }
+  - { offset: 0x19AEDE, size: 0x8, addend: 0x0, symName: '-[TorrentHandle .cxx_construct]', symObjAddr: 0x2EDC, symBinAddr: 0x14F80, symSize: 0x8 }
+  - { offset: 0x19AF16, size: 0x8, addend: 0x0, symName: '-[TorrentHandle .cxx_construct]', symObjAddr: 0x2EDC, symBinAddr: 0x14F80, symSize: 0x8 }
+  - { offset: 0x19AF35, size: 0x8, addend: 0x0, symName: '-[TorrentHandle .cxx_construct]', symObjAddr: 0x2EDC, symBinAddr: 0x14F80, symSize: 0x8 }
+  - { offset: 0x19AF54, size: 0x8, addend: 0x0, symName: '-[TorrentHandle .cxx_construct]', symObjAddr: 0x2EDC, symBinAddr: 0x14F80, symSize: 0x8 }
+  - { offset: 0x19AF73, size: 0x8, addend: 0x0, symName: '-[TorrentHandle .cxx_construct]', symObjAddr: 0x2EDC, symBinAddr: 0x14F80, symSize: 0x8 }
+  - { offset: 0x19AF94, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.338, symObjAddr: 0x3A64, symBinAddr: 0x15250, symSize: 0x1C }
+  - { offset: 0x19AFA8, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.339, symObjAddr: 0x3A80, symBinAddr: 0x1526C, symSize: 0x1C }
+  - { offset: 0x19AFBC, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.340, symObjAddr: 0x3A9C, symBinAddr: 0x15288, symSize: 0x1C }
+  - { offset: 0x19AFD0, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.341, symObjAddr: 0x3AB8, symBinAddr: 0x152A4, symSize: 0x1C }
+  - { offset: 0x19AFE4, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.342, symObjAddr: 0x3AD4, symBinAddr: 0x152C0, symSize: 0x1C }
+  - { offset: 0x19B407, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferIN10libtorrent4v1_214announce_entryERNS_9allocatorIS3_EEED2Ev, symObjAddr: 0x3364, symBinAddr: 0x15204, symSize: 0x4C }
+  - { offset: 0x19B54C, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN10libtorrent4v1_214announce_entryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m, symObjAddr: 0x3284, symBinAddr: 0x15124, symSize: 0x44 }
+  - { offset: 0x19B680, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_TorrentHandle.mm, symObjAddr: 0x3AF0, symBinAddr: 0x152DC, symSize: 0x14 }
+  - { offset: 0x1AD774, size: 0x8, addend: 0x0, symName: '-[MagnetURI initUnsafeWithMagnetURI:]', symObjAddr: 0x0, symBinAddr: 0x152F0, symSize: 0x144 }
+  - { offset: 0x1AD929, size: 0x8, addend: 0x0, symName: '-[MagnetURI infoHashes]', symObjAddr: 0x144, symBinAddr: 0x15434, symSize: 0x48 }
+  - { offset: 0x1AD96C, size: 0x8, addend: 0x0, symName: '-[MagnetURI isMagnetLinkValid]', symObjAddr: 0x18C, symBinAddr: 0x1547C, symSize: 0xBC }
+  - { offset: 0x1ADC22, size: 0x8, addend: 0x0, symName: '-[MagnetURI configureAddTorrentParams:forSession:]', symObjAddr: 0x248, symBinAddr: 0x15538, symSize: 0x18C }
+  - { offset: 0x1AE33D, size: 0x8, addend: 0x0, symName: '-[MagnetURI configureAfterAdded:]', symObjAddr: 0x450, symBinAddr: 0x156C4, symSize: 0x4 }
+  - { offset: 0x1AE378, size: 0x8, addend: 0x0, symName: '-[MagnetURI magnetURI]', symObjAddr: 0x454, symBinAddr: 0x156C8, symSize: 0x8 }
+  - { offset: 0x1AE3AF, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x45C, symBinAddr: 0x156D0, symSize: 0x4 }
+  - { offset: 0x1AE3DA, size: 0x8, addend: 0x0, symName: '-[MagnetURI torrentParams]', symObjAddr: 0x460, symBinAddr: 0x156D4, symSize: 0x14 }
+  - { offset: 0x1AE411, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x474, symBinAddr: 0x156E8, symSize: 0x4 }
+  - { offset: 0x1AE43C, size: 0x8, addend: 0x0, symName: '-[MagnetURI setTorrentParams:]', symObjAddr: 0x478, symBinAddr: 0x156EC, symSize: 0x14 }
+  - { offset: 0x1AE47D, size: 0x8, addend: 0x0, symName: '-[MagnetURI .cxx_destruct]', symObjAddr: 0x48C, symBinAddr: 0x15700, symSize: 0x2C }
+  - { offset: 0x1AE4B0, size: 0x8, addend: 0x0, symName: '-[MagnetURI .cxx_construct]', symObjAddr: 0x4B8, symBinAddr: 0x1572C, symSize: 0x28 }
+  - { offset: 0x1AE4E7, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.75, symObjAddr: 0x6A4, symBinAddr: 0x15754, symSize: 0x1C }
+  - { offset: 0x1AE4FB, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.76, symObjAddr: 0x6C0, symBinAddr: 0x15770, symSize: 0x1C }
+  - { offset: 0x1AE50F, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.77, symObjAddr: 0x6DC, symBinAddr: 0x1578C, symSize: 0x1C }
+  - { offset: 0x1AE523, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.78, symObjAddr: 0x6F8, symBinAddr: 0x157A8, symSize: 0x1C }
+  - { offset: 0x1AE537, size: 0x8, addend: 0x0, symName: ___cxx_global_var_init.79, symObjAddr: 0x714, symBinAddr: 0x157C4, symSize: 0x1C }
+  - { offset: 0x1AE71F, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_MagnetURI.mm, symObjAddr: 0x730, symBinAddr: 0x157E0, symSize: 0x14 }
+  - { offset: 0x1B09C4, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x540, symBinAddr: 0x15D34, symSize: 0x50 }
+  - { offset: 0x1B09D8, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgWOh', symObjAddr: 0x590, symBinAddr: 0x15D84, symSize: 0x48 }
+  - { offset: 0x1B09EC, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x5D8, symBinAddr: 0x15DCC, symSize: 0x40 }
+  - { offset: 0x1B0A00, size: 0x8, addend: 0x0, symName: ___swift_allocate_boxed_opaque_existential_0, symObjAddr: 0x618, symBinAddr: 0x15E0C, symSize: 0x3C }
+  - { offset: 0x1B0A1F, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x10BC, symBinAddr: 0x168B0, symSize: 0x24 }
+  - { offset: 0x1B0A33, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOAFs0E3KeyACWl', symObjAddr: 0x10E0, symBinAddr: 0x168D4, symSize: 0x40 }
+  - { offset: 0x1B0A47, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x1120, symBinAddr: 0x16914, symSize: 0x20 }
+  - { offset: 0x1B0A5B, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVACSeAAWl', symObjAddr: 0x1140, symBinAddr: 0x16934, symSize: 0x40 }
+  - { offset: 0x1B0A6F, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVACSEAAWl', symObjAddr: 0x1180, symBinAddr: 0x16974, symSize: 0x40 }
+  - { offset: 0x1B0A83, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelCs12Identifiable10LibTorrent2IDsACP_SHWT', symObjAddr: 0x11C0, symBinAddr: 0x169B4, symSize: 0x2C }
+  - { offset: 0x1B0A97, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x1268, symBinAddr: 0x16A5C, symSize: 0xC }
+  - { offset: 0x1B0AAB, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x1274, symBinAddr: 0x16A68, symSize: 0x4 }
+  - { offset: 0x1B0ABF, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOwet', symObjAddr: 0x1278, symBinAddr: 0x16A6C, symSize: 0x90 }
+  - { offset: 0x1B0AD3, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOwst', symObjAddr: 0x1308, symBinAddr: 0x16AFC, symSize: 0xB0 }
+  - { offset: 0x1B0AE7, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOwug', symObjAddr: 0x13B8, symBinAddr: 0x16BAC, symSize: 0x8 }
+  - { offset: 0x1B0AFB, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOwup', symObjAddr: 0x13C0, symBinAddr: 0x16BB4, symSize: 0x4 }
+  - { offset: 0x1B0B0F, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOwui', symObjAddr: 0x13C4, symBinAddr: 0x16BB8, symSize: 0x8 }
+  - { offset: 0x1B0B23, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOMa', symObjAddr: 0x13CC, symBinAddr: 0x16BC0, symSize: 0x10 }
+  - { offset: 0x1B0B37, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOSHACSQWb', symObjAddr: 0x13DC, symBinAddr: 0x16BD0, symSize: 0x4 }
+  - { offset: 0x1B0B4B, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOAFSQACWl', symObjAddr: 0x13E0, symBinAddr: 0x16BD4, symSize: 0x40 }
+  - { offset: 0x1B0B5F, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs0E3KeyACs28CustomDebugStringConvertiblePWb', symObjAddr: 0x1420, symBinAddr: 0x16C14, symSize: 0x4 }
+  - { offset: 0x1B0B73, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOAFs28CustomDebugStringConvertibleACWl', symObjAddr: 0x1424, symBinAddr: 0x16C18, symSize: 0x40 }
+  - { offset: 0x1B0B87, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs0E3KeyACs23CustomStringConvertiblePWb', symObjAddr: 0x1464, symBinAddr: 0x16C58, symSize: 0x4 }
+  - { offset: 0x1B0B9B, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOAFs23CustomStringConvertibleACWl', symObjAddr: 0x1468, symBinAddr: 0x16C5C, symSize: 0x40 }
+  - { offset: 0x1B0BC5, size: 0x8, addend: 0x0, symName: ___swift_memcpy4_4, symObjAddr: 0x160C, symBinAddr: 0x16E00, symSize: 0xC }
+  - { offset: 0x1B0BD9, size: 0x8, addend: 0x0, symName: '_$sSo16os_unfair_lock_sVwet', symObjAddr: 0x1618, symBinAddr: 0x16E0C, symSize: 0x20 }
+  - { offset: 0x1B0BED, size: 0x8, addend: 0x0, symName: '_$sSo16os_unfair_lock_sVwst', symObjAddr: 0x1638, symBinAddr: 0x16E2C, symSize: 0x28 }
+  - { offset: 0x1B0F0B, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE21resolveSequrityScopesSbyF', symObjAddr: 0x0, symBinAddr: 0x157F4, symSize: 0x540 }
+  - { offset: 0x1B1118, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE21resolveSequrityScopesSbyFTo', symObjAddr: 0x654, symBinAddr: 0x15E48, symSize: 0x34 }
+  - { offset: 0x1B1137, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE4uuid4name12pathBookmarkAB10Foundation4UUIDV_SSAG4DataVtcfC', symObjAddr: 0x688, symBinAddr: 0x15E7C, symSize: 0x104 }
+  - { offset: 0x1B118C, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE4fromABs7Decoder_p_tKcfC', symObjAddr: 0x78C, symBinAddr: 0x15F80, symSize: 0x370 }
+  - { offset: 0x1B11D8, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE6encode2toys7Encoder_p_tKF', symObjAddr: 0xAFC, symBinAddr: 0x162F0, symSize: 0x32C }
+  - { offset: 0x1B125B, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOSQACSQ2eeoiySbx_xtFZTW', symObjAddr: 0xE28, symBinAddr: 0x1661C, symSize: 0x14 }
+  - { offset: 0x1B12DF, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOSHACSH9hashValueSivgTW', symObjAddr: 0xE3C, symBinAddr: 0x16630, symSize: 0x44 }
+  - { offset: 0x1B13A5, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOSHACSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xE80, symBinAddr: 0x16674, symSize: 0x28 }
+  - { offset: 0x1B1402, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOSHACSH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xEA8, symBinAddr: 0x1669C, symSize: 0x40 }
+  - { offset: 0x1B149B, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs0E3KeyACsAGP11stringValueSSvgTW', symObjAddr: 0xEE8, symBinAddr: 0x166DC, symSize: 0x6C }
+  - { offset: 0x1B14CB, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs0E3KeyACsAGP11stringValuexSgSS_tcfCTW', symObjAddr: 0xF54, symBinAddr: 0x16748, symSize: 0x24 }
+  - { offset: 0x1B14F4, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs0E3KeyACsAGP8intValueSiSgvgTW', symObjAddr: 0xF78, symBinAddr: 0x1676C, symSize: 0xC }
+  - { offset: 0x1B1508, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs0E3KeyACsAGP8intValuexSgSi_tcfCTW', symObjAddr: 0xF84, symBinAddr: 0x16778, symSize: 0xC }
+  - { offset: 0x1B151C, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs28CustomDebugStringConvertibleACsAGP16debugDescriptionSSvgTW', symObjAddr: 0xF90, symBinAddr: 0x16784, symSize: 0x28 }
+  - { offset: 0x1B1530, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLOs23CustomStringConvertibleACsAGP11descriptionSSvgTW', symObjAddr: 0xFB8, symBinAddr: 0x167AC, symSize: 0x28 }
+  - { offset: 0x1B1544, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelCSe10LibTorrentSe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0xFE0, symBinAddr: 0x167D4, symSize: 0x28 }
+  - { offset: 0x1B1558, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelCSE10LibTorrentSE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x1008, symBinAddr: 0x167FC, symSize: 0x20 }
+  - { offset: 0x1B156C, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE2id10Foundation4UUIDVvg', symObjAddr: 0x1028, symBinAddr: 0x1681C, symSize: 0x3C }
+  - { offset: 0x1B159F, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelCs12Identifiable10LibTorrentsACP2id2IDQzvgTW', symObjAddr: 0x1064, symBinAddr: 0x16858, symSize: 0x3C }
+  - { offset: 0x1B15D4, size: 0x8, addend: 0x0, symName: '_$sSo12StorageModelC10LibTorrentE10CodingKeys33_8A320093E2A1001EFF3A64B67D22DD7CLLO11stringValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0x14A8, symBinAddr: 0x16C9C, symSize: 0x164 }
+  - { offset: 0x1B173C, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateVSQ03LibA0SQ2eeoiySbx_xtFZTW', symObjAddr: 0x0, symBinAddr: 0x16EB4, symSize: 0x14 }
+  - { offset: 0x1B1760, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCasesSayABGvpZ', symObjAddr: 0x20A8, symBinAddr: 0x392120, symSize: 0x0 }
+  - { offset: 0x1B1779, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCases_WZ', symObjAddr: 0x14, symBinAddr: 0x16EC8, symSize: 0x38 }
+  - { offset: 0x1B17D4, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCasesSayABGvau', symObjAddr: 0x4C, symBinAddr: 0x16F00, symSize: 0x40 }
+  - { offset: 0x1B17F9, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateVs12CaseIterable03LibA08AllCasessACP_SlWT', symObjAddr: 0x1DC, symBinAddr: 0x17090, symSize: 0x4 }
+  - { offset: 0x1B180D, size: 0x8, addend: 0x0, symName: '_$sSaySo18TorrentHandleStateVGSayxGSlsWl', symObjAddr: 0x1E0, symBinAddr: 0x17094, symSize: 0x44 }
+  - { offset: 0x1B1821, size: 0x8, addend: 0x0, symName: '_$sSaySo18TorrentHandleStateVGMa', symObjAddr: 0x224, symBinAddr: 0x170D8, symSize: 0x54 }
+  - { offset: 0x1B186C, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateVSQ03LibA0SQ2eeoiySbx_xtFZTW', symObjAddr: 0x0, symBinAddr: 0x16EB4, symSize: 0x14 }
+  - { offset: 0x1B199B, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCasesSayABGvgZ', symObjAddr: 0x8C, symBinAddr: 0x16F40, symSize: 0x6C }
+  - { offset: 0x1B19C7, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCasesSayABGvsZ', symObjAddr: 0xF8, symBinAddr: 0x16FAC, symSize: 0x74 }
+  - { offset: 0x1B19E8, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCasesSayABGvMZ', symObjAddr: 0x16C, symBinAddr: 0x17020, symSize: 0x6C }
+  - { offset: 0x1B1A09, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateV03LibA0E8allCasesSayABGvMZ.resume.0', symObjAddr: 0x1D8, symBinAddr: 0x1708C, symSize: 0x4 }
+  - { offset: 0x1B1A2F, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateVs12CaseIterable03LibA0sACP8allCases03AllH0QzvgZTW', symObjAddr: 0x278, symBinAddr: 0x1712C, symSize: 0x74 }
+  - { offset: 0x1B1ACF, size: 0x8, addend: 0x0, symName: '_$sSo31SessionSettingsEncryptionPolicyVSe10LibTorrentSe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x0, symBinAddr: 0x171A0, symSize: 0x74 }
+  - { offset: 0x1B1BE6, size: 0x8, addend: 0x0, symName: '_$sSo31SessionSettingsEncryptionPolicyVSe10LibTorrentSe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x0, symBinAddr: 0x171A0, symSize: 0x74 }
+  - { offset: 0x1B1C05, size: 0x8, addend: 0x0, symName: '_$sSo31SessionSettingsEncryptionPolicyVSE10LibTorrentSE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x74, symBinAddr: 0x17214, symSize: 0x64 }
+  - { offset: 0x1B1C24, size: 0x8, addend: 0x0, symName: '_$sSo24SessionSettingsProxyTypeVSe10LibTorrentSe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0xD8, symBinAddr: 0x17278, symSize: 0x74 }
+  - { offset: 0x1B1C38, size: 0x8, addend: 0x0, symName: '_$sSo24SessionSettingsProxyTypeVSE10LibTorrentSE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x14C, symBinAddr: 0x172EC, symSize: 0x64 }
+  - { offset: 0x1B1C57, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateVSe03LibA0Se4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x1B0, symBinAddr: 0x17350, symSize: 0x74 }
+  - { offset: 0x1B1C6B, size: 0x8, addend: 0x0, symName: '_$sSo18TorrentHandleStateVSE03LibA0SE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x224, symBinAddr: 0x173C4, symSize: 0x64 }
+  - { offset: 0x1B1CFA, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LibTorrentE3hexSSvg', symObjAddr: 0x0, symBinAddr: 0x17428, symSize: 0x9C }
+  - { offset: 0x1B1DA6, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LibTorrentE3hexSSvg', symObjAddr: 0x0, symBinAddr: 0x17428, symSize: 0x9C }
+  - { offset: 0x1B1F91, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E4withABSg10Foundation3URLV_tcfC', symObjAddr: 0x0, symBinAddr: 0x174C4, symSize: 0x94 }
+  - { offset: 0x1B1FC6, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E4withABSg10Foundation4DataV_tcfC', symObjAddr: 0x94, symBinAddr: 0x17558, symSize: 0x8C }
+  - { offset: 0x1B2016, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_', symObjAddr: 0x9F8, symBinAddr: 0x17E2C, symSize: 0x1C }
+  - { offset: 0x1B2035, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_TY0_', symObjAddr: 0xA14, symBinAddr: 0x17E48, symSize: 0x2E0 }
+  - { offset: 0x1B2090, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_TQ1_', symObjAddr: 0xCF4, symBinAddr: 0x18128, symSize: 0x68 }
+  - { offset: 0x1B20AF, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_TQ2_', symObjAddr: 0xD5C, symBinAddr: 0x18190, symSize: 0x44 }
+  - { offset: 0x1B20CE, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_TA', symObjAddr: 0xDA0, symBinAddr: 0x181D4, symSize: 0x88 }
+  - { offset: 0x1B20E2, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_TATQ0_', symObjAddr: 0xE28, symBinAddr: 0x1825C, symSize: 0x44 }
+  - { offset: 0x1B20F6, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFyyYbXEfU0_', symObjAddr: 0xE6C, symBinAddr: 0x182A0, symSize: 0x48 }
+  - { offset: 0x1B210E, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFyyYbXEfU0_TA', symObjAddr: 0xEB4, symBinAddr: 0x182E8, symSize: 0x8 }
+  - { offset: 0x1B2122, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_yScCyAG_AIts5Error_pGXEfU_yAGSg_AISgsAL_pSgtYbcfU_', symObjAddr: 0xEBC, symBinAddr: 0x182F0, symSize: 0xA8 }
+  - { offset: 0x1B2147, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIeghggg_So6NSDataCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0xF6C, symBinAddr: 0x183A0, symSize: 0xC8 }
+  - { offset: 0x1B215F, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1034, symBinAddr: 0x18468, symSize: 0x14 }
+  - { offset: 0x1B2173, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1048, symBinAddr: 0x1847C, symSize: 0x8 }
+  - { offset: 0x1B2187, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_yScCyAG_AIts5Error_pGXEfU_', symObjAddr: 0x1050, symBinAddr: 0x18484, symSize: 0x16C }
+  - { offset: 0x1B21B4, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE8activate5state4taskys13ManagedBufferCySb11isCancelled_So0A4TaskCSgAFtSo16os_unfair_lock_sVG_AKtFTf4nnd_n', symObjAddr: 0x11BC, symBinAddr: 0x185F0, symSize: 0xBC }
+  - { offset: 0x1B21D9, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x1278, symBinAddr: 0x186AC, symSize: 0x14 }
+  - { offset: 0x1B21ED, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOy', symObjAddr: 0x128C, symBinAddr: 0x186C0, symSize: 0x14 }
+  - { offset: 0x1B2201, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x12A0, symBinAddr: 0x186D4, symSize: 0x40 }
+  - { offset: 0x1B2215, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFAG_AItyYaKXEfU_yScCyAG_AIts5Error_pGXEfU_TA', symObjAddr: 0x12E0, symBinAddr: 0x18714, symSize: 0xC }
+  - { offset: 0x1B222A, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E6remoteABSg10Foundation3URLV_tYacfC', symObjAddr: 0x160, symBinAddr: 0x175E4, symSize: 0x18 }
+  - { offset: 0x1B224B, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E6remoteABSg10Foundation3URLV_tYacfCTY0_', symObjAddr: 0x178, symBinAddr: 0x175FC, symSize: 0x88 }
+  - { offset: 0x1B2273, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E6remoteABSg10Foundation3URLV_tYacfCTQ1_', symObjAddr: 0x200, symBinAddr: 0x17684, symSize: 0x94 }
+  - { offset: 0x1B22D0, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E6remoteABSg10Foundation3URLV_tYacfCTY2_', symObjAddr: 0x294, symBinAddr: 0x17718, symSize: 0xC4 }
+  - { offset: 0x1B2323, size: 0x8, addend: 0x0, symName: '_$sSo11TorrentFileC03LibA0E6remoteABSg10Foundation3URLV_tYacfCTY3_', symObjAddr: 0x358, symBinAddr: 0x177DC, symSize: 0x60 }
+  - { offset: 0x1B248D, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKF', symObjAddr: 0x3B8, symBinAddr: 0x1783C, symSize: 0x18 }
+  - { offset: 0x1B24C1, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTY0_', symObjAddr: 0x3D0, symBinAddr: 0x17854, symSize: 0x380 }
+  - { offset: 0x1B2526, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTQ1_', symObjAddr: 0x750, symBinAddr: 0x17BD4, symSize: 0x7C }
+  - { offset: 0x1B253A, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTY2_', symObjAddr: 0x7CC, symBinAddr: 0x17C50, symSize: 0x4C }
+  - { offset: 0x1B254E, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTY3_', symObjAddr: 0x818, symBinAddr: 0x17C9C, symSize: 0x44 }
+  - { offset: 0x1B2562, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTQ4_', symObjAddr: 0x85C, symBinAddr: 0x17CE0, symSize: 0x64 }
+  - { offset: 0x1B2576, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTY5_', symObjAddr: 0x8C0, symBinAddr: 0x17D44, symSize: 0x3C }
+  - { offset: 0x1B258A, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTY6_', symObjAddr: 0x8FC, symBinAddr: 0x17D80, symSize: 0x44 }
+  - { offset: 0x1B259E, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionC10FoundationE4data4fromAC4DataV_So13NSURLResponseCtAC3URLV_tYaKFTQ7_', symObjAddr: 0x940, symBinAddr: 0x17DC4, symSize: 0x68 }
+  - { offset: 0x1B261E, size: 0x8, addend: 0x0, symName: '_$sSo9MagnetURIC10LibTorrentE4withABSg10Foundation3URLV_tcfC', symObjAddr: 0x0, symBinAddr: 0x18810, symSize: 0x78 }
+  - { offset: 0x1B26A5, size: 0x8, addend: 0x0, symName: '_$sSo9MagnetURIC10LibTorrentE4withABSg10Foundation3URLV_tcfC', symObjAddr: 0x0, symBinAddr: 0x18810, symSize: 0x78 }
+...
