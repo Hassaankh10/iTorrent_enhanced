@@ -53,7 +53,7 @@ private extension RssSearchViewModel {
     func reload(_ rssItems: [RssItemModel]) {
         // TODO: Need to rewrite this DispatchQueue mess
         reloadTask?.cancel()
-        reloadTask = Task {
+        reloadTask = Task { @MainActor in
             items = try rssItems
                 .sorted(by: {
                     try Task.checkCancellation()
@@ -79,7 +79,7 @@ private extension RssSearchViewModel {
                     return vm
                 }.removingDuplicates()
 
-            DispatchQueue.main.async { [self] in
+            await MainActor.run { [self] in
                 sections = [.init(id: "rss", style: .plain, items: items)]
             }
         }

@@ -11,7 +11,7 @@ import UIKit
 extension AppDelegate {
     func registerBackgroundRefresh() {
         BGTaskScheduler.shared.register(
-            forTaskWithIdentifier: "com.xitrix.itorrent.refresh",
+            forTaskWithIdentifier: "com.hassaan.iTorrent.refresh",
             using: nil
         ) { task in
             self.handleAppRefresh(task)
@@ -23,7 +23,7 @@ extension AppDelegate {
 
 private extension AppDelegate {
     func scheduleBackgroundRssFetch() {
-        let rssFetchTask = BGAppRefreshTaskRequest(identifier: "com.xitrix.itorrent.refresh")
+        let rssFetchTask = BGAppRefreshTaskRequest(identifier: "com.hassaan.iTorrent.refresh")
         rssFetchTask.earliestBeginDate = nil
         do {
             try BGTaskScheduler.shared.submit(rssFetchTask)

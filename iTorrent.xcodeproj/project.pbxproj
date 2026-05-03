@@ -131,6 +131,7 @@
 		7CFEBEA92BC721D50013233F /* RssListPreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEBEA82BC721D50013233F /* RssListPreferencesViewModel.swift */; };
 		7CFEBEAB2BC725E10013233F /* UIViewController+BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEBEAA2BC725E10013233F /* UIViewController+BottomSheet.swift */; };
 		7CFEBEAD2BC88F4C0013233F /* AppDelegate+BackgroundRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEBEAC2BC88F4C0013233F /* AppDelegate+BackgroundRefresh.swift */; };
+		A1B2C3D4E5F6A7B8C9D0E1F2 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6A7B8C9D0E1F2A3 /* AnalyticsService.swift */; };
 		D10257C62EE8619300201640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10257C22EE8619300201640 /* Assets.xcassets */; };
 		D10257C82EE8619300201640 /* iTorrent_TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10257C42EE8619300201640 /* iTorrent_TVApp.swift */; };
 		D10257C92EE8619300201640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10257C32EE8619300201640 /* ContentView.swift */; };
@@ -428,6 +429,7 @@
 		7CFEBEA82BC721D50013233F /* RssListPreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssListPreferencesViewModel.swift; sourceTree = "<group>"; };
 		7CFEBEAA2BC725E10013233F /* UIViewController+BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BottomSheet.swift"; sourceTree = "<group>"; };
 		7CFEBEAC2BC88F4C0013233F /* AppDelegate+BackgroundRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+BackgroundRefresh.swift"; sourceTree = "<group>"; };
+		B2C3D4E5F6A7B8C9D0E1F2A3 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		D10257AE2EE8614900201640 /* iTorrent-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTorrent-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10257C22EE8619300201640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D10257C32EE8619300201640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1373,6 +1375,7 @@
 		D1A226F02AEF018500669D6D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B2C3D4E5F6A7B8C9D0E1F2A3 /* AnalyticsService.swift */,
 				43D71BF463E3463C906BD908 /* TorrentSearch */,
 				D1BB07392C98522D00981D5F /* TrackersListService */,
 				7C1C08AE2C31FEF700569B45 /* IntentsService */,
@@ -2019,6 +2022,7 @@
 				7C4ED0962BE961DF0034B62C /* BaseControl.swift in Sources */,
 				D1707C342AF297C500F1752A /* BaseSplitViewController.swift in Sources */,
 				7C5FBE192BBC91E70069E5A0 /* NetworkMonitoringService.swift in Sources */,
+				A1B2C3D4E5F6A7B8C9D0E1F2 /* AnalyticsService.swift in Sources */,
 				D1A226FF2AEF056A00669D6D /* BaseViewModel.swift in Sources */,
 				7CC411622BD319AE00CA8B13 /* AppDelegate+RemoteConfig.swift in Sources */,
 				7CFEBE7F2BC431980013233F /* RssChannelViewModel.swift in Sources */,
@@ -2097,7 +2101,7 @@
 				CODE_SIGN_ENTITLEMENTS = ProgressWidget/ProgressWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProgressWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProgressWidget;
@@ -2108,7 +2112,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID).ProgressWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent.ProgressWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2209,10 +2213,11 @@
 				CODE_SIGN_ENTITLEMENTS = iTorrent/Core/Assets/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTorrent/Core/Assets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iTorrent+";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2225,10 +2230,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.1.1;
 				MARKETPLACES = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -2249,7 +2254,7 @@
 				CODE_SIGN_ENTITLEMENTS = ProgressWidget/ProgressWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProgressWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProgressWidget;
@@ -2260,7 +2265,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID).ProgressWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent.ProgressWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2355,14 +2360,12 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = iTorrent/Core/Assets/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D59DHVRS87;
-				"DEVELOPMENT_TEAM[sdk=xros*]" = D59DHVRS87;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTorrent/Core/Assets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iTorrent+";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2375,14 +2378,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.1.1;
 				MARKETPLACES = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.hassaan.iTorrent;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.hassaan.iTorrent;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=xros*]" = com.hassaan.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iTorrent Prod";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=xros*]" = "iTorrent2 Distrib";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -2400,10 +2404,8 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = ProgressWidget/ProgressWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D59DHVRS87;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProgressWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProgressWidget;
@@ -2415,9 +2417,10 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID).ProgressWidget";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = group.com.hassaan.iTorrent;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.hassaan.iTorrent.ProgressWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "iTorrent Widget Prod";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$inherited XCODE16";
@@ -2431,9 +2434,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2443,8 +2447,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xitrix.iTorrent-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -2462,9 +2467,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2474,8 +2480,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xitrix.iTorrent-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -2493,9 +2500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2505,8 +2513,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xitrix.iTorrent-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -2609,10 +2618,11 @@
 				CODE_SIGN_ENTITLEMENTS = iTorrent/Core/Assets/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D59DHVRS87;
+				DEVELOPMENT_TEAM = 99P9MB6ZG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTorrent/Core/Assets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iTorrent+";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2625,10 +2635,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.1.1;
 				MARKETPLACES = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APPLICATION_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassaan.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -2778,6 +2788,7 @@
 		};
 		7CF9C2C62AF7F235009BBFA0 /* MvvmFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 7CF9C2C52AF7F235009BBFA0 /* XCLocalSwiftPackageReference "Submodules/MVVMFoundation" */;
 			productName = MvvmFoundation;
 		};
 		D10257D02EE8640A00201640 /* MvvmFoundation */ = {
@@ -2795,6 +2806,7 @@
 		};
 		D1ACFDD92AF7D55F0098FF56 /* MvvmFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 7CF9C2C52AF7F235009BBFA0 /* XCLocalSwiftPackageReference "Submodules/MVVMFoundation" */;
 			productName = MvvmFoundation;
 		};
 		D1DB71822BD80318007F9267 /* GCDWebServers */ = {

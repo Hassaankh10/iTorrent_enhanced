@@ -9,6 +9,6 @@ import Foundation
 
 extension UserDefaults {
     static var itorrentGroup: UserDefaults {
-        UserDefaults(suiteName: "group.itorrent.life-activity") ?? .standard
+        UserDefaults(suiteName: "group.com.hassaan.iTorrent") ?? .standard
     }
 }

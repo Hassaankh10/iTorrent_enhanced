@@ -84,7 +84,7 @@ private extension RssChannelViewModel {
         guard !ignoreReloadRequests else { return }
 
         // TODO: Need to rewrite this DispatchQueue mess
-        DispatchQueue.global(qos: .userInitiated).async { [self] in
+        Task { @MainActor [self] in
             items = models.map { model in
                 let vm: RssChannelItemCellViewModel
                 if let existing = items.first(where: { $0.model == model }) {
@@ -101,9 +101,7 @@ private extension RssChannelViewModel {
                 return vm
             }.removingDuplicates()
 
-            DispatchQueue.main.async { [self] in
-                sections = [.init(id: "rss", style: .plain, items: items)]
-            }
+            sections = [.init(id: "rss", style: .plain, items: items)]
         }
     }
 

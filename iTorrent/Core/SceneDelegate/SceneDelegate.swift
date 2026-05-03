@@ -15,7 +15,7 @@ class SceneDelegate: MvvmSceneDelegate {
         UIView.enableUIColorsToLayer()
     }
 
-    override func register(in container: Container) {
+    @MainActor override func register(in container: Container) {
         registerAVPlayer(in: container)
         container.register(type: UINavigationController.self, factory: BaseNavigationController.init)
         container.register(type: UISplitViewController.self, factory: BaseSplitViewController.init)

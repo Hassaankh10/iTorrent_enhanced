@@ -9,11 +9,17 @@ import Foundation
 #if canImport(FirebaseCore)
 import FirebaseCore
 #endif
+#if canImport(FirebaseCrashlytics)
+import FirebaseCrashlytics
+#endif
 
 extension AppDelegate {
     func registerFirebase() {
 #if canImport(FirebaseCore)
         FirebaseApp.configure()
+#endif
+#if canImport(FirebaseCrashlytics)
+        Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(true)
 #endif
     }
 }

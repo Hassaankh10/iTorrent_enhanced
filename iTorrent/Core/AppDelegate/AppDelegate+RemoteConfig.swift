@@ -24,14 +24,14 @@ private extension AppDelegate {
     func registerKillSwitch() {
         remoteConfig.fetchAndActivate { [unowned self] status, error in
             guard error == nil, status == .successFetchedFromRemote else { return }
-            Task { try await checkKillSwitch() }
+            Task { @MainActor in try await checkKillSwitch() }
         }
 
         remoteConfig.addOnConfigUpdateListener { [unowned self] _, error in
             guard error == nil else { return }
 
             remoteConfig.activate { [unowned self] _, _ in
-                Task { try await checkKillSwitch() }
+                Task { @MainActor in try await checkKillSwitch() }
             }
         }
     }

@@ -191,11 +191,12 @@ extension Session.Settings {
         if !preferences.useAllAvailableInterfaces {
             interfacesToUse = [interfacesToUse.first].compactMap { $0 }
         }
-        let interfacesNamesToUse = interfacesToUse.map { $0.name } + ["lo0"]
-        settings.outgoingInterfaces = interfacesNamesToUse.joined(separator: ",")
-        settings.listenInterfaces = interfacesNamesToUse.map { "\($0):\(settings.port)" }.joined(separator: ",")
-
-        print("--- \(settings.listenInterfaces)")
+        let interfaceNames = interfacesToUse.map { $0.name }
+        settings.outgoingInterfaces = interfaceNames.joined(separator: ",")
+        // When no specific interfaces are known, listen on all interfaces so DHT and incoming connections work
+        settings.listenInterfaces = interfaceNames.isEmpty
+            ? "0.0.0.0:\(settings.port),[::]:\(settings.port)"
+            : interfaceNames.map { "\($0):\(settings.port)" }.joined(separator: ",")
 
         return settings
     }

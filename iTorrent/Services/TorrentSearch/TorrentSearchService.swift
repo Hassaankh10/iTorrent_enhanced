@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - TorrentSearchService
 
-final class TorrentSearchService {
+final class TorrentSearchService: @unchecked Sendable {
 
     // MARK: - Errors
 
@@ -206,15 +206,14 @@ final class TorrentSearchService {
     private func fetchDetailPages(rows: [LeetRow]) async throws -> [TorrentResult] {
         var results: [TorrentResult] = []
 
-        try await withThrowingTaskGroup(of: TorrentResult?.self) { group in
+        try await withThrowingTaskGroup(of: TorrentResult?.self) { [self] group in
             var active = 0
             var index  = 0
 
             // Seed up to 5 initial tasks
             while index < rows.count && active < 5 {
                 let row = rows[index]
-                group.addTask { [weak self] in
-                    guard let self else { return nil }
+                group.addTask {
                     return try await self.fetchMagnetAndBuild(row: row)
                 }
                 active += 1
@@ -228,8 +227,7 @@ final class TorrentSearchService {
 
                 if index < rows.count {
                     let row = rows[index]
-                    group.addTask { [weak self] in
-                        guard let self else { return nil }
+                    group.addTask {
                         return try await self.fetchMagnetAndBuild(row: row)
                     }
                     active += 1
@@ -308,10 +306,20 @@ final class TorrentSearchService {
         }
 
         let trackers = [
-            "udp%3A%2F%2Ftracker.opentrackr.org%3A1337",
-            "udp%3A%2F%2Fopen.tracker.cl%3A1337",
-            "udp%3A%2F%2Ftracker.openbittorrent.com%3A6969"
+            "udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
+            "udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce",
+            "udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce",
+            "udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+            "udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce",
+            "udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce",
+            "https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce",
+            "https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce",
+            "https%3A%2F%2Ftracker.imgoingto.icu%3A443%2Fannounce",
+            "http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+            "http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
         ].joined(separator: "&tr=")
+
+        let bytesFormatter = Self.formatBytes  // capture static func, not self
 
         return json.compactMap { item -> TorrentResult? in
             guard
@@ -323,7 +331,7 @@ final class TorrentSearchService {
             let seeders  = Int(item["seeders"]  as? String ?? "") ?? 0
             let leechers = Int(item["leechers"] as? String ?? "") ?? 0
             let rawSize  = Int64(item["size"] as? String ?? "") ?? 0
-            let size     = formatBytes(rawSize)
+            let size     = bytesFormatter(rawSize)
 
             let encodedName = name.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? name
             let magnet = "magnet:?xt=urn:btih:\(infoHash)&dn=\(encodedName)&tr=\(trackers)"
@@ -405,7 +413,7 @@ final class TorrentSearchService {
     }
 
     /// Converts a byte count to a human-readable string.
-    private func formatBytes(_ bytes: Int64) -> String {
+    private static func formatBytes(_ bytes: Int64) -> String {
         guard bytes > 0 else { return "Unknown" }
         let units = ["B", "KB", "MB", "GB", "TB"]
         var value = Double(bytes)

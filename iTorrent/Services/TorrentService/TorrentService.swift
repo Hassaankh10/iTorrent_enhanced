@@ -37,7 +37,6 @@ class TorrentService: @unchecked Sendable, ObservableObject {
 
     private lazy var session: Session = {
         configureOpenSSLCerts()
-        var settings = Session.Settings()
         print("Working directory: \(Self.downloadPath.path())")
         return .init(Self.downloadPath, torrentsPath: Self.torrentPath, fastResumePath: Self.fastResumePath, settings: .fromPreferences(with: []), storages: PreferencesStorage.shared.storageScopes)
     }()
@@ -141,6 +140,7 @@ private extension TorrentService {
             ) { _, interfaces in
                 interfaces
             }
+            .filter { !$0.isEmpty }
             .sink { [unowned self] interfaces in
                 DispatchQueue.main.async { [self] in // Need delay to complete settings apply
                     session.settings = Session.Settings.fromPreferences(with: interfaces)

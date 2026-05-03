@@ -51,22 +51,19 @@ private extension TorrentSearchViewModel {
         isLoading = true
         errorMessage = nil
 
-        searchTask = Task {
+        searchTask = Task { @MainActor in
             do {
                 let found = try await TorrentSearchService.shared.search(query: query, category: category)
                 guard !Task.isCancelled else { return }
-                await MainActor.run { [self] in
-                    results = found
-                    isLoading = false
-                    hasSearched = true
-                }
+                AnalyticsService.log(.searchPerformed(query: query))
+                results = found
+                isLoading = false
+                hasSearched = true
             } catch {
                 guard !Task.isCancelled else { return }
-                await MainActor.run { [self] in
-                    errorMessage = error.localizedDescription
-                    isLoading = false
-                    hasSearched = true
-                }
+                errorMessage = error.localizedDescription
+                isLoading = false
+                hasSearched = true
             }
         }
     }
@@ -84,6 +81,7 @@ extension TorrentSearchViewModel {
         }
 
         TorrentService.shared.addTorrent(by: magnet)
+        AnalyticsService.log(.torrentAdded(name: result.title))
 
         alert(title: "Added", message: result.title, actions: [
             .init(title: %"common.close", style: .cancel, isPrimary: true)
