@@ -7457,6 +7457,7 @@
       }
     },
     "preferences.donations" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {

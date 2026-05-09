@@ -42,6 +42,18 @@ enum SearchCategory: String, CaseIterable, Identifiable {
         }
     }
 
+    var kickassCat: String? {
+        switch self {
+        case .all:    return nil
+        case .movies: return "movies"
+        case .tv:     return "tv"
+        case .games:  return "games"
+        case .music:  return "music"
+        case .apps:   return "applications"
+        case .anime:  return "anime"
+        }
+    }
+
     var systemImage: String {
         switch self {
         case .all:    return "magnifyingglass"

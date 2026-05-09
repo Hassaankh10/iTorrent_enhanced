@@ -38,54 +38,78 @@ final class TorrentSearchService: @unchecked Sendable {
 
     // MARK: - Public API
 
-    /// Search both 1337x.to and The Pirate Bay concurrently, merging and deduplicating results.
+    /// Search 1337x, Kickass Torrents, and The Pirate Bay concurrently, merging and deduplicating results.
     /// - Parameter query: The search term.
     /// - Returns: Combined `[TorrentResult]` sorted by seeders descending.
     func search(query: String, category: SearchCategory = .all) async throws -> [TorrentResult] {
         async let leet   = search1337x(query: query, category: category)
+        async let kickass = searchKickass(query: query, category: category)
         async let pirate = searchPirateBay(query: query, category: category)
 
         var leetResults:   [TorrentResult] = []
+        var kickassResults: [TorrentResult] = []
         var pirateResults: [TorrentResult] = []
         var leetError:     Error?
+        var kickassError:  Error?
         var pirateError:   Error?
 
         do    { leetResults   = try await leet   } catch { leetError   = error }
+        do    { kickassResults = try await kickass } catch { kickassError = error }
         do    { pirateResults = try await pirate  } catch { pirateError = error }
 
-        if leetError != nil && pirateError != nil {
+        if leetError != nil && kickassError != nil && pirateError != nil {
             throw SearchError.allSourcesFailed
         }
 
-        let combined = deduplicated(leetResults + pirateResults)
+        let combined = deduplicated(leetResults + kickassResults + pirateResults)
         return combined.sorted { $0.seeders > $1.seeders }
     }
 
-    // MARK: - 1337x.to
+    // MARK: - 1337x.to with fallback mirrors
+
+    private let leet1337xMirrors = [
+        "https://www.1337x.to",
+        "https://1337x.to",
+        "https://1337x.unblockit.com",
+        "https://1337x.unblockit.lol",
+        "https://1337x.unblocked.link",
+        "https://1337x.work"
+    ]
 
     private func search1337x(query: String, category: SearchCategory) async throws -> [TorrentResult] {
         let encoded = query
             .replacingOccurrences(of: " ", with: "+")
             .addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? query
 
-        let urlString: String
-        if let catPath = category.leetPath {
-            urlString = "https://www.1337x.to/category-search/\(encoded)/\(catPath)/1/"
-        } else {
-            urlString = "https://www.1337x.to/search/\(encoded)/1/"
+        var lastError: Error?
+
+        for mirror in leet1337xMirrors {
+            do {
+                let urlString: String
+                if let catPath = category.leetPath {
+                    urlString = "\(mirror)/category-search/\(encoded)/\(catPath)/1/"
+                } else {
+                    urlString = "\(mirror)/search/\(encoded)/1/"
+                }
+
+                guard let url = URL(string: urlString) else { continue }
+
+                let html = try await fetchString(url: url)
+                let rows = parse1337xRows(html: html)
+
+                // Fetch detail pages (max 10) concurrently with limited concurrency
+                let topRows = Array(rows.prefix(10))
+                let results = try await fetchDetailPages(rows: topRows, mirror: mirror)
+                if !results.isEmpty {
+                    return results
+                }
+            } catch {
+                lastError = error
+                continue
+            }
         }
 
-        guard let url = URL(string: urlString) else {
-            throw SearchError.invalidURL
-        }
-
-        let html = try await fetchString(url: url)
-        let rows = parse1337xRows(html: html)
-
-        // Fetch detail pages (max 10) concurrently with limited concurrency
-        let topRows = Array(rows.prefix(10))
-        let results = try await fetchDetailPages(rows: topRows)
-        return results
+        throw lastError ?? SearchError.allSourcesFailed
     }
 
     // MARK: - Row model (intermediate parse result)
@@ -203,7 +227,7 @@ final class TorrentSearchService: @unchecked Sendable {
 
     // MARK: - Detail page fetching (concurrent, max 5 at a time)
 
-    private func fetchDetailPages(rows: [LeetRow]) async throws -> [TorrentResult] {
+    private func fetchDetailPages(rows: [LeetRow], mirror: String = "https://www.1337x.to") async throws -> [TorrentResult] {
         var results: [TorrentResult] = []
 
         try await withThrowingTaskGroup(of: TorrentResult?.self) { [self] group in
@@ -214,7 +238,7 @@ final class TorrentSearchService: @unchecked Sendable {
             while index < rows.count && active < 5 {
                 let row = rows[index]
                 group.addTask {
-                    return try await self.fetchMagnetAndBuild(row: row)
+                    return try await self.fetchMagnetAndBuild(row: row, mirror: mirror)
                 }
                 active += 1
                 index  += 1
@@ -228,7 +252,7 @@ final class TorrentSearchService: @unchecked Sendable {
                 if index < rows.count {
                     let row = rows[index]
                     group.addTask {
-                        return try await self.fetchMagnetAndBuild(row: row)
+                        return try await self.fetchMagnetAndBuild(row: row, mirror: mirror)
                     }
                     active += 1
                     index  += 1
@@ -240,14 +264,13 @@ final class TorrentSearchService: @unchecked Sendable {
     }
 
     /// Fetches a 1337x detail page and extracts the magnet link.
-    private func fetchMagnetAndBuild(row: LeetRow) async throws -> TorrentResult? {
-        guard let url = URL(string: "https://www.1337x.to\(row.detailPath)") else { return nil }
+    private func fetchMagnetAndBuild(row: LeetRow, mirror: String = "https://www.1337x.to") async throws -> TorrentResult? {
+        guard let url = URL(string: "\(mirror)\(row.detailPath)") else { return nil }
 
         let html: String
         do {
             html = try await fetchString(url: url)
         } catch {
-            // If the detail page fails, skip this result rather than killing the whole batch
             return nil
         }
 
@@ -273,6 +296,135 @@ final class TorrentSearchService: @unchecked Sendable {
             return String(tail[tail.startIndex..<stringIndex])
         }
         return tail
+    }
+
+    // MARK: - Kickass Torrents with fallback mirrors
+
+    private let kickassMirrors = [
+        "https://kickasstorrents.io",
+        "https://kat.rip",
+        "https://katcr.co",
+        "https://kickass.sh"
+    ]
+
+    private func searchKickass(query: String, category: SearchCategory) async throws -> [TorrentResult] {
+        let encoded = query
+            .replacingOccurrences(of: " ", with: "+")
+            .addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? query
+
+        var lastError: Error?
+
+        for mirror in kickassMirrors {
+            do {
+                let catParam = category.kickassCat.map { "&category=\($0)" } ?? ""
+                let urlString = "\(mirror)/usearch/\(encoded)/?field=seeders&sorder=desc\(catParam)"
+
+                guard let url = URL(string: urlString) else { continue }
+
+                let html = try await fetchString(url: url)
+                let rows = parseKickassRows(html: html)
+
+                if rows.isEmpty { continue }
+
+                // Kickass provides magnet links directly in search results
+                let results = rows.prefix(15).map { row -> TorrentResult in
+                    TorrentResult(
+                        title: row.title,
+                        size: row.size,
+                        seeders: row.seeders,
+                        leechers: row.leechers,
+                        magnetLink: row.magnetLink
+                    )
+                }
+
+                if !results.isEmpty {
+                    return Array(results)
+                }
+            } catch {
+                lastError = error
+                continue
+            }
+        }
+
+        throw lastError ?? SearchError.allSourcesFailed
+    }
+
+    private struct KickassRow {
+        let title: String
+        let seeders: Int
+        let leechers: Int
+        let size: String
+        let magnetLink: String
+    }
+
+    /// Parse Kickass search results from HTML.
+    private func parseKickassRows(html: String) -> [KickassRow] {
+        var rows: [KickassRow] = []
+
+        // Split by table rows
+        let chunks = html.components(separatedBy: "<tr")
+        for chunk in chunks.dropFirst() {
+            // Skip if no magnet link (not a torrent result)
+            guard let magnetStartRange = chunk.range(of: "magnet:?") else { continue }
+
+            // Extract title - look for the first link text
+            var title = "Unknown"
+            if let titleRange = chunk.range(of: "<a") {
+                let titleChunk = String(chunk[titleRange.lowerBound...])
+                if let gtRange = titleChunk.range(of: ">"),
+                   let endRange = titleChunk.range(of: "</a>", range: gtRange.upperBound..<titleChunk.endIndex) {
+                    let raw = String(titleChunk[gtRange.upperBound..<endRange.lowerBound])
+                    title = stripTags(raw).trimmingCharacters(in: .whitespacesAndNewlines)
+                }
+            }
+
+            // Extract magnet link
+            let magnetPart = String(chunk[magnetStartRange.lowerBound...])
+            var magnetLink = "magnet:?"
+            if let endRange = magnetPart.range(of: "\"") {
+                magnetLink += String(magnetPart[magnetStartRange.upperBound..<endRange.lowerBound])
+            }
+
+            // Extract numbers (seeders, leechers) from <td> elements
+            let tdRegex = "<td[^>]*>\\s*(\\d+)\\s*</td>"
+            var seeders = 0
+            var leechers = 0
+            var size = "Unknown"
+
+            // Simple extraction: look for td elements with numbers
+            var numberCount = 0
+            var searchRange = chunk.startIndex..<chunk.endIndex
+
+            while let tdRange = chunk.range(of: "<td", range: searchRange) {
+                guard let gtRange = chunk.range(of: ">", range: tdRange.upperBound..<chunk.endIndex),
+                      let ltRange = chunk.range(of: "<", range: gtRange.upperBound..<chunk.endIndex) else {
+                    break
+                }
+                let content = String(chunk[gtRange.upperBound..<ltRange.lowerBound])
+                    .trimmingCharacters(in: .whitespaces)
+
+                if numberCount == 0 {
+                    seeders = Int(content) ?? 0
+                } else if numberCount == 1 {
+                    leechers = Int(content) ?? 0
+                } else if numberCount == 2 && size == "Unknown" {
+                    size = content
+                    break
+                }
+                numberCount += 1
+                searchRange = ltRange.upperBound..<chunk.endIndex
+            }
+
+            rows.append(KickassRow(
+                title: title,
+                seeders: seeders,
+                leechers: leechers,
+                size: size,
+                magnetLink: magnetLink
+            ))
+        }
+
+        return rows
     }
 
     // MARK: - The Pirate Bay
